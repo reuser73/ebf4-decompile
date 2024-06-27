@@ -1,0 +1,124 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 9600" lastModified="1648300950" linkageClassName="CactusSummon" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 9600">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#7956d1">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>init(Target.ALL_ENEMY,3);
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="15" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <Actionscript>
+                                        <script>Skills.cactus();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="17" duration="37" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="54" keyMode="9728">
+                                   <Actionscript>
+                                        <script>k();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#5eb7f9">
+                         <frames>
+                              <DOMFrame index="0" duration="58" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8245" centerPoint3DX="-800.05" centerPoint3DY="-288.0">
+                                             <matrix>
+                                                  <Matrix tx="-800.05" ty="-288.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="58" duration="53" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#b5ddcb">
+                         <frames>
+                              <DOMFrame index="0" duration="58" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8244" name="spellcenter" centerPoint3DX="-800.05" centerPoint3DY="-288.0">
+                                             <matrix>
+                                                  <Matrix tx="-800.05" ty="-288.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="58" duration="53" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#ca71a2" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="53" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 9598" centerPoint3DX="44.3" centerPoint3DY="-92.2">
+                                             <matrix>
+                                                  <Matrix tx="-132.35" ty="-257.4" a="-0.7584991455078125" d="0.7584991455078125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="53" duration="58" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Sound Layer 0" color="#e5a5d7">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="110" keyMode="9728" soundName="sound9599.wav" soundEffect="custom">
+                                   <SoundEnvelope>
+                                        <SoundEnvelopePoint mark44="0" level0="12257" level1="11006"/>
+                                   </SoundEnvelope>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Sound Layer 1" color="#459ddc">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="109" keyMode="9728" soundName="sound3343.wav" inPoint44="2400" outPoint44="89801" soundEffect="custom">
+                                   <SoundEnvelope>
+                                        <SoundEnvelopePoint mark44="0" level0="0" level1="0"/>
+                                        <SoundEnvelopePoint mark44="0" level0="19010" level1="18010"/>
+                                        <SoundEnvelopePoint mark44="34986" level0="0" level1="0"/>
+                                   </SoundEnvelope>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,116 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 6513" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.natzhair1_110" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 6513">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#effaf1">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>stop();
+try
+{
+   if(parent.zombieMode)
+   {
+      gotoAndStop(2);
+   }
+   else
+   {
+      this.playerNo = 2;
+      this.derp.gotoAndStop(Players.equips[this.playerNo][1]);
+   }
+}
+catch(e:Error)
+{
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#857cad">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6509" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#8cacf6">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6512" centerPoint3DX="45.8" centerPoint3DY="-15.7">
+                                             <matrix>
+                                                  <Matrix tx="29.0" ty="-32.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#c6a7ff" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6508" name="derp" centerPoint3DX="65.5" centerPoint3DY="42.5">
+                                             <matrix>
+                                                  <Matrix tx="21.0" ty="-41.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#000000"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#2b2b2b"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#151515"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 761 -620[ 661 -660 558 -671| 518 -674| 445 -675| 440 -672| 438 -667| 441 -663| 444 -661| 557 -650[ 687 -564 775 -434[ 883 -275 881 -137[ 878 3 833 249[ 792 467 823 569[ 681 475 620 312| 615 306| 608 306| -276 555| -277 555"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! -277 555| -280 557| -283 561[ -311 628 -341 688| -363 663[ -435 592 -478 501[ -547 356 -555 145| -635 230[ -647 108 -611 -2[ -573 -124 -505 -240[ -581 -199 -665 -175| -605 -270[ -580 -315 -510 -392| -361 -541| -334 -560[ -240 -611 -138 -651[ -53 -685 42 -700| 72 -704"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 72 -704| 102 -708"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! 102 -708| 164 -717"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 164 -717| 223 -725| 418 -725| 441 -715| 423 -706| 420 -703| 420 -702| 420 -696| 424 -693| 430 -694| 457 -707| 480 -717[ 571 -755 650 -743[ 724 -732 783 -705[ 665 -734 507 -703| 478 -697| 453 -691| 440 -690| 436 -687| 434 -682| 437 -677| 442 -676| 454 -677| 455 -677| 456 -677| 505 -682| 538 -684[ 677 -691 785 -656[ 904 -618 1051 -432| 998 -477"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 998 -477| 1012 -464| 1126 -343| 1116 -357| 1117 -359| 1037 -468[ 946 -594 820 -647[ 693 -700 573 -699| 838 -690[ 761 -740 652 -757[ 566 -771 465 -726| 421 -750[ 39 -827 -200 -736[ -440 -645 -533 -507[ -626 -370 -716 -251[ -806 -133 -905 -59| -909 -53| -908 -46| -902 -41[ -797 -1 -719 -32[ -764 117 -662 299[ -556 488 -443 795| -443 794| -429 840| -425 846| -418 847| -412 843[ -366 779 -327 705[ -295 642 -266 572| 604 327[ 674 505 837 602| 843 603| 849 601| 852 595| 851 589[ 808 495 853 253[ 898 5 901 -137[ 903 -281 792 -448[ 720 -556 594 -646| 654 -641[ 709 -636 761 -620"/>
+                                                  <Edge fillStyle0="2" fillStyle1="0" strokeStyle="0" edges="! 761 -620[ 893 -582 998 -477"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! -277 555[ -303 494 -363 400[ -389 360 -397 310| -412 227[ -444 61 -370 -160[ -451 -134 -520 -65| -471 -170[ -457 -204 -367 -312[ -277 -420 -186 -480| -29 -585[ 37 -629 147 -569[ 191 -585 164 -717"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,55 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 3045" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.Symbol14_2164" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 3045">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#1fccb6">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.fullscreen.addEventListener(MouseEvent.MOUSE_DOWN,function(param1:MouseEvent):*
+{
+   Options.toggleFullscreen();
+   MapMenu.optionsUpdate();
+});
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#89ea60">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2557" name="fullscreen" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="-170.35" ty="10.4" a="3.39910888671875" d="0.58197021484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#ec8d75" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 3044" centerPoint3DX="16.25" centerPoint3DY="27.1">
+                                             <matrix>
+                                                  <Matrix tx="-77.2" ty="17.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

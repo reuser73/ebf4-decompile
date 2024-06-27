@@ -1,0 +1,94 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 10601" lastModified="1648300950" linkageClassName="Crosshair3" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 10601">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#a95ded">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>stop();
+buttonMode = true;
+useHandCursor = true;
+addEventListener(MouseEvent.ROLL_OVER,this.onRollOverHandler);
+addEventListener(MouseEvent.ROLL_OUT,this.onRollOutHandler);
+addEventListener(MouseEvent.CLICK,this.onClickHandler);
+addEventListener(MouseEvent.MOUSE_DOWN,this.onPressHandler);
+addEventListener(MouseEvent.MOUSE_UP,this.onReleaseHandler);
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#e3e5ab">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10600" centerPoint3DX="11.45" centerPoint3DY="12.3">
+                                             <matrix>
+                                                  <Matrix tx="-23.75" ty="-22.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10600" centerPoint3DX="11.45" centerPoint3DY="12.3">
+                                             <matrix>
+                                                  <Matrix tx="-23.75" ty="-22.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ff3300" quality="3" strength="3.4"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10600" centerPoint3DX="2.5" centerPoint3DY="3.35">
+                                             <matrix>
+                                                  <Matrix tx="-32.7" ty="-31.85" a="1.3726654052734375" d="1.3726654052734375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color/>
+                                             </color>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ffffff" quality="1" strength="3.7"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#87b7d5" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="4" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10596" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

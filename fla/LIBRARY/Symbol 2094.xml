@@ -1,0 +1,140 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 2094" lastModified="1648300950" linkageClassName="MapTile" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 2094">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#4b7fe2">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>stop();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.t = 16;
+if(x &gt; 330)
+{
+   this.t = 15;
+}
+onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,x + 33,y + 28,{
+      "name":mapName,
+      "x":mapX,
+      "y":mapY
+   },t);
+};
+this.buttonMode = true;
+this.useHandCursor = true;
+onRollOutHandler = function(param1:MouseEvent):*
+{
+   GUI.removeTooltip();
+};
+this.addEventListener(MouseEvent.ROLL_OVER,onRollOverHandler);
+this.addEventListener(MouseEvent.ROLL_OUT,onRollOutHandler);
+this.mouseEnabled = true;
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.icon.gotoAndStop((Game.party[0] as Player).playerNo);
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#bf61d6" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#014bba"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#003687"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="26.65" ty="18.9" a="0.036376953125" d="0.036376953125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#002f5f" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0045aa" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 600 428| 0 428| 0 0| 600 0| 600 428"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 552 387| 42 387| 42 40| 552 40| 552 387"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 574 405| 23 405| 23 24| 574 24| 574 405"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#264b01" alpha="0.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#000000" alpha="0.07058824"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 600 428| 0 428| 0 0| 600 0| 600 428"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 574 405| 23 405| 23 24| 574 24| 574 405"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="0.9882353"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#264b01" alpha="0.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 0 428| 0 0| 600 0| 600 428| 0 428"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 23 405| 23 24| 574 24| 574 405| 23 405"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2093" name="icon" centerPoint3DX="35.1" centerPoint3DY="27.5" cacheAsBitmap="true">
+                                             <matrix>
+                                                  <Matrix tx="5.7" ty="-1.5" a="0.421722412109375" d="0.421722412109375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

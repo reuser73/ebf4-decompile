@@ -1,0 +1,73 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 5349" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.gridfoeinvis_646" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 5349">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#c2dab4">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <Actionscript>
+                                        <script>stop();
+this.X = x / 50;
+this.Y = y / 40;
+if(!Maps.foeData[parent.currentFrame])
+{
+   Maps.foeData[parent.currentFrame] = [];
+}
+if(Maps.foeData[parent.currentFrame][name.substring(3)] == 2)
+{
+   (parent as Maps).addTile(0,x,y - 15);
+}
+else
+{
+   (parent as Maps).addTile(37,x,y - 15);
+   parent.addObject({
+      "mc":this.name,
+      "type":Maps.FOE2
+   });
+   this.y -= 10;
+}
+this.g.visible = false;
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#6f20f3" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 5217" name="g" centerPoint3DX="6.65" centerPoint3DY="-10.95">
+                                             <matrix>
+                                                  <Matrix tx="-23.5" ty="-35.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 5217" name="g" centerPoint3DX="6.65" centerPoint3DY="-10.95">
+                                             <matrix>
+                                                  <Matrix tx="-23.5" ty="-35.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

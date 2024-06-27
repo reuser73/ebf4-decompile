@@ -1,0 +1,49 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 4257" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.NPCeardye_164" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 4257">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#d48430">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>if(parent)
+{
+   this.colorTransform = this.transform.colorTransform;
+   this.colorTransform.color = NPC.COLORS[parent.parent.dye];
+   this.transform.colorTransform = this.colorTransform;
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#666df5" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#0033cc"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 1914 100| 1908 74[ 1903 47 1875 32[ 1864 25 1851 21| 1801 20[ 1740 32 1626 105| 1625 106[ 1543 158 1500 196| 1465 227| 1300 415| 1295 421| 1360 439| 1457 475| 1508 495| 1563 513| 1673 552| 1676 553| 1675 551| 1674 549| 1672 542| 1674 548| 1726 567[ 1757 577 1767 586| 1772 595| 1768 595| 1774 599| 1776 605[ 1784 617 1805 617| 1806 617| 1811 621| 1834 593| 1837 588[ 1867 541 1877 502[ 1904 407 1908 359| 1922 205[ 1926 168 1914 100"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 1877 410| 1870 437| 1875 409| 1877 410"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 1756 552| 1753 550| 1755 550| 1756 552"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 1714 530| 1715 528| 1716 532| 1714 530"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 703 468| 762 510[ 670 545 586 642| 573 658| 573 659| 561 674| 569 656| 539 688[ 535 690 473 795| 477 792| 475 796| 462 817| 457 826| 442 858| 429 873| 404 929[ 313 925 210 797[ 125 694 103 627| 97 605| 41 403[ 18 290 93 276| 105 275| 176 273[ 242 277 337 299[ 462 330 504 351[ 544 371 622 418| 651 435| 703 468"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 148 493| 148 495| 166 552| 147 495| 146 494| 148 493"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 245 712| 248 709| 240 706| 245 712"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

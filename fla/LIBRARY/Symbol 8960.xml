@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 8960" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.Natzarm_1659" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 8960">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#4f86c3">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>if(parent.parent.zombieMode)
+{
+   this.derp.gotoAndStop(13);
+}
+else
+{
+   this.playerNo = 2;
+   this.derp.gotoAndStop(Players.equips[2][2]);
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#f4d107" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 7544" name="derp" centerPoint3DX="4.25" centerPoint3DY="13.5">
+                                             <matrix>
+                                                  <Matrix tx="-15.05" ty="-13.7" a="1.072998046875" d="1.073028564453125" b="-0.2691192626953125" c="0.269134521484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

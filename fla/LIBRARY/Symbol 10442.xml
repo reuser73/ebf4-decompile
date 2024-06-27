@@ -1,0 +1,1504 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 10442" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla._StatusIcon_1501" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 10442">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#37c9ce">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.tip.buttonMode = true;
+this.tip.useHandCursor = true;
+this.tip.addEventListener(MouseEvent.ROLL_OVER,this.onRollOverHandler);
+this.tip.addEventListener(MouseEvent.ROLL_OUT,this.onRollOutHandler);
+this.tip.addEventListener(MouseEvent.CLICK,this.onClickHandler);
+this.tip.addEventListener(MouseEvent.MOUSE_DOWN,this.onPressHandler);
+this.tip.addEventListener(MouseEvent.MOUSE_UP,this.onReleaseHandler);
+mouseEnabled = false;
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[3];
+this.tip.buttonMode = true;
+this.tip.useHandCursor = true;
+this.tip.addEventListener(MouseEvent.ROLL_OVER,this.onRollOverHandler);
+this.tip.addEventListener(MouseEvent.ROLL_OUT,this.onRollOutHandler);
+this.tip.addEventListener(MouseEvent.CLICK,this.onClickHandler);
+this.tip.addEventListener(MouseEvent.MOUSE_DOWN,this.onPressHandler);
+this.tip.addEventListener(MouseEvent.MOUSE_UP,this.onReleaseHandler);
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[2];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[1];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[0];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[6];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[7];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[4];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[8];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[21];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[20];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[5];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[13];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[12];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[15];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="15" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[16];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[18];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="17" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[17];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="18" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[19];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[10];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="20" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Status.descriptions[11];
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="21" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[0];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="22" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[1];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="23" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[2];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="24" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[3];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="25" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[4];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="26" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[5];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="27" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[6];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="28" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[7];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="29" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[8];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="30" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[9];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="31" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[10];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="32" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[11];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="33" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[12];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="34" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.data = Buff.descriptions[13];
+this.init();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#615bff">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10408" name="tip" centerPoint3DX="-1.9" centerPoint3DY="-1.1">
+                                             <matrix>
+                                                  <Matrix tx="-23.65" ty="-22.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10408" name="tip" centerPoint3DX="-16.85" centerPoint3DY="3.4">
+                                             <matrix>
+                                                  <Matrix tx="-38.6" ty="-18.35" a="1.825286865234375" d="0.7931060791015625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="43" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10408" name="tip" centerPoint3DX="-1.9" centerPoint3DY="-1.1">
+                                             <matrix>
+                                                  <Matrix tx="-23.65" ty="-22.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#d3fd0d">
+                         <frames>
+                              <DOMFrame index="0" duration="10" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="17.55" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-11.45" ty="-2.15" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#6699cc" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" duration="34" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#63c9d7">
+                         <frames>
+                              <DOMFrame index="0" duration="3" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="30.799999999999997" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-12.8" ty="-2.05" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#ffcc00" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="5" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="17.35" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-11.4" ty="-2.05" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#000000" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" duration="3" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="18.6" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-12.8" ty="-0.7" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#006600" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" duration="31" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#7daa6a">
+                         <frames>
+                              <DOMFrame index="0" duration="13" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2131" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-5.55" ty="-10.1" a="0.389892578125" d="0.389892578125" b="0.271453857421875" c="-0.271453857421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="18.6" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-12.35" ty="-0.65" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#cc0000" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="17" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="18.15" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-15.05" ty="-4.65" a="1.6130218505859375" d="1.6130218505859375"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#333333" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="18" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="18.6" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-12.05" ty="-1.1" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#663300" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="18.6" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-11.25" ty="-2.75" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ff0000"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#000000" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="20" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="21" duration="7" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="15.0" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-5.25" ty="-2.05" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>00</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#cc0000" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="28" duration="8" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="15.75" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-5.25" ty="-2.05" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>66</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#000000"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#ffffff" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="36" duration="9" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 6" color="#f135b4">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="30.799999999999997" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-12.8" ty="-2.05" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#cc0000" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="30.799999999999997" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-20.05" ty="-10.8" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#996600" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="16.65" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-9.15" ty="-0.1" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#00cc00" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="30.799999999999997" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-12.8" ty="-2.05" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#009900" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="30.799999999999997" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-12.8" ty="-2.05" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#cc0000" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="5" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="16.8" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-9.75" ty="-0.85" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#cc0000" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2131" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="2.6" ty="-28.9" a="0.5552825927734375" d="0.5552825927734375" b="0.3865966796875" c="-0.3865966796875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.828125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" duration="31" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 7" color="#08b1d2">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="17.35" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-9.9" ty="-2.05" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#339900" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="16.8" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-9.75" ty="-0.7" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#cc0000" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2131" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="11.15" ty="-29.5" a="0.6011962890625" d="0.6011962890625" b="0.4185791015625" c="-0.4185791015625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.328125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="18.6" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-12.7" ty="-0.85" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#0000ff" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="15" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="box" antiAliasSharpness="0" antiAliasThickness="0" width="18.6" height="15.850000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-11.65" ty="-0.8" a="1.36773681640625" d="1.36773681640625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="13" bitmapSize="260" face="Impact" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#3366cc" quality="3" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="16" duration="29" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 8" color="#35f7ea" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10405" centerPoint3DX="-13.6" centerPoint3DY="19.35">
+                                             <matrix>
+                                                  <Matrix tx="-27.7" ty="5.55" a="0.64642333984375" d="0.64642333984375" b="-1.11962890625" c="1.11962890625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0"/>
+                                             </color>
+                                             <filters>
+                                                  <GlowFilter blurX="6" blurY="6" color="#cc0000" quality="3" strength="2.3"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10410" name="li" centerPoint3DX="-31.85" centerPoint3DY="32.3">
+                                             <matrix>
+                                                  <Matrix tx="-56.25" ty="10.25" a="-0.42431640625" d="-0.5870208740234375" b="0.771636962890625" c="2.10162353515625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="4" blurY="4" color="#ffcc00" quality="1" strength="1.8"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10413" name="re" centerPoint3DX="-4.0" centerPoint3DY="-4.15">
+                                             <matrix>
+                                                  <Matrix tx="-18.85" ty="-19.25" a="1.27313232421875" d="1.27313232421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 9969" centerPoint3DX="62.7" centerPoint3DY="-0.65">
+                                             <matrix>
+                                                  <Matrix tx="-0.8" ty="-64.15" a="0.4976654052734375" d="0.4976654052734375" b="0.4976654052734375" c="-0.4976654052734375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ffcc00" quality="1" strength="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2155" name="b2" centerPoint3DX="19.6" centerPoint3DY="20.0">
+                                             <matrix>
+                                                  <Matrix tx="-0.5" ty="-1.5" a="0.9411163330078125" d="0.7884521484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="21" blurY="21" color="#ffcc00" quality="3" strength="2.5"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10417" centerPoint3DX="-10.35" centerPoint3DY="-13.95">
+                                             <matrix>
+                                                  <Matrix tx="-19.65" ty="-23.05" a="2.07977294921875" d="2.07977294921875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="4" blurY="4" color="#009900" quality="3" strength="2.4"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10405" centerPoint3DX="-13.6" centerPoint3DY="19.35">
+                                             <matrix>
+                                                  <Matrix tx="-27.7" ty="5.55" a="0.64642333984375" d="0.64642333984375" b="-1.11962890625" c="1.11962890625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="6" blurY="6" color="#cc0000" quality="3" strength="2.3"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#00cc00" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#9bfe9a" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#006600"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 76 -332[ 33 -345 -18 -320[ -74 -292 -115 -221| -135 -163| -138 -154| -153 -157| -168 -200[ -183 -241 -211 -257[ -288 -300 -364 -260[ -415 -235 -433 -199[ -448 -176 -442 -142[ -435 -93 -384 -62[ -314 -22 -290 -14| -255 -9| -249 5[ -245 11 -248 16| -309 55[ -374 94 -388 122[ -435 203 -351 253[ -272 298 -186 244| -119 173[ -113 165 -109 149| -101 123| -94 114[ -88 110 -75 117[ -64 124 -63 133| -50 150| 35 209[ 106 250 183 211[ 238 182 254 152[ 266 134 247 91[ 230 42 185 15[ 116 -24 26 -24| -50 -20| -63 -29| -59 -43| 11 -83[ 76 -118 104 -166[ 140 -228 127 -275[ 117 -319 76 -332"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 163 -271[ 165 -209 130 -152[ 112 -118 98 -102[ 77 -77 46 -60| 44 -58| 106 -44[ 169 -31 201 -11[ 277 31 291 93[ 299 139 281 169[ 254 216 192 246[ 107 293 18 242| -26 208| -78 168[ -119 239 -168 276[ -259 345 -365 283[ -444 238 -437 167| -412 100[ -396 70 -372 54| -310 10| -354 -12| -400 -36[ -473 -75 -477 -145[ -478 -186 -461 -217[ -434 -264 -373 -295[ -284 -338 -193 -287[ -172 -274 -156 -252| -144 -232[ -107 -289 -78 -318[ -29 -369 31 -369[ 159 -367 163 -271"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#00ee17" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#000000" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="4">
+                                                       <SolidColor color="#01a911" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="5">
+                                                       <SolidColor color="#bcfec2" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="6">
+                                                       <SolidColor color="#58fc68" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="7">
+                                                       <SolidColor color="#3ffc51" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="8">
+                                                       <SolidColor color="#68fd76" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#006600"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 321 -263| 331 -250| 334 -245"/>
+                                                  <Edge fillStyle0="0" fillStyle1="6" strokeStyle="1" edges="! 334 -245| 340 -236| 364 -195| 364 -194| 366 -191"/>
+                                                  <Edge fillStyle0="0" fillStyle1="8" strokeStyle="1" edges="! 366 -191[ 393 -137 414 -55[ 437 33 438 90[ 438 170 328 245| 297 265"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 297 265[ 251 292 195 310"/>
+                                                  <Edge fillStyle0="0" fillStyle1="4" strokeStyle="1" edges="! 195 310[ 116 335 18 341| -46 343[ -309 344 -424 264[ -465 234 -486 197"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! -486 197| -502 151| -505 120| -505 113| -505 100"/>
+                                                  <Edge fillStyle0="0" fillStyle1="4" strokeStyle="1" edges="! -505 100| -499 3"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! -499 3[ -480 -127 -417 -235[ -376 -304 -300 -350"/>
+                                                  <Edge fillStyle0="0" fillStyle1="6" strokeStyle="0" edges="! -300 -350| -301 -350| -299 -351"/>
+                                                  <Edge fillStyle0="0" fillStyle1="8" strokeStyle="1" edges="! -299 -351| -211 -393| -207 -394| -198 -397| -197 -398| -176 -405"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! -176 -405| -162 -408"/>
+                                                  <Edge fillStyle0="0" fillStyle1="8" strokeStyle="1" edges="! -162 -408| -76 -427| -14 -423[ 42 -422 106 -402| 125 -395"/>
+                                                  <Edge fillStyle0="0" fillStyle1="4" strokeStyle="1" edges="! 125 -395| 179 -376"/>
+                                                  <Edge fillStyle0="0" fillStyle1="8" strokeStyle="1" edges="! 179 -376| 181 -375[ 269 -327 321 -263"/>
+                                                  <Edge fillStyle0="1" fillStyle1="8" strokeStyle="0" edges="! 321 -263| 326 -253| 339 -235"/>
+                                                  <Edge fillStyle0="1" fillStyle1="6" strokeStyle="0" edges="! 339 -235| 339 -236| 334 -245"/>
+                                                  <Edge fillStyle0="8" fillStyle1="4" strokeStyle="0" edges="! 179 -376| 123 -392| 125 -395"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 51 -346| 10 -339| 7 -338| 5 -337| -23 -324| -34 -305"/>
+                                                  <Edge fillStyle0="5" fillStyle1="1" strokeStyle="0" edges="! -34 -305| -34 -301"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! -34 -301[ -34 -274 26 -212[ 97 -140 169 -140[ 202 -140 230 -181| 251 -225"/>
+                                                  <Edge fillStyle0="5" fillStyle1="1" strokeStyle="0" edges="! 251 -225| 251 -232"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 251 -232| 222 -298[ 205 -315 177 -326"/>
+                                                  <Edge fillStyle0="5" fillStyle1="1" strokeStyle="0" edges="! 177 -326| 109 -344| 51 -346"/>
+                                                  <Edge fillStyle0="8" fillStyle1="1" strokeStyle="0" edges="! 51 -346[ 127 -369 177 -326"/>
+                                                  <Edge fillStyle0="8" fillStyle1="1" strokeStyle="0" edges="! -299 -350[ -207 -370 -94 -370| -76 -366| -41 -360| -7 -358| -14 -355[ -146 -293 -146 -212[ -146 -174 -110 -142[ -67 -105 20 -81| 186 -25| 213 -16"/>
+                                                  <Edge fillStyle0="8" fillStyle1="2" strokeStyle="0" edges="! 213 -16| 213 -40"/>
+                                                  <Edge fillStyle0="8" fillStyle1="1" strokeStyle="0" edges="! 213 -40| 212 -40| 213 -42"/>
+                                                  <Edge fillStyle0="8" fillStyle1="2" strokeStyle="0" edges="! 213 -42[ 213 -128 244 -113[ 275 -96 275 -26| 275 -24| 271 2"/>
+                                                  <Edge fillStyle0="8" fillStyle1="1" strokeStyle="0" edges="! 271 2| 334 15[ 345 15 356 8[ 366 0 372 0| 389 131[ 389 158 367 181| 314 235| 297 265"/>
+                                                  <Edge fillStyle0="8" fillStyle1="7" strokeStyle="0" edges="! 366 -191| 362 -193"/>
+                                                  <Edge fillStyle0="8" fillStyle1="1" strokeStyle="0" edges="! 362 -193| 339 -233"/>
+                                                  <Edge fillStyle0="8" fillStyle1="6" strokeStyle="0" edges="! 339 -233| 339 -235"/>
+                                                  <Edge fillStyle0="6" fillStyle1="7" strokeStyle="0" edges="! 362 -193| 363 -193| 366 -191"/>
+                                                  <Edge fillStyle0="6" fillStyle1="1" strokeStyle="0" edges="! 364 -195| 362 -193"/>
+                                                  <Edge fillStyle0="6" fillStyle1="1" strokeStyle="0" edges="! 339 -233| 364 -195"/>
+                                                  <Edge fillStyle0="1" fillStyle1="8" strokeStyle="0" edges="! 251 -225| 254 -227| 251 -232"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! 254 -85| 244 -83[ 241 -80 241 -71| 243 -58| 254 -53[ 265 -55 265 -71| 261 -83| 254 -85"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 213 -40| 213 -42"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 357 -72[ 382 -72 379 -97[ 379 -127 349 -137[ 321 -145 319 -120| 319 -117[ 319 -98 330 -85| 343 -75| 357 -72"/>
+                                                  <Edge fillStyle0="8" fillStyle1="1" strokeStyle="0" edges="! 248 105[ 275 128 304 128[ 325 128 327 94[ 327 62 276 48[ 225 34 225 70[ 225 85 248 105"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 213 -16| 214 3[ 220 35 245 35[ 264 35 271 2"/>
+                                                  <Edge fillStyle0="4" fillStyle1="1" strokeStyle="0" edges="! 22 290| 25 279[ 25 257 -10 240[ -45 221 -45 267[ -45 277 -26 282| 14 294| 22 290"/>
+                                                  <Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! -486 197| -450 -5[ -431 -101 -402 -163[ -372 -226 -318 -276[ -261 -326 -226 -337[ -190 -349 -150 -367[ -204 -336 -247 -280[ -319 -188 -319 -107[ -319 -57 -281 -2[ -243 51 -243 84[ -243 283 19 306[ 56 310 195 310"/>
+                                                  <Edge fillStyle0="1" fillStyle1="8" strokeStyle="0" edges="! -176 -405| -173 -405"/>
+                                                  <Edge fillStyle0="1" fillStyle1="6" strokeStyle="0" edges="! -173 -405| -162 -408"/>
+                                                  <Edge fillStyle0="8" fillStyle1="6" strokeStyle="0" edges="! -162 -408| -163 -405| -173 -405"/>
+                                                  <Edge fillStyle0="1" fillStyle1="8" strokeStyle="0" edges="! -34 -305| -36 -303| -34 -301"/>
+                                                  <Edge fillStyle0="6" fillStyle1="1" strokeStyle="0" edges="! -300 -350| -299 -350"/>
+                                                  <Edge fillStyle0="6" fillStyle1="8" strokeStyle="0" edges="! -299 -350| -299 -351"/>
+                                                  <Edge fillStyle0="6" fillStyle1="6" strokeStyle="1" edges="! -299 -351| -300 -350"/>
+                                                  <Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! -373 -25| -371 -9| -357 -7[ -341 -7 -335 -21| -333 -32[ -333 -55 -354 -53[ -373 -50 -373 -25"/>
+                                                  <Edge fillStyle0="4" fillStyle1="1" strokeStyle="0" edges="! -245 -43[ -222 -43 -218 -66[ -215 -77 -218 -90[ -218 -135 -254 -146[ -288 -157 -288 -113| -275 -74[ -260 -43 -245 -43"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! -74 -199[ -51 -185 -28 -185| -3 -189| -2 -211[ -2 -251 -48 -254[ -95 -258 -95 -224[ -95 -213 -74 -199"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! -79 -69| -79 -36| -68 -31[ -57 -43 -57 -53[ -57 -71 -68 -80| -79 -69"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! -72 -95[ -103 -111 -103 -25| -92 19[ -80 53 -71 53[ -47 53 -42 19| -41 -15[ -41 -79 -72 -95"/>
+                                                  <Edge fillStyle0="4" fillStyle1="1" strokeStyle="0" edges="! -170 204[ -150 240 -119 240[ -94 240 -86 220| -81 199[ -81 158 -134 132[ -185 105 -185 159[ -185 177 -170 204"/>
+                                                  <Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! -376 87[ -376 103 -351 144[ -320 191 -292 191[ -267 191 -256 166| -250 139[ -250 74 -313 52[ -376 29 -376 87"/>
+                                                  <Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! -499 3| -477 -53| -503 89| -505 100"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2125" name="sy" centerPoint3DX="1.3" centerPoint3DY="0.2">
+                                             <matrix>
+                                                  <Matrix tx="-19.55" ty="-20.2" a="1.01287841796875" d="1.01287841796875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#000000" quality="1" strength="10"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2127" name="st" centerPoint3DX="-11.35" centerPoint3DY="-0.25">
+                                             <matrix>
+                                                  <Matrix tx="-28.6" ty="-21.25" a="1.1197509765625" d="1.1197509765625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ba0101" alpha="0.68235296"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#e30202" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#fe9292" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 287 -333[ 299 -309 262 -247[ 227 -185 230 -174[ 238 -158 282 -153[ 328 -147 335 -130[ 340 -118 334 -100[ 324 -76 294 -62[ 251 -44 173 -74[ 105 -100 95 -125[ 65 -196 166 -291[ 203 -330 240 -343[ 279 -357 287 -333"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 250 -307[ 145 -251 121 -204[ 106 -175 123 -135[ 126 -128 168 -111[ 147 -140 143 -165[ 140 -180 168 -209| 212 -251| 223 -252| 225 -250| 252 -305"/>
+                                                  <Edge fillStyle0="2" fillStyle1="0" strokeStyle="0" edges="! 252 -305| 250 -307"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 250 -307| 252 -308| 252 -305"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 66 -404| 94 -363[ 107 -336 96 -288[ 81 -225 19 -199[ -92 -151 -234 -228[ -280 -252 -322 -288| -359 -321[ -369 -343 -320 -359[ -268 -374 -231 -352| -179 -318[ -138 -297 -103 -310[ -67 -326 -36 -377[ -8 -425 8 -432[ 35 -442 66 -404"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! -172 -231[ -65 -199 7 -231[ 50 -247 64 -297[ 73 -332 67 -348| 50 -377[ 30 -405 19 -402[ 8 -397 -17 -348[ -39 -300 -88 -279| -99 -276"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! -99 -276| -90 -278| -85 -268| -86 -264[ -88 -257 -95 -252[ -120 -230 -155 -228| -172 -231"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! -172 -231| -197 -242| -200 -242| -287 -280"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! -287 -280[ -315 -296 -319 -306[ -333 -342 -277 -331| -235 -316"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! -235 -316| -221 -310[ -200 -291 -179 -281| -161 -273| -158 -272| -103 -275| -99 -276"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 220 -9[ 280 24 299 67| 307 101[ 308 133 274 148[ 258 154 189 134| 68 137[ 57 141 33 204[ 8 266 -17 276[ -54 293 -87 263| -115 230[ -129 198 -72 98[ -13 -8 52 -29[ 144 -45 220 -9"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! -3 51[ 35 7 73 -2[ 132 -15 198 22[ 253 54 268 83| 272 96| 273 98[ 232 48 185 28[ 126 5 137 69| 182 95| 51 105[ 32 113 7 177[ -17 239 -30 245[ -53 254 -69 233| -83 205[ -92 185 -56 128"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! -56 128| -56 127| -54 125| -51 118| -41 102| -37 98[ -20 69 -3 51"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! -3 51[ 7 52 14 61[ 25 73 8 134[ -12 193 -25 204[ -54 231 -73 210[ -83 200 -56 128"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 108 66[ 83 88 67 64[ 53 47 72 22[ 90 -4 111 20[ 132 44 108 66"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! -235 -316| -259 -324[ -341 -339 -287 -280"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! -235 -69| -244 -85| -281 -112| -313 -132[ -327 -148 -324 -156[ -321 -166 -292 -162[ -239 -154 -207 -116| -192 -90| -177 -46[ -156 25 -175 43| -185 48[ -176 58 -175 89[ -176 122 -183 127| -220 128| -225 100"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! -225 100[ -243 153 -237 171| -196 173[ -138 149 -127 46[ -117 -19 -125 -57| -131 -74[ -163 -149 -274 -182| -344 -187| -361 -174| -360 -155[ -350 -133 -283 -99[ -255 -84 -235 -69"/>
+                                                  <Edge fillStyle0="3" fillStyle1="1" strokeStyle="0" edges="! -235 -69| -204 -32[ -192 -2 -202 40"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! -202 40| -201 41| -203 42"/>
+                                                  <Edge fillStyle0="3" fillStyle1="1" strokeStyle="0" edges="! -203 42| -216 80| -215 82| -215 84| -217 86| -225 100"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! -377 -213| -289 -218[ -233 -209 -182 -173[ -126 -135 -105 -85[ -97 -66 -92 -40[ -86 -6 -87 42[ -97 166 -185 204[ -217 216 -245 204[ -262 199 -267 186[ -283 151 -243 85[ -206 18 -218 -8[ -234 -45 -302 -76[ -341 -92 -363 -110[ -382 -125 -388 -141[ -409 -192 -377 -213"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! -202 40| -203 42"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2130" name="be" centerPoint3DX="0.0" centerPoint3DY="-8.8">
+                                             <matrix>
+                                                  <Matrix tx="-20.05" ty="-27.55" a="0.934600830078125" d="0.934600830078125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <BlurFilter blurX="2" blurY="2" quality="3"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2131" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-15.4" ty="12.8" a="0.1897735595703125" d="0.1897735595703125" b="0.1321258544921875" c="-0.1321258544921875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10430" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="15" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10432" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2135" centerPoint3DX="3.9" centerPoint3DY="-10.15">
+                                             <matrix>
+                                                  <Matrix tx="-9.6" ty="-29.2" a="1.210723876953125" d="1.210723876953125" b="0.303619384765625" c="-0.303619384765625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ff0000" quality="1" strength="1.4"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="17" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2137" centerPoint3DX="-6.4" centerPoint3DY="-3.65">
+                                             <matrix>
+                                                  <Matrix tx="-20.8" ty="-17.6" a="1.2923431396484375" d="1.2923431396484375" b="0.0341644287109375" c="-0.0341644287109375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.7109375"/>
+                                             </color>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#000000" quality="1" strength="2.5"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="18" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2139" centerPoint3DX="3.25" centerPoint3DY="-9.8">
+                                             <matrix>
+                                                  <Matrix tx="-12.7" ty="-26.0" a="1.4412078857421875" d="1.4412078857421875" b="0.144378662109375" c="-0.144378662109375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#666600" quality="1" strength="2.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2141" centerPoint3DX="-1.35" centerPoint3DY="-7.5">
+                                             <matrix>
+                                                  <Matrix tx="-19.85" ty="-26.6" a="1.13543701171875" d="1.13543701171875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ff0000" quality="1" strength="1.4"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="20" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2143" centerPoint3DX="3.85" centerPoint3DY="-15.8">
+                                             <matrix>
+                                                  <Matrix tx="1.6" ty="-23.45" a="2.6419525146484375" d="2.6419525146484375" b="0.9888916015625" c="-0.9888916015625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#990000" quality="1" strength="4.4"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="21" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText left="0" antiAliasSharpness="0" antiAliasThickness="0" width="223" height="266" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-25.05" ty="-16.9" a="2.5000457763671875" d="2.499969482421875"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>HP</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="13.0" bitmapSize="260" letterSpacing="1.0737418235E8" indent="0" leftMargin="1" lineSpacing="0" rightMargin="0" fillColor="#ffffff" face="Impact"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="10" blurY="10" color="#ff0000" quality="1" strength="1.5"/>
+                                             </filters>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="22" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2149" name="a1" centerPoint3DX="12.3" centerPoint3DY="19.25">
+                                             <matrix>
+                                                  <Matrix tx="-5.5" ty="-5.25" a="0.8088531494140625" d="0.8088531494140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="10" blurY="10" color="#ff0000" quality="1" strength="1.5"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="23" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2151" name="c1" centerPoint3DX="16.9" centerPoint3DY="22.4">
+                                             <matrix>
+                                                  <Matrix tx="-5.4" ty="0.3" a="0.8088531494140625" d="0.8088531494140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="10" blurY="10" color="#ff0000" quality="1" strength="1.5"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="24" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2161" name="e1" centerPoint3DX="13.15" centerPoint3DY="19.55">
+                                             <matrix>
+                                                  <Matrix tx="-5.05" ty="3.25" a="1.110443115234375" d="1.110443115234375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="10" blurY="10" color="#ff0000" quality="1" strength="1.5"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="25" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2155" name="b1" centerPoint3DX="16.65" centerPoint3DY="20.55">
+                                             <matrix>
+                                                  <Matrix tx="-3.45" ty="-0.95" a="0.8088531494140625" d="0.8088531494140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="10" blurY="10" color="#ff0000" quality="1" strength="1.5"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="26" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2157" name="d1" centerPoint3DX="16.95" centerPoint3DY="19.95">
+                                             <matrix>
+                                                  <Matrix tx="-3.8" ty="-0.8" a="0.8088531494140625" d="0.8088531494140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="10" blurY="10" color="#ff0000" quality="1" strength="1.5"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="27" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2159" name="f1" centerPoint3DX="18.6" centerPoint3DY="19.4">
+                                             <matrix>
+                                                  <Matrix tx="-1.5" ty="-0.7" a="0.977935791015625" d="0.977935791015625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="10" blurY="10" color="#ff0000" quality="1" strength="1.5"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="28" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText left="0" antiAliasSharpness="0" antiAliasThickness="0" width="223" height="266" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-23.0" ty="-17.45" a="2.5" d="2.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>HP</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="13.0" bitmapSize="260" letterSpacing="1.0737418235E8" indent="0" leftMargin="0" lineSpacing="0" rightMargin="0" fillColor="#ffffff" face="Impact"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <AdjustColorFilter brightness="-100" contrast="-100" saturation="-100" hue="-180"/>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ffffff" quality="1" strength="2.3"/>
+                                             </filters>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="29" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2149" name="a2" centerPoint3DX="13.5" centerPoint3DY="20.25">
+                                             <matrix>
+                                                  <Matrix tx="-4.3" ty="-4.25" a="0.8088531494140625" d="0.8088531494140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <AdjustColorFilter brightness="-100" contrast="-100" saturation="-100" hue="-180"/>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ffffff" quality="1" strength="2.3"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="30" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2151" name="c2" centerPoint3DX="17.15" centerPoint3DY="21.4">
+                                             <matrix>
+                                                  <Matrix tx="-5.15" ty="-0.7" a="0.8088531494140625" d="0.8088531494140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <AdjustColorFilter brightness="-100" contrast="-100" saturation="-100" hue="-180"/>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ffffff" quality="1" strength="2.3"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="31" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2161" name="e2" centerPoint3DX="15.15" centerPoint3DY="18.9">
+                                             <matrix>
+                                                  <Matrix tx="-3.05" ty="2.6" a="1.110443115234375" d="1.110443115234375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <AdjustColorFilter brightness="-100" contrast="-100" saturation="-100" hue="-180"/>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ffffff" quality="1" strength="2.3"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="32" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2155" name="b2" centerPoint3DX="16.9" centerPoint3DY="21.05">
+                                             <matrix>
+                                                  <Matrix tx="-3.2" ty="-0.45" a="0.8088531494140625" d="0.8088531494140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <AdjustColorFilter brightness="-100" contrast="-100" saturation="-100" hue="-180"/>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ffffff" quality="1" strength="2.3"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="33" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2157" name="d2" centerPoint3DX="16.2" centerPoint3DY="20.45">
+                                             <matrix>
+                                                  <Matrix tx="-4.55" ty="-0.3" a="0.8088531494140625" d="0.8088531494140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <AdjustColorFilter brightness="-100" contrast="-100" saturation="-100" hue="-180"/>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ffffff" quality="1" strength="2.3"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="34" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2159" name="f2" centerPoint3DX="19.45" centerPoint3DY="20.4">
+                                             <matrix>
+                                                  <Matrix tx="-0.65" ty="0.3" a="0.977935791015625" d="0.977935791015625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <AdjustColorFilter brightness="-100" contrast="-100" saturation="-100" hue="-180"/>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ffffff" quality="1" strength="2.3"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="35" duration="10" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

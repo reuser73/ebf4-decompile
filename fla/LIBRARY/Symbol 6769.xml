@@ -1,0 +1,101 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 6769" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.GUIhintbubble_2169" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 6769">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#6f4bd6">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>onRollOverHandler = function(param1:MouseEvent):*
+{
+   if(!flip)
+   {
+      GUI.showTooltip(parent,x + 0,y + 0,tip,22);
+   }
+   else
+   {
+      GUI.showTooltip(parent,x + 0,y + 0,tip,22);
+   }
+};
+onRollOutHandler = function(param1:MouseEvent):*
+{
+   GUI.removeTooltip();
+};
+buttonMode = true;
+useHandCursor = true;
+addEventListener(MouseEvent.ROLL_OVER,onRollOverHandler);
+addEventListener(MouseEvent.ROLL_OUT,onRollOutHandler);
+mouseEnabled = true;
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#c4e3f6">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="0.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! -143 -232| 289 -232| 289 230| -143 230| -143 -232"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#ef6ec0">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText left="6.4" antiAliasSharpness="0" antiAliasThickness="0" width="252" height="315" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-7.0" ty="-10.95"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>?</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="17.0" bitmapSize="340" letterSpacing="0" indent="0" leftMargin="0" lineSpacing="0" rightMargin="0" fillColor="#ffffff" face="Verdana Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="1" quality="1" strength="5"/>
+                                             </filters>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#bca055" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="0.32941177"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 216 139[ 272 82 272 3[ 272 -76 216 -132[ 159 -190 79 -190[ 1 -190 -55 -132[ -113 -76 -113 3[ -113 82 -55 139[ 1 195 79 195[ 159 195 216 139"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 239 3[ 239 68 193 116[ 145 162 79 162[ 14 162 -32 116[ -80 68 -80 3[ -80 -63 -32 -109[ 14 -157 79 -157[ 145 -157 193 -109[ 239 -63 239 3"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

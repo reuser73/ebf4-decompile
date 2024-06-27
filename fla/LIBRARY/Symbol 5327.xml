@@ -1,0 +1,485 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 5327" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.pushblockice_624" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 5327">
+               <layers>
+                    <DOMLayer name="Labels Layer" color="#dcd8c1">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728" name="normal" labelType="name">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728" name="push" labelType="name">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Script Layer" color="#4ba0c8">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.state = 0;
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <Actionscript>
+                                        <script>stop();
+if(Maps.blockData[parent.currentFrame])
+{
+   this.x = Maps.blockData[parent.currentFrame][name.substring(4)][0] * 50;
+   this.y = Maps.blockData[parent.currentFrame][name.substring(4)][1] * 40 - 12;
+}
+this.X = (x + 25) / 50;
+this.Y = (y + 20) / 40;
+if(Boolean(Maps.blockDataLoad) &amp;&amp; Boolean(Maps.blockDataLoad[name.substring(4)]))
+{
+   this.X = Maps.blockDataLoad[name.substring(4)][0];
+   this.Y = Maps.blockDataLoad[name.substring(4)][1];
+   x = this.X * 50;
+   y = this.Y * 40 - 12;
+   Maps.blockDataLoad[name.substring(4)] = null;
+}
+(parent as Maps).addTile(25,x + 25,y + 20);
+try
+{
+   parent.setChildIndex(this,parent.getChildIndex(parent["layer" + (this.Y + 1)]));
+}
+catch(errObject:Error)
+{
+}
+if(this.state)
+{
+   --parent.busy;
+   if(this.px &lt; 0 &amp;&amp; (parent as Maps).grid[this.X - 1 + this.Y * 14] == 4)
+   {
+      gotoAndPlay("push");
+   }
+   else if(this.px &gt; 0 &amp;&amp; (parent as Maps).grid[this.X + 1 + this.Y * 14] == 4)
+   {
+      gotoAndPlay("push");
+   }
+   else if(this.py &lt; 0 &amp;&amp; (parent as Maps).grid[this.X - 14 + this.Y * 14] == 4)
+   {
+      gotoAndPlay("push");
+   }
+   else if(this.py &gt; 0 &amp;&amp; (parent as Maps).grid[this.X + 14 + this.Y * 14] == 4)
+   {
+      gotoAndPlay("push");
+   }
+   else
+   {
+      parent.checkBlocks(false);
+      SFX.playSound("ice2");
+   }
+}
+if(this.state == 0)
+{
+   parent.addObject({
+      "mc":this.name,
+      "type":Maps.ICE_BLOCK
+   });
+   this.state = 1;
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <Actionscript>
+                                        <script>(parent as Maps).addTile(4,x + 25,y + 20);
+++parent.busy;
+this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <Actionscript>
+                                        <script>gotoAndStop("normal");
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#71be84" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="27" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#2f2f2f" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#b7b7b7" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#555555" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="4">
+                                                       <SolidColor color="#737373" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="5">
+                                                       <SolidColor color="#919191" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="6">
+                                                       <SolidColor color="#373737" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="7">
+                                                       <SolidColor color="#d5d5d5" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="8">
+                                                       <SolidColor color="#003366" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="9">
+                                                       <SolidColor color="#6c8dbd" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="10">
+                                                       <SolidColor color="#becde2" alpha="0.6627451"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="11">
+                                                       <SolidColor color="#ffffff" alpha="0.7607843"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="12">
+                                                       <SolidColor color="#63a5cf" alpha="0.6509804"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="13">
+                                                       <SolidColor color="#26506a" alpha="0.6509804"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="14">
+                                                       <SolidColor color="#1e3d51" alpha="0.7019608"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="15">
+                                                       <SolidColor color="#10212c" alpha="0.7019608"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="16">
+                                                       <SolidColor color="#2d5875" alpha="0.7019608"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="17">
+                                                       <SolidColor color="#3a749a" alpha="0.68235296"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="18">
+                                                       <SolidColor color="#254a63" alpha="0.68235296"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="19">
+                                                       <SolidColor color="#becde2" alpha="0.7411765"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="20">
+                                                       <SolidColor color="#becde2" alpha="0.7607843"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="21">
+                                                       <SolidColor color="#0c1b30" alpha="0.7019608"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="22">
+                                                       <SolidColor color="#0c457c" alpha="0.7019608"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="23">
+                                                       <SolidColor color="#126fcb" alpha="0.7019608"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="24">
+                                                       <SolidColor color="#6baff1" alpha="0.7019608"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="25">
+                                                       <SolidColor color="#a2ccf7" alpha="0.7019608"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="8" strokeStyle="0" edges="! 1010 1030| 1009 1050| 913 1057| 751 1059[ 624 1061 501 1055| 370 1049| 64 1044| 60 1049| 22 1001[ 10 989 10 962| 20 816| 25 674| 14 462| 14 459| 5 159| 2 112| 2 109| 0 99[ 0 91 15 62[ 29 34 33 32[ 59 21 162 10| 460 1| 677 0| 690 0[ 922 4 965 31[ 1011 59 1019 91[ 1024 93 1026 97| 1027 116| 1015 447| 1013 496| 1005 722[ 998 903 1005 961| 1015 1031"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 1015 1031| 1018 1049| 1019 1057| 1010 1030"/>
+                                                  <Edge fillStyle0="8" fillStyle1="1" strokeStyle="0" edges="! 1010 1030| 1015 1031"/>
+                                                  <Edge fillStyle0="25" fillStyle1="8" strokeStyle="0" edges="! 997 372| 999 159| 1000 131| 1000 130| 1000 109| 990 89| 968 56| 954 45[ 943 38 925 34[ 913 26 887 24| 838 22"/>
+                                                  <Edge fillStyle0="25" fillStyle1="11" strokeStyle="0" edges="! 838 22| 506 50| 361 70| 152 99| 150 97.5| 146 94[ 148 95.5 150 97.5[ 160 107 160 124[ 160 144 137 167| 101 190| 94 217| 104 217| 105 234[ 105 246 97 254| 83 262| 81 273| 81 274"/>
+                                                  <Edge fillStyle0="25" fillStyle1="12" strokeStyle="0" edges="! 81 274| 87 275| 95 274"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 95 274[ 109 271 127 258"/>
+                                                  <Edge fillStyle0="25" fillStyle1="12" strokeStyle="0" edges="! 127 258| 177 208| 199 181"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 199 181[ 228 142 228 126| 227 100"/>
+                                                  <Edge fillStyle0="25" fillStyle1="5" strokeStyle="0" edges="! 227 100| 226 98| 224 96| 227 96"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 227 96| 410 92"/>
+                                                  <Edge fillStyle0="25" fillStyle1="24" strokeStyle="0" edges="! 410 92| 451 91| 429 107| 295 217| 305 223[ 363 196 446 129| 493 90| 500 90| 508 90"/>
+                                                  <Edge fillStyle0="25" fillStyle1="5" strokeStyle="0" edges="! 508 90| 515 90"/>
+                                                  <Edge fillStyle0="25" fillStyle1="13" strokeStyle="0" edges="! 515 90| 516 90"/>
+                                                  <Edge fillStyle0="25" fillStyle1="17" strokeStyle="0" edges="! 516 90| 517 90"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 517 90| 522 90| 531 90| 530 93| 533 96"/>
+                                                  <Edge fillStyle0="25" fillStyle1="24" strokeStyle="0" edges="! 533 96| 567 103| 580 106| 165 369"/>
+                                                  <Edge fillStyle0="25" fillStyle1="12" strokeStyle="0" edges="! 165 369| 69 433| 72 362| 77 313"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 77 313| 80 288"/>
+                                                  <Edge fillStyle0="25" fillStyle1="20" strokeStyle="0" edges="! 80 288| 78 286"/>
+                                                  <Edge fillStyle0="25" fillStyle1="11" strokeStyle="0" edges="! 78 286| 66 341| 53 396| 53 467| 55 474[ 260 329 551 156| 311 352[ 108.5 507 42.5 515.5[ 40.5 516 39 516"/>
+                                                  <Edge fillStyle0="25" fillStyle1="8" strokeStyle="0" edges="! 39 516| 43 610"/>
+                                                  <Edge fillStyle0="25" fillStyle1="11" strokeStyle="0" edges="! 43 610| 45 567| 41 516| 42.5 515.5| 68 509| 68 532"/>
+                                                  <Edge fillStyle0="25" fillStyle1="15" strokeStyle="0" edges="! 68 532| 78 520| 88 514| 96 510"/>
+                                                  <Edge fillStyle0="25" fillStyle1="2" strokeStyle="0" edges="! 96 510| 95 507| 124 499"/>
+                                                  <Edge fillStyle0="25" fillStyle1="10" strokeStyle="0" edges="! 124 499| 125 499"/>
+                                                  <Edge fillStyle0="25" fillStyle1="15" strokeStyle="0" edges="! 125 499[ 185 481 275 477| 398 480| 400 480"/>
+                                                  <Edge fillStyle0="25" fillStyle1="4" strokeStyle="0" edges="! 400 480| 426 479"/>
+                                                  <Edge fillStyle0="25" fillStyle1="3" strokeStyle="0" edges="! 426 479| 430 479| 432 479| 447 479"/>
+                                                  <Edge fillStyle0="25" fillStyle1="22" strokeStyle="0" edges="! 447 479| 536 476| 607 474"/>
+                                                  <Edge fillStyle0="25" fillStyle1="11" strokeStyle="0" edges="! 607 474| 639 449"/>
+                                                  <Edge fillStyle0="25" fillStyle1="24" strokeStyle="0" edges="! 639 449| 341 436"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 341 436| 307 436"/>
+                                                  <Edge fillStyle0="25" fillStyle1="7" strokeStyle="0" edges="! 307 436| 297 439| 296 436"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 296 436| 286 436| 325 409[ 443 328 493 296"/>
+                                                  <Edge fillStyle0="25" fillStyle1="17" strokeStyle="0" edges="! 493 296| 495 295"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 495 295| 526 276| 624 214| 711 141| 715 138| 885 117"/>
+                                                  <Edge fillStyle0="25" fillStyle1="22" strokeStyle="0" edges="! 885 117| 880 115| 706 96| 683 95| 680 95| 667 95| 660 94| 651 94| 640 93| 576 91"/>
+                                                  <Edge fillStyle0="25" fillStyle1="18" strokeStyle="0" edges="! 576 91| 574 91| 572 91"/>
+                                                  <Edge fillStyle0="25" fillStyle1="3" strokeStyle="0" edges="! 572 91| 536 90| 572 89"/>
+                                                  <Edge fillStyle0="25" fillStyle1="18" strokeStyle="0" edges="! 572 89| 574 89| 576 89"/>
+                                                  <Edge fillStyle0="25" fillStyle1="22" strokeStyle="0" edges="! 576 89| 703 81"/>
+                                                  <Edge fillStyle0="25" fillStyle1="5" strokeStyle="0" edges="! 703 81| 723 79"/>
+                                                  <Edge fillStyle0="25" fillStyle1="22" strokeStyle="0" edges="! 723 79| 726 79| 887 69[ 926 69 958 90| 965 115| 974 177| 977 235| 982 352[ 982 377 988 405"/>
+                                                  <Edge fillStyle0="25" fillStyle1="6" strokeStyle="0" edges="! 988 405| 995 378| 997 372"/>
+                                                  <Edge fillStyle0="8" fillStyle1="6" strokeStyle="0" edges="! 997 372| 996 417"/>
+                                                  <Edge fillStyle0="8" fillStyle1="2" strokeStyle="0" edges="! 996 417| 996 424"/>
+                                                  <Edge fillStyle0="8" fillStyle1="21" strokeStyle="0" edges="! 996 424| 995 437"/>
+                                                  <Edge fillStyle0="8" fillStyle1="25" strokeStyle="0" edges="! 995 437| 995 441| 995 443| 995 446| 995 459| 995 462| 995 523"/>
+                                                  <Edge fillStyle0="8" fillStyle1="21" strokeStyle="0" edges="! 995 523| 993 659| 993 699| 992 730"/>
+                                                  <Edge fillStyle0="8" fillStyle1="25" strokeStyle="0" edges="! 992 730| 991 809| 989 932| 989 1004| 989 1006| 991 1021"/>
+                                                  <Edge fillStyle0="8" fillStyle1="4" strokeStyle="0" edges="! 991 1021[ 992 1029 995 1030| 979 1029"/>
+                                                  <Edge fillStyle0="8" fillStyle1="25" strokeStyle="0" edges="! 979 1029| 977 1029| 970 1029| 781 1039"/>
+                                                  <Edge fillStyle0="8" fillStyle1="3" strokeStyle="0" edges="! 781 1039| 747 1041"/>
+                                                  <Edge fillStyle0="8" fillStyle1="25" strokeStyle="0" edges="! 747 1041| 730 1041| 729 1041| 728 1041| 703 1041| 577 1035"/>
+                                                  <Edge fillStyle0="8" fillStyle1="2" strokeStyle="0" edges="! 577 1035| 566 1035"/>
+                                                  <Edge fillStyle0="8" fillStyle1="14" strokeStyle="0" edges="! 566 1035| 565 1035"/>
+                                                  <Edge fillStyle0="8" fillStyle1="3" strokeStyle="0" edges="! 565 1035| 564 1035"/>
+                                                  <Edge fillStyle0="8" fillStyle1="13" strokeStyle="0" edges="! 564 1035| 563 1035"/>
+                                                  <Edge fillStyle0="8" fillStyle1="25" strokeStyle="0" edges="! 563 1035| 533 1033| 456 1028"/>
+                                                  <Edge fillStyle0="8" fillStyle1="5" strokeStyle="0" edges="! 456 1028| 443 1027| 422 1026"/>
+                                                  <Edge fillStyle0="8" fillStyle1="25" strokeStyle="0" edges="! 422 1026[ 275 1018 200 1026| 178 1026| 134 1027"/>
+                                                  <Edge fillStyle0="8" fillStyle1="23" strokeStyle="0" edges="! 134 1027| 109 1028"/>
+                                                  <Edge fillStyle0="8" fillStyle1="17" strokeStyle="0" edges="! 109 1028| 99 1028"/>
+                                                  <Edge fillStyle0="8" fillStyle1="11" strokeStyle="0" edges="! 99 1028| 97 1028| 70 1028| 70 1026[ 70 1018 50 995[ 30 973 30 960| 31 950"/>
+                                                  <Edge fillStyle0="8" fillStyle1="20" strokeStyle="0" edges="! 31 950| 33 935"/>
+                                                  <Edge fillStyle0="8" fillStyle1="25" strokeStyle="0" edges="! 33 935| 33 929"/>
+                                                  <Edge fillStyle0="8" fillStyle1="11" strokeStyle="0" edges="! 33 929| 40 819| 45 674| 44 620| 43 610"/>
+                                                  <Edge fillStyle0="22" fillStyle1="23" strokeStyle="0" edges="! 885 117| 892 119[ 900 122 904 142| 913 175| 940 241[ 953 280 953 304[ 953 353 933 404[ 926 421 922 442| 842 449| 777 443"/>
+                                                  <Edge fillStyle0="22" fillStyle1="4" strokeStyle="0" edges="! 777 443| 776 443| 765 442"/>
+                                                  <Edge fillStyle0="22" fillStyle1="24" strokeStyle="0" edges="! 765 442| 759 444| 742 448"/>
+                                                  <Edge fillStyle0="22" fillStyle1="4" strokeStyle="0" edges="! 742 448| 743 455"/>
+                                                  <Edge fillStyle0="22" fillStyle1="20" strokeStyle="0" edges="! 743 455| 746 455| 829 460| 830 460"/>
+                                                  <Edge fillStyle0="22" fillStyle1="2" strokeStyle="0" edges="! 830 460| 852 461| 831 464| 830 464"/>
+                                                  <Edge fillStyle0="22" fillStyle1="20" strokeStyle="0" edges="! 830 464| 826 465| 821 465| 814 466| 745 468"/>
+                                                  <Edge fillStyle0="22" fillStyle1="4" strokeStyle="0" edges="! 745 468| 748 474| 721 469"/>
+                                                  <Edge fillStyle0="22" fillStyle1="20" strokeStyle="0" edges="! 721 469| 671 471"/>
+                                                  <Edge fillStyle0="22" fillStyle1="11" strokeStyle="0" edges="! 671 471| 607 474"/>
+                                                  <Edge fillStyle0="23" fillStyle1="24" strokeStyle="0" edges="! 815 162| 832 175| 871 266| 872 329[ 886 368 852 400[ 827 424 777 439"/>
+                                                  <Edge fillStyle0="23" fillStyle1="13" strokeStyle="0" edges="! 777 439| 777 441| 777 443"/>
+                                                  <Edge fillStyle0="4" fillStyle1="24" strokeStyle="0" edges="! 777 439| 776 439| 765 442"/>
+                                                  <Edge fillStyle0="24" fillStyle1="12" strokeStyle="0" edges="! 815 162| 814 162"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 814 162[ 783 185 722 209| 495 300[ 472 312 382 402| 341 436"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 821 406| 742 427| 732 421| 763 381[ 781 355 839 362| 840 379[ 840 398 821 406"/>
+                                                  <Edge fillStyle0="20" fillStyle1="2" strokeStyle="0" edges="! 830 464| 830 460"/>
+                                                  <Edge fillStyle0="2" fillStyle1="22" strokeStyle="0" edges="! 983 421| 981 422| 976 428"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 976 428| 980 427"/>
+                                                  <Edge fillStyle0="2" fillStyle1="21" strokeStyle="0" edges="! 980 427| 990 425"/>
+                                                  <Edge fillStyle0="2" fillStyle1="25" strokeStyle="0" edges="! 990 425| 993 425"/>
+                                                  <Edge fillStyle0="2" fillStyle1="21" strokeStyle="0" edges="! 993 425| 996 424"/>
+                                                  <Edge fillStyle0="21" fillStyle1="3" strokeStyle="0" edges="! 980 427| 979 429"/>
+                                                  <Edge fillStyle0="21" fillStyle1="22" strokeStyle="0" edges="! 979 429| 962 450[ 952 462 956 471| 956 521[ 956 561 966 628| 976 735[ 976 774 961 827| 930 928[ 847 964 788 998| 756 1015"/>
+                                                  <Edge fillStyle0="21" fillStyle1="25" strokeStyle="0" edges="! 756 1015| 752 1017| 837 1025| 951 1010[ 952 888 978 791| 992 730"/>
+                                                  <Edge fillStyle0="22" fillStyle1="3" strokeStyle="0" edges="! 979 429| 976 428"/>
+                                                  <Edge fillStyle0="2" fillStyle1="6" strokeStyle="0" edges="! 996 417| 990 419| 983 421"/>
+                                                  <Edge fillStyle0="22" fillStyle1="6" strokeStyle="0" edges="! 983 421| 988 405"/>
+                                                  <Edge fillStyle0="25" fillStyle1="21" strokeStyle="0" edges="! 990 425| 981 427| 993 512| 995 523"/>
+                                                  <Edge fillStyle0="21" fillStyle1="25" strokeStyle="0" edges="! 993 425| 995 434| 995 437"/>
+                                                  <Edge fillStyle0="22" fillStyle1="23" strokeStyle="0" edges="! 249 540[ 386 509 484 509| 652 519| 913 534| 913 542| 918 669| 923 850[ 885 904 645 1001| 625 1009"/>
+                                                  <Edge fillStyle0="22" fillStyle1="25" strokeStyle="0" edges="! 625 1009| 710 1012| 756 1015"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 595 951| 592 956[ 592 981 602 965| 863 845[ 818 829 754 853| 771 807[ 860 753 872 739| 867 730[ 833 730 791 753| 809 689[ 866 652 872 639[ 850 637 812 659| 811 607[ 803 582 753 569| 721 563[ 678 595 629 633[ 462 763 376 860| 321 924"/>
+                                                  <Edge fillStyle0="24" fillStyle1="25" strokeStyle="0" edges="! 321 924| 410 859| 570 731| 576 740| 431 882[ 363 944 315 978| 340 979"/>
+                                                  <Edge fillStyle0="24" fillStyle1="2" strokeStyle="0" edges="! 340 979| 341 979| 357 979"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 357 979| 406 979| 409 979| 413 979| 417 979| 507 982| 515 979[ 512 971 512 952[ 512 925 516 922| 554 902"/>
+                                                  <Edge fillStyle0="24" fillStyle1="4" strokeStyle="0" edges="! 554 902| 562 897| 557 904"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 557 904[ 587 909 595 917| 600 932| 592 948"/>
+                                                  <Edge fillStyle0="24" fillStyle1="5" strokeStyle="0" edges="! 592 948| 595 951"/>
+                                                  <Edge fillStyle0="24" fillStyle1="4" strokeStyle="0" edges="! 595 951| 611 945"/>
+                                                  <Edge fillStyle0="5" fillStyle1="22" strokeStyle="0" edges="! 703 81| 723 84| 723 79"/>
+                                                  <Edge fillStyle0="11" fillStyle1="8" strokeStyle="0" edges="! 838 22| 708 21| 653 21| 128 37| 100 41| 71 47| 67 48[ 35 58 31 79| 19 105| 26 159| 28 200| 36 453| 36 459| 36 460"/>
+                                                  <Edge fillStyle0="11" fillStyle1="25" strokeStyle="0" edges="! 36 460| 37 465| 37 473| 37 474| 38 486"/>
+                                                  <Edge fillStyle0="11" fillStyle1="8" strokeStyle="0" edges="! 38 486| 39 516"/>
+                                                  <Edge fillStyle0="24" fillStyle1="5" strokeStyle="0" edges="! 508 91| 508 90"/>
+                                                  <Edge fillStyle0="13" fillStyle1="4" strokeStyle="0" edges="! 515 90| 516 93"/>
+                                                  <Edge fillStyle0="13" fillStyle1="17" strokeStyle="0" edges="! 516 93| 516 90"/>
+                                                  <Edge fillStyle0="17" fillStyle1="24" strokeStyle="0" edges="! 516 93| 517 93"/>
+                                                  <Edge fillStyle0="17" fillStyle1="23" strokeStyle="0" edges="! 517 93| 517 90"/>
+                                                  <Edge fillStyle0="4" fillStyle1="5" strokeStyle="0" edges="! 515 90| 508 91"/>
+                                                  <Edge fillStyle0="4" fillStyle1="24" strokeStyle="0" edges="! 508 91| 516 93"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 533 96| 517 93"/>
+                                                  <Edge fillStyle0="18" fillStyle1="3" strokeStyle="0" edges="! 572 89| 572 91"/>
+                                                  <Edge fillStyle0="18" fillStyle1="22" strokeStyle="0" edges="! 576 91| 576 89"/>
+                                                  <Edge fillStyle0="17" fillStyle1="23" strokeStyle="0" edges="! 493 296| 495 300| 495 295"/>
+                                                  <Edge fillStyle0="4" fillStyle1="11" strokeStyle="0" edges="! 409 256| 397 264| 413 257| 409 256"/>
+                                                  <Edge fillStyle0="3" fillStyle1="15" strokeStyle="0" edges="! 416 481| 430 481| 446 481"/>
+                                                  <Edge fillStyle0="3" fillStyle1="14" strokeStyle="0" edges="! 446 481| 447 479"/>
+                                                  <Edge fillStyle0="22" fillStyle1="14" strokeStyle="0" edges="! 447 479| 447 481"/>
+                                                  <Edge fillStyle0="22" fillStyle1="15" strokeStyle="0" edges="! 447 481| 785 492"/>
+                                                  <Edge fillStyle0="22" fillStyle1="1" strokeStyle="0" edges="! 785 492| 792 493| 819 494| 785 494"/>
+                                                  <Edge fillStyle0="22" fillStyle1="15" strokeStyle="0" edges="! 785 494| 668 494| 421 494| 357 494"/>
+                                                  <Edge fillStyle0="22" fillStyle1="23" strokeStyle="0" edges="! 357 494| 207 539"/>
+                                                  <Edge fillStyle0="22" fillStyle1="4" strokeStyle="0" edges="! 207 539| 228 540"/>
+                                                  <Edge fillStyle0="22" fillStyle1="25" strokeStyle="0" edges="! 228 540| 249 540"/>
+                                                  <Edge fillStyle0="23" fillStyle1="25" strokeStyle="0" edges="! 249 540[ 393 541 499 545| 516 546"/>
+                                                  <Edge fillStyle0="23" fillStyle1="11" strokeStyle="0" edges="! 516 546| 582 550"/>
+                                                  <Edge fillStyle0="23" fillStyle1="25" strokeStyle="0" edges="! 582 550| 650 554| 659 555| 620 592[ 466 739 347 860| 348 864| 338 869| 245 965[ 276 952 321 924"/>
+                                                  <Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 426 479| 422 480| 416 481"/>
+                                                  <Edge fillStyle0="15" fillStyle1="4" strokeStyle="0" edges="! 416 481| 400 480"/>
+                                                  <Edge fillStyle0="14" fillStyle1="15" strokeStyle="0" edges="! 446 481| 447 481"/>
+                                                  <Edge fillStyle0="24" fillStyle1="11" strokeStyle="0" edges="! 639 449| 692 452"/>
+                                                  <Edge fillStyle0="24" fillStyle1="20" strokeStyle="0" edges="! 692 452| 715 453"/>
+                                                  <Edge fillStyle0="24" fillStyle1="4" strokeStyle="0" edges="! 715 453| 742 448"/>
+                                                  <Edge fillStyle0="11" fillStyle1="20" strokeStyle="0" edges="! 671 471| 692 452"/>
+                                                  <Edge fillStyle0="4" fillStyle1="20" strokeStyle="0" edges="! 715 453| 721 453| 743 455"/>
+                                                  <Edge fillStyle0="4" fillStyle1="20" strokeStyle="0" edges="! 745 468| 721 469"/>
+                                                  <Edge fillStyle0="1" fillStyle1="15" strokeStyle="0" edges="! 785 492| 785 494"/>
+                                                  <Edge fillStyle0="4" fillStyle1="23" strokeStyle="0" edges="! 356 117| 346 110| 349 108| 340 104[ 330 98 355 117"/>
+                                                  <Edge fillStyle0="4" fillStyle1="24" strokeStyle="0" edges="! 355 117| 378 134| 372 129| 356 117"/>
+                                                  <Edge fillStyle0="23" fillStyle1="24" strokeStyle="0" edges="! 356 117| 410 92"/>
+                                                  <Edge fillStyle0="23" fillStyle1="5" strokeStyle="0" edges="! 227 96| 227 100"/>
+                                                  <Edge fillStyle0="23" fillStyle1="24" strokeStyle="0" edges="! 166 284[ 240 250 240 211[ 240 159 333 125| 355 117"/>
+                                                  <Edge fillStyle0="5" fillStyle1="11" strokeStyle="0" edges="! 104 85| 99 99| 98 102| 104 99| 99 99"/>
+                                                  <Edge fillStyle0="10" fillStyle1="24" strokeStyle="0" edges="! 162 365[ 187 347 187 319| 184 296| 177 285| 166 284"/>
+                                                  <Edge fillStyle0="10" fillStyle1="23" strokeStyle="0" edges="! 166 284| 165 284| 141 287[ 138 288 136 291| 135 296"/>
+                                                  <Edge fillStyle0="10" fillStyle1="12" strokeStyle="0" edges="! 135 296| 133 326| 137 339| 162 365"/>
+                                                  <Edge fillStyle0="24" fillStyle1="12" strokeStyle="0" edges="! 162 365| 165 369"/>
+                                                  <Edge fillStyle0="12" fillStyle1="23" strokeStyle="0" edges="! 80 288| 81 280| 94 275| 95 274"/>
+                                                  <Edge fillStyle0="20" fillStyle1="11" strokeStyle="0" edges="! 81 274| 78 286"/>
+                                                  <Edge fillStyle0="12" fillStyle1="20" strokeStyle="0" edges="! 81 274| 80 288"/>
+                                                  <Edge fillStyle0="12" fillStyle1="17" strokeStyle="0" edges="! 80 313| 77 314| 77 313"/>
+                                                  <Edge fillStyle0="23" fillStyle1="17" strokeStyle="0" edges="! 77 313| 80 313"/>
+                                                  <Edge fillStyle0="23" fillStyle1="12" strokeStyle="0" edges="! 80 313| 135 296"/>
+                                                  <Edge fillStyle0="25" fillStyle1="8" strokeStyle="0" edges="! 36 460| 37 473| 38 486"/>
+                                                  <Edge fillStyle0="4" fillStyle1="25" strokeStyle="0" edges="! 372 254| 377 252| 373 252| 372 254"/>
+                                                  <Edge fillStyle0="25" fillStyle1="3" strokeStyle="0" edges="! 311 293| 312 294| 309 295| 311 293"/>
+                                                  <Edge fillStyle0="23" fillStyle1="15" strokeStyle="0" edges="! 357 494| 309 494| 253 501| 190 507| 125 509[ 107 512 98 527| 91 536"/>
+                                                  <Edge fillStyle0="23" fillStyle1="25" strokeStyle="0" edges="! 91 536| 109 538"/>
+                                                  <Edge fillStyle0="23" fillStyle1="24" strokeStyle="0" edges="! 109 538| 122 539| 131 539"/>
+                                                  <Edge fillStyle0="23" fillStyle1="25" strokeStyle="0" edges="! 131 539| 207 540"/>
+                                                  <Edge fillStyle0="23" fillStyle1="13" strokeStyle="0" edges="! 207 540| 207 539"/>
+                                                  <Edge fillStyle0="4" fillStyle1="13" strokeStyle="0" edges="! 207 539| 208 540"/>
+                                                  <Edge fillStyle0="4" fillStyle1="25" strokeStyle="0" edges="! 208 540| 228 540"/>
+                                                  <Edge fillStyle0="7" fillStyle1="23" strokeStyle="0" edges="! 307 436| 296 436"/>
+                                                  <Edge fillStyle0="23" fillStyle1="12" strokeStyle="0" edges="! 199 181[ 188 224 127 258"/>
+                                                  <Edge fillStyle0="24" fillStyle1="25" strokeStyle="0" edges="! 109 538| 109 552| 108 655| 111 759[ 112 804 120 836[ 125 832 129 830[ 131 814 172 768[ 212 722 223 715[ 219 737 203 769| 202 770| 234 742[ 292 692 336 665| 440 589| 318 563| 131 539"/>
+                                                  <Edge fillStyle0="13" fillStyle1="25" strokeStyle="0" edges="! 207 540| 208 540"/>
+                                                  <Edge fillStyle0="10" fillStyle1="15" strokeStyle="0" edges="! 124 500| 125 499"/>
+                                                  <Edge fillStyle0="10" fillStyle1="2" strokeStyle="0" edges="! 124 499| 124 500"/>
+                                                  <Edge fillStyle0="15" fillStyle1="2" strokeStyle="0" edges="! 124 500| 96 510"/>
+                                                  <Edge fillStyle0="25" fillStyle1="15" strokeStyle="0" edges="! 76 544| 75 544[ 70 548 68 544"/>
+                                                  <Edge fillStyle0="25" fillStyle1="11" strokeStyle="0" edges="! 68 544| 68 615[ 66 663 74 764| 83 896| 75 903| 106 878| 321 710[ 387 649 516 546"/>
+                                                  <Edge fillStyle0="11" fillStyle1="15" strokeStyle="0" edges="! 68 544| 67 537| 68 532"/>
+                                                  <Edge fillStyle0="15" fillStyle1="2" strokeStyle="0" edges="! 76 544| 79 543"/>
+                                                  <Edge fillStyle0="15" fillStyle1="25" strokeStyle="0" edges="! 79 543| 91 536"/>
+                                                  <Edge fillStyle0="25" fillStyle1="2" strokeStyle="0" edges="! 79 543| 79 544| 76 544"/>
+                                                  <Edge fillStyle0="24" fillStyle1="19" strokeStyle="0" edges="! 132 679| 163 653| 197 630| 188 657[ 176 680 152 689[ 137 685 132 679"/>
+                                                  <Edge fillStyle0="11" fillStyle1="12" strokeStyle="0" edges="! 62 881| 66 811| 72 876| 62 885| 62 881"/>
+                                                  <Edge fillStyle0="20" fillStyle1="11" strokeStyle="0" edges="! 31 950| 33 937"/>
+                                                  <Edge fillStyle0="20" fillStyle1="25" strokeStyle="0" edges="! 33 937| 33 935"/>
+                                                  <Edge fillStyle0="11" fillStyle1="25" strokeStyle="0" edges="! 33 929| 34 936| 33 937"/>
+                                                  <Edge fillStyle0="12" fillStyle1="11" strokeStyle="0" edges="! 144 964| 151 965| 161 950| 144 964"/>
+                                                  <Edge fillStyle0="25" fillStyle1="11" strokeStyle="0" edges="! 582 550| 506 615[ 261 824 141 985| 140 987| 110 1026"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 110 1026| 286 992| 340 980"/>
+                                                  <Edge fillStyle0="25" fillStyle1="9" strokeStyle="0" edges="! 340 980| 340 979"/>
+                                                  <Edge fillStyle0="25" fillStyle1="2" strokeStyle="0" edges="! 356 791| 357 792| 353 795| 356 791"/>
+                                                  <Edge fillStyle0="9" fillStyle1="23" strokeStyle="0" edges="! 340 980| 341 979"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 679 664| 665 662[ 662 667 662 654[ 662 642 683 630[ 706 616 722 626| 724 639[ 724 649 692 666| 679 664"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 559 832| 563 836| 564 847[ 553 876 542 876| 520 871| 519 861[ 519 852 532 843[ 545 833 559 832"/>
+                                                  <Edge fillStyle0="5" fillStyle1="23" strokeStyle="0" edges="! 592 948| 586 954| 595 951"/>
+                                                  <Edge fillStyle0="4" fillStyle1="23" strokeStyle="0" edges="! 554 902| 557 904"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 725 758[ 725 774 679 792[ 665 792 662 784| 662 775[ 662 743 724 747| 725 758"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 750 835[ 750 853 712 873[ 676 892 654 892| 614 881[ 621 855 665 833[ 701 814 719 814[ 748 814 750 835"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 625 1009| 621 1011| 468 1007| 251 999| 121 1024| 140 1025| 134 1027"/>
+                                                  <Edge fillStyle0="3" fillStyle1="14" strokeStyle="0" edges="! 565 1035| 565 1034"/>
+                                                  <Edge fillStyle0="3" fillStyle1="13" strokeStyle="0" edges="! 565 1034| 564 1035"/>
+                                                  <Edge fillStyle0="25" fillStyle1="13" strokeStyle="0" edges="! 563 1035| 565 1034"/>
+                                                  <Edge fillStyle0="25" fillStyle1="14" strokeStyle="0" edges="! 565 1034| 586 1025"/>
+                                                  <Edge fillStyle0="25" fillStyle1="16" strokeStyle="0" edges="! 586 1025| 587 1025"/>
+                                                  <Edge fillStyle0="25" fillStyle1="2" strokeStyle="0" edges="! 587 1025| 583 1030| 577 1035"/>
+                                                  <Edge fillStyle0="2" fillStyle1="14" strokeStyle="0" edges="! 587 1025| 566 1035"/>
+                                                  <Edge fillStyle0="5" fillStyle1="25" strokeStyle="0" edges="! 456 1028| 454 1024| 443 1024| 422 1026"/>
+                                                  <Edge fillStyle0="17" fillStyle1="23" strokeStyle="0" edges="! 109 1028| 110 1026"/>
+                                                  <Edge fillStyle0="17" fillStyle1="11" strokeStyle="0" edges="! 110 1026| 99 1028"/>
+                                                  <Edge fillStyle0="4" fillStyle1="25" strokeStyle="0" edges="! 991 1021| 979 1029"/>
+                                                  <Edge fillStyle0="23" fillStyle1="12" strokeStyle="0" edges="! 814 162| 799 155| 815 162"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

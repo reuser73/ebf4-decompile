@@ -1,0 +1,78 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 6675" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.annahair2_140" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 6675">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#d6a49e">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>try
+{
+   this.playerNo = 4;
+   this.derp.gotoAndStop(Players.equips[this.playerNo][1]);
+}
+catch(e:Error)
+{
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#b139e5">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#347e01"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 420 -621| 459 -562[ 490 -504 512 -431[ 528 -374 532 -334| 533 -334| 610 -310| 613 -394| 606 -522| 714 -290[ 714 -263 685 -263[ 670 -263 657 -274[ 644 -285 611 -285| 539 -290| 507 -286| 504 -285[ 474 -277 436 -294[ 397 -312 422 -498[ 432 -570 420 -621"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 278 -554[ 340 -447 375 -371[ 409 -295 392 -276[ 374 -257 366 -235[ 354 -207 339 -207[ 326 -207 319 -219| 315 -232[ 315 -244 325 -274[ 310 -262 266 -314| 264 -365| 265 -314| 223 -374[ 222 -490 198 -585[ 176 -674 135 -744| 196 -677| 257 -587| 278 -554"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#c1b932">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6544" name="derp" centerPoint3DX="-5.9" centerPoint3DY="63.55">
+                                             <matrix>
+                                                  <Matrix tx="-68.45" ty="-54.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#aa92ad">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6673" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

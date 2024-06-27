@@ -1,0 +1,299 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 10618" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.FoeBars_1376" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 10618">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#a6d1a4">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.quality.addEventListener(MouseEvent.MOUSE_DOWN,function(param1:MouseEvent):*
+{
+   Options.toggleQuality();
+   update();
+});
+this.sound.addEventListener(MouseEvent.MOUSE_DOWN,function(param1:MouseEvent):*
+{
+   Options.toggleSound();
+   update();
+});
+this.music.addEventListener(MouseEvent.MOUSE_DOWN,function(param1:MouseEvent):*
+{
+   Options.toggleMusic();
+   update();
+});
+this.fullscreen.addEventListener(MouseEvent.MOUSE_DOWN,function(param1:MouseEvent):*
+{
+   Options.toggleFullscreen();
+   update();
+});
+this.update();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#9c51ac">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 146" name="fullscreen" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="6.7" ty="52.8" a="0.3899993896484375" d="1.270294189453125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#d8bfed">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 146" name="music" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="155.75" ty="52.8" a="0.363006591796875" d="1.270294189453125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#cda6fc">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 146" name="sound" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="109.0" ty="52.8" a="0.3577117919921875" d="1.270294189453125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#99ac42">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 146" name="quality" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="57.95" ty="52.8" a="0.3899993896484375" d="1.270294189453125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 6" color="#bfcc5a">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="waveBox" antiAliasSharpness="0" antiAliasThickness="0" width="58.8" height="18.25" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="64.4" ty="-8.65" a="0.9463043212890625" d="0.9463043212890625" b="0.0" c="-0.368011474609375"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>3/5</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="true" lineSpacing="2.0" rightMargin="0.0" size="15" bitmapSize="300" face="Verdana Bold" fillColor="#d5e6ff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 7" color="#3d95fc">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="foeBar4" centerPoint3DX="95.55" centerPoint3DY="48.1">
+                                             <matrix>
+                                                  <Matrix tx="10.3" ty="45.6" a="1.09967041015625" d="1.4938201904296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 8" color="#ac4cb8">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="foeBar3" centerPoint3DX="95.55" centerPoint3DY="39.3">
+                                             <matrix>
+                                                  <Matrix tx="10.3" ty="36.8" a="1.09967041015625" d="1.4938201904296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 9" color="#8d90fa">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="foeBar2" centerPoint3DX="95.55" centerPoint3DY="30.45">
+                                             <matrix>
+                                                  <Matrix tx="10.3" ty="27.95" a="1.09967041015625" d="1.4938201904296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 10" color="#58b0cf">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="foeBar1" centerPoint3DX="95.55" centerPoint3DY="21.75">
+                                             <matrix>
+                                                  <Matrix tx="10.3" ty="19.25" a="1.09967041015625" d="1.4938201904296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 11" color="#888a77">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="foeBar0" centerPoint3DX="95.55" centerPoint3DY="13.0">
+                                             <matrix>
+                                                  <Matrix tx="10.3" ty="10.5" a="1.09967041015625" d="1.4938201904296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 12" color="#d56945">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 154" centerPoint3DX="42.25" centerPoint3DY="73.05">
+                                             <matrix>
+                                                  <Matrix tx="29.4" ty="65.7" a="0.96124267578125" d="1.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="2" quality="1" strength="4.1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 13" color="#bcbde4">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 152" name="im" centerPoint3DX="178.85" centerPoint3DY="65.25">
+                                             <matrix>
+                                                  <Matrix tx="169.95" ty="55.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="2" quality="1" strength="4.1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 14" color="#9adc3c">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 150" name="iso" centerPoint3DX="131.95" centerPoint3DY="65.45">
+                                             <matrix>
+                                                  <Matrix tx="123.1" ty="55.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="2" quality="1" strength="4.1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 15" color="#21bfa6">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 148" name="iq" centerPoint3DX="82.4" centerPoint3DY="65.55">
+                                             <matrix>
+                                                  <Matrix tx="72.1" ty="55.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="2" quality="1" strength="4.1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 16" color="#a2e2d5" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10616" centerPoint3DX="104.8" centerPoint3DY="35.6" cacheAsBitmap="true">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="-15.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

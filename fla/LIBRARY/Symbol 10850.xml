@@ -1,0 +1,79 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 10850" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.fulladbox_1461" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 10850">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#bdd72f">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.visible = false;
+stop();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <Actionscript>
+                                        <script>try
+{
+   MochiAd.showInterLevelAd({
+      "clip":this,
+      "id":"901c5807658ea512",
+      "res":"700x500",
+      "no_bg":true
+   });
+   BGM.play(BGM.SILENCE);
+}
+catch(e:Error)
+{
+   this.visible = false;
+   stop();
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.visible = false;
+stop();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#75d8b1" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="353.95" ty="250.95" a="0.5308685302734375" d="0.5275726318359375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" ratio="0.03529412"/>
+                                                            <GradientEntry color="#368ef5" ratio="0.5411765"/>
+                                                            <GradientEntry color="#227bed" ratio="0.8235294"/>
+                                                            <GradientEntry color="#045ee1" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 14159 10039| 0 10039| 0 0| 14159 0| 14159 10039"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

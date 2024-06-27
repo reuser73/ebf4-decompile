@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 73" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.animationcodeball_39" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 73">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#e7f684">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>visible = false;
+if(!Options.idleBackgrounds)
+{
+   parent.stop();
+   parent.cacheAsBitmap = true;
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

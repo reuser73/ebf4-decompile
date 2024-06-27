@@ -1,0 +1,88 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 7934" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.nTween8_1669" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 7934">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#13bcf8">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>try
+{
+   playerNo = parent.playerNo;
+   if(parent.zombieAnna)
+   {
+      this.derp.gotoAndStop(13);
+   }
+   else if(parent.zombieNatz)
+   {
+      this.derp.gotoAndStop(13);
+   }
+   else if(parent.zombieMatt)
+   {
+      this.derp.gotoAndStop(25);
+   }
+   else
+   {
+      this.derp.gotoAndStop(Players.equips[2][2]);
+   }
+}
+catch(errObject:Error)
+{
+}
+try
+{
+   if(parent.zombieMode)
+   {
+      this.hand.gotoAndStop(2);
+   }
+   else
+   {
+      this.hand.stop();
+   }
+}
+catch(e:Error)
+{
+   hand.stop();
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#7e67da">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 7544" name="derp" centerPoint3DX="-7.15" centerPoint3DY="25.2">
+                                             <matrix>
+                                                  <Matrix tx="-26.45" ty="-2.0" a="0.5532379150390625" d="-0.3302459716796875" b="0.9299774169921875" c="1.003387451171875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#ad3feb" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 7655" name="hand" centerPoint3DX="26.4" centerPoint3DY="2.35">
+                                             <matrix>
+                                                  <Matrix tx="17.55" ty="-5.35" a="-0.217132568359375" d="0.124847412109375" b="1.413726806640625" c="1.29864501953125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

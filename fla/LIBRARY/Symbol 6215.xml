@@ -1,0 +1,649 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 6215" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.equipselection_1411" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 6215">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#d85386">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.cancel.addEventListener(MouseEvent.MOUSE_DOWN,function(param1:MouseEvent):*
+{
+   parent.cancelEquipSelection();
+});
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#9e36d9">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2557" name="cancel" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="170.5" ty="170.6" a="1.35882568359375" d="1.07891845703125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#4d8fe5" layerType="mask" locked="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 5459 4599| -620 4599| -620 -560| 5459 -560| 5459 4599"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#cbcc4b" parentLayerIndex="2" locked="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6214" centerPoint3DX="264.05" centerPoint3DY="191.75">
+                                             <matrix>
+                                                  <Matrix tx="57.0" ty="183.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#a5f0d9" parentLayerIndex="2" locked="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 5870" name="fader" centerPoint3DX="229.45" centerPoint3DY="-46.8">
+                                             <matrix>
+                                                  <Matrix tx="229.45" ty="-46.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 6" color="#3dbbc0" parentLayerIndex="2" locked="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#000000" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#014bba" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="4">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="13.6" ty="2.4" a="0.1255645751953125" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="5">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="20.45" ty="2.4" a="0.1903076171875" d="0.1902618408203125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="6">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="20.45" ty="1.9" a="0.1903076171875" d="0.2459564208984375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="7">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="13.6" ty="1.9" a="0.1255645751953125" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="8">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="20.45" ty="-49.2" a="0.1903076171875" d="0.3562164306640625"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="9">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="13.6" ty="-49.2" a="0.1255645751953125" d="0.35614013671875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="10">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-22.85" ty="11.9" a="0.5674591064453125" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="11">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="13.6" ty="11.9" a="0.1255645751953125" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="12">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="20.45" ty="11.9" a="0.1903076171875" d="0.2459564208984375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="13">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="222.95" ty="2.4" a="0.1255645751953125" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="14">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="207.45" ty="2.4" a="0.1903076171875" d="0.1902618408203125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="15">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="174.7" ty="1.9" a="0.3416290283203125" d="0.2459564208984375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="16">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="161.85" ty="1.9" a="0.445465087890625" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="17">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="201.35" ty="1.9" a="0.2254180908203125" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="18">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="126.15" ty="11.9" a="0.5674591064453125" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="19">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="161.85" ty="11.9" a="0.445465087890625" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="20">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="161.85" ty="-49.2" a="0.445465087890625" d="0.35614013671875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="21">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="201.35" ty="-49.2" a="0.2254180908203125" d="0.35614013671875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="22">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="174.7" ty="-49.2" a="0.3416290283203125" d="0.3562164306640625"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="23">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="174.7" ty="11.9" a="0.3416290283203125" d="0.2459564208984375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="24">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="201.35" ty="11.9" a="0.2254180908203125" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="25">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="222.65" ty="54.65" a="0.1255645751953125" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="26">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-10.45" ty="2.4" a="1.652862548828125" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="27">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-713.55" ty="1.9" a="5.86358642578125" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="28">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-137.7" ty="2.4" a="2.495361328125" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="29">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-567.8" ty="2.4" a="5.4293670654296875" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="30">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-713.55" ty="11.9" a="5.86358642578125" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="31">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-713.55" ty="-49.2" a="5.86358642578125" d="0.35614013671875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="32">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-181.25" ty="2.4" a="2.495361328125" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="33">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-323.55" ty="1.9" a="3.2664031982421875" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="34">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-86.3" ty="1.9" a="1.652862548828125" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="35">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-86.3" ty="2.4" a="1.652862548828125" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="36">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="19.85" ty="2.4" a="0.3657379150390625" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="37">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="19.85" ty="1.9" a="0.3657379150390625" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="38">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="19.85" ty="11.9" a="0.3657379150390625" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="39">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-86.3" ty="11.9" a="1.652862548828125" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="40">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="19.85" ty="-49.2" a="0.3657379150390625" d="0.35614013671875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="41">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-86.3" ty="-49.2" a="1.652862548828125" d="0.35614013671875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="42">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-323.55" ty="-49.2" a="3.2664031982421875" d="0.35614013671875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="43">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-323.55" ty="11.9" a="3.2664031982421875" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 5105 -39| 5113 -18| 5113 30| 5120 30| 5120 4054| 5114 4052| 5103 4096| 5095 4118[ 5086 4128 5066 4128| 5039 4128| 5039 4127| 9 4127| 9 4128| -21 4128[ -59 4128 -60 4096| -60 -18[ -59 -50 -21 -50| 5076 -50[ 5096 -50 5105 -39"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 5105 -110| 5105 -107"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 5105 -107[ 5174 -94 5173 -18| 5173 2"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 5173 2| 5177 5| 5180 17| 5180 4068| 5177 4076| 5170 4078| 5169 4078"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 5169 4078| 5163 4096[ 5164 4172 5095 4186"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 5095 4186| 5095 4188"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 5095 4188| 5087 4188| 5039 4188"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 5039 4188| 5039 4187"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 5039 4187| 10 4187"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 10 4187| 10 4188"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 10 4188| -21 4188[ -122 4188 -120 4096| -120 4078"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! -120 4078| -127 4076| -130 4068| -130 17| -127 5| -120 1"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! -120 1| -120 -18[ -122 -110 -21 -110| 5039 -110"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 5039 -110| 5047 -110"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 5047 -110| 5095 -110| 5105 -110"/>
+                                                  <Edge fillStyle0="2" fillStyle1="2" strokeStyle="1" edges="! 5095 -110| 5105 -107"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 5173 30| 5160 30| 5160 4054| 5170 4064"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="! 5170 4064| 5170 4072| 5169 4078"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="! 5173 2| 5173 30"/>
+                                                  <Edge fillStyle0="3" fillStyle1="13" strokeStyle="0" edges="! 4921 0| 5032 0| 5039 1| 5039 5"/>
+                                                  <Edge fillStyle0="3" fillStyle1="14" strokeStyle="0" edges="! 5039 5| 5043 8| 5047 12| 5050 17| 5053 29| 5053 30| 5050 30"/>
+                                                  <Edge fillStyle0="3" fillStyle1="15" strokeStyle="0" edges="! 5050 30| 5050 2255"/>
+                                                  <Edge fillStyle0="3" fillStyle1="22" strokeStyle="0" edges="! 5050 2255| 5050 3095"/>
+                                                  <Edge fillStyle0="3" fillStyle1="23" strokeStyle="0" edges="! 5050 3095| 5050 3395"/>
+                                                  <Edge fillStyle0="3" fillStyle1="18" strokeStyle="0" edges="! 5050 3395| 5050 4053"/>
+                                                  <Edge fillStyle0="3" fillStyle1="23" strokeStyle="0" edges="! 5050 4053| 5050 4054| 5047 4054"/>
+                                                  <Edge fillStyle0="3" fillStyle1="25" strokeStyle="0" edges="! 5047 4054| 5042 4054"/>
+                                                  <Edge fillStyle0="3" fillStyle1="18" strokeStyle="0" edges="! 5042 4054| 5039 4064| 5039 4074| 5026 4078| 4921 4078"/>
+                                                  <Edge fillStyle0="3" fillStyle1="39" strokeStyle="0" edges="! 4921 4078| 205 4078"/>
+                                                  <Edge fillStyle0="3" fillStyle1="10" strokeStyle="0" edges="! 205 4078| 26 4078| 10 4072| 9 4071| 6 4068| 0 4054| 0 3395"/>
+                                                  <Edge fillStyle0="3" fillStyle1="12" strokeStyle="0" edges="! 0 3395| 0 3095"/>
+                                                  <Edge fillStyle0="3" fillStyle1="8" strokeStyle="0" edges="! 0 3095| 0 2255"/>
+                                                  <Edge fillStyle0="3" fillStyle1="6" strokeStyle="0" edges="! 0 2255| 0 30"/>
+                                                  <Edge fillStyle0="3" fillStyle1="5" strokeStyle="0" edges="! 0 30| 0 28| 2 17| 9 8"/>
+                                                  <Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 9 8| 9 7| 10 6[ 16 0 26 0| 205 0"/>
+                                                  <Edge fillStyle0="3" fillStyle1="36" strokeStyle="0" edges="! 205 0| 942 0"/>
+                                                  <Edge fillStyle0="3" fillStyle1="35" strokeStyle="0" edges="! 942 0| 1798 0"/>
+                                                  <Edge fillStyle0="3" fillStyle1="32" strokeStyle="0" edges="! 1798 0| 2803 0"/>
+                                                  <Edge fillStyle0="3" fillStyle1="29" strokeStyle="0" edges="! 2803 0| 4825 0"/>
+                                                  <Edge fillStyle0="3" fillStyle1="28" strokeStyle="0" edges="! 4825 0| 4871 0"/>
+                                                  <Edge fillStyle0="3" fillStyle1="26" strokeStyle="0" edges="! 4871 0| 4921 0"/>
+                                                  <Edge fillStyle0="13" fillStyle1="26" strokeStyle="0" edges="! 4921 0| 4921 30"/>
+                                                  <Edge fillStyle0="13" fillStyle1="16" strokeStyle="0" edges="! 4921 30| 4960 30"/>
+                                                  <Edge fillStyle0="13" fillStyle1="17" strokeStyle="0" edges="! 4960 30| 5039 30"/>
+                                                  <Edge fillStyle0="13" fillStyle1="14" strokeStyle="0" edges="! 5039 30| 5039 5"/>
+                                                  <Edge fillStyle0="15" fillStyle1="14" strokeStyle="0" edges="! 5050 30| 5039 30"/>
+                                                  <Edge fillStyle0="15" fillStyle1="17" strokeStyle="0" edges="! 5039 30| 5039 2255"/>
+                                                  <Edge fillStyle0="15" fillStyle1="22" strokeStyle="0" edges="! 5039 2255| 5050 2255"/>
+                                                  <Edge fillStyle0="27" fillStyle1="26" strokeStyle="0" edges="! 4921 30| 4871 30"/>
+                                                  <Edge fillStyle0="27" fillStyle1="28" strokeStyle="0" edges="! 4871 30| 4825 30"/>
+                                                  <Edge fillStyle0="27" fillStyle1="29" strokeStyle="0" edges="! 4825 30| 3202 30"/>
+                                                  <Edge fillStyle0="27" fillStyle1="33" strokeStyle="0" edges="! 3202 30| 3202 2255"/>
+                                                  <Edge fillStyle0="27" fillStyle1="31" strokeStyle="0" edges="! 3202 2255| 4921 2255"/>
+                                                  <Edge fillStyle0="27" fillStyle1="16" strokeStyle="0" edges="! 4921 2255| 4921 30"/>
+                                                  <Edge fillStyle0="28" fillStyle1="26" strokeStyle="0" edges="! 4871 30| 4871 0"/>
+                                                  <Edge fillStyle0="28" fillStyle1="29" strokeStyle="0" edges="! 4825 0| 4825 30"/>
+                                                  <Edge fillStyle0="20" fillStyle1="16" strokeStyle="0" edges="! 4960 2255| 4921 2255"/>
+                                                  <Edge fillStyle0="20" fillStyle1="31" strokeStyle="0" edges="! 4921 2255| 4921 3095"/>
+                                                  <Edge fillStyle0="20" fillStyle1="19" strokeStyle="0" edges="! 4921 3095| 4960 3095"/>
+                                                  <Edge fillStyle0="20" fillStyle1="21" strokeStyle="0" edges="! 4960 3095| 4960 2255"/>
+                                                  <Edge fillStyle0="16" fillStyle1="17" strokeStyle="0" edges="! 4960 2255| 4960 30"/>
+                                                  <Edge fillStyle0="17" fillStyle1="21" strokeStyle="0" edges="! 4960 2255| 5039 2255"/>
+                                                  <Edge fillStyle0="22" fillStyle1="21" strokeStyle="0" edges="! 5039 2255| 5039 3095"/>
+                                                  <Edge fillStyle0="22" fillStyle1="23" strokeStyle="0" edges="! 5039 3095| 5050 3095"/>
+                                                  <Edge fillStyle0="24" fillStyle1="21" strokeStyle="0" edges="! 5039 3095| 4960 3095"/>
+                                                  <Edge fillStyle0="24" fillStyle1="19" strokeStyle="0" edges="! 4960 3095| 4960 3395"/>
+                                                  <Edge fillStyle0="24" fillStyle1="18" strokeStyle="0" edges="! 4960 3395| 5039 3395"/>
+                                                  <Edge fillStyle0="24" fillStyle1="23" strokeStyle="0" edges="! 5039 3395| 5039 3095"/>
+                                                  <Edge fillStyle0="18" fillStyle1="19" strokeStyle="0" edges="! 4960 3395| 4921 3395"/>
+                                                  <Edge fillStyle0="18" fillStyle1="39" strokeStyle="0" edges="! 4921 3395| 4921 4078"/>
+                                                  <Edge fillStyle0="23" fillStyle1="18" strokeStyle="0" edges="! 5039 3395| 5050 3395"/>
+                                                  <Edge fillStyle0="30" fillStyle1="19" strokeStyle="0" edges="! 4921 3395| 4921 3095"/>
+                                                  <Edge fillStyle0="30" fillStyle1="31" strokeStyle="0" edges="! 4921 3095| 3202 3095"/>
+                                                  <Edge fillStyle0="30" fillStyle1="43" strokeStyle="0" edges="! 3202 3095| 3202 3395"/>
+                                                  <Edge fillStyle0="30" fillStyle1="39" strokeStyle="0" edges="! 3202 3395| 4921 3395"/>
+                                                  <Edge fillStyle0="29" fillStyle1="34" strokeStyle="0" edges="! 2803 30| 3135 30"/>
+                                                  <Edge fillStyle0="29" fillStyle1="33" strokeStyle="0" edges="! 3135 30| 3202 30"/>
+                                                  <Edge fillStyle0="32" fillStyle1="29" strokeStyle="0" edges="! 2803 30| 2803 0"/>
+                                                  <Edge fillStyle0="35" fillStyle1="32" strokeStyle="0" edges="! 1798 30| 1798 0"/>
+                                                  <Edge fillStyle0="32" fillStyle1="34" strokeStyle="0" edges="! 1798 30| 2803 30"/>
+                                                  <Edge fillStyle0="35" fillStyle1="36" strokeStyle="0" edges="! 942 0| 942 30"/>
+                                                  <Edge fillStyle0="35" fillStyle1="34" strokeStyle="0" edges="! 942 30| 1798 30"/>
+                                                  <Edge fillStyle0="4" fillStyle1="36" strokeStyle="0" edges="! 205 30| 205 0"/>
+                                                  <Edge fillStyle0="5" fillStyle1="4" strokeStyle="0" edges="! 9 30| 9 8"/>
+                                                  <Edge fillStyle0="5" fillStyle1="6" strokeStyle="0" edges="! 0 30| 9 30"/>
+                                                  <Edge fillStyle0="4" fillStyle1="7" strokeStyle="0" edges="! 9 30| 205 30"/>
+                                                  <Edge fillStyle0="36" fillStyle1="37" strokeStyle="0" edges="! 205 30| 942 30"/>
+                                                  <Edge fillStyle0="34" fillStyle1="37" strokeStyle="0" edges="! 942 30| 942 2255"/>
+                                                  <Edge fillStyle0="34" fillStyle1="41" strokeStyle="0" edges="! 942 2255| 3135 2255"/>
+                                                  <Edge fillStyle0="34" fillStyle1="33" strokeStyle="0" edges="! 3135 2255| 3135 30"/>
+                                                  <Edge fillStyle0="6" fillStyle1="8" strokeStyle="0" edges="! 0 2255| 9 2255"/>
+                                                  <Edge fillStyle0="6" fillStyle1="7" strokeStyle="0" edges="! 9 2255| 9 30"/>
+                                                  <Edge fillStyle0="7" fillStyle1="9" strokeStyle="0" edges="! 9 2255| 205 2255"/>
+                                                  <Edge fillStyle0="7" fillStyle1="37" strokeStyle="0" edges="! 205 2255| 205 30"/>
+                                                  <Edge fillStyle0="12" fillStyle1="8" strokeStyle="0" edges="! 9 3095| 0 3095"/>
+                                                  <Edge fillStyle0="10" fillStyle1="12" strokeStyle="0" edges="! 9 3395| 0 3395"/>
+                                                  <Edge fillStyle0="11" fillStyle1="12" strokeStyle="0" edges="! 9 3095| 9 3395"/>
+                                                  <Edge fillStyle0="11" fillStyle1="10" strokeStyle="0" edges="! 9 3395| 205 3395"/>
+                                                  <Edge fillStyle0="11" fillStyle1="38" strokeStyle="0" edges="! 205 3395| 205 3095"/>
+                                                  <Edge fillStyle0="11" fillStyle1="9" strokeStyle="0" edges="! 205 3095| 9 3095"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 9 3095| 9 2255"/>
+                                                  <Edge fillStyle0="38" fillStyle1="39" strokeStyle="0" edges="! 205 3395| 942 3395| 942 3095"/>
+                                                  <Edge fillStyle0="38" fillStyle1="40" strokeStyle="0" edges="! 942 3095| 205 3095"/>
+                                                  <Edge fillStyle0="9" fillStyle1="40" strokeStyle="0" edges="! 205 3095| 205 2255"/>
+                                                  <Edge fillStyle0="37" fillStyle1="40" strokeStyle="0" edges="! 205 2255| 942 2255"/>
+                                                  <Edge fillStyle0="41" fillStyle1="40" strokeStyle="0" edges="! 942 2255| 942 3095"/>
+                                                  <Edge fillStyle0="41" fillStyle1="39" strokeStyle="0" edges="! 942 3095| 3135 3095"/>
+                                                  <Edge fillStyle0="41" fillStyle1="42" strokeStyle="0" edges="! 3135 3095| 3135 2255"/>
+                                                  <Edge fillStyle0="33" fillStyle1="42" strokeStyle="0" edges="! 3135 2255| 3202 2255"/>
+                                                  <Edge fillStyle0="31" fillStyle1="42" strokeStyle="0" edges="! 3202 2255| 3202 3095"/>
+                                                  <Edge fillStyle0="43" fillStyle1="42" strokeStyle="0" edges="! 3202 3095| 3135 3095"/>
+                                                  <Edge fillStyle0="43" fillStyle1="39" strokeStyle="0" edges="! 3135 3095| 3135 3395| 3202 3395"/>
+                                                  <Edge fillStyle0="2" fillStyle1="2" strokeStyle="1" edges="! 5095 4186| 5087 4188"/>
+                                                  <Edge fillStyle0="25" fillStyle1="18" strokeStyle="0" edges="! 5047 4053| 5039 4053| 5039 4054| 5042 4054"/>
+                                                  <Edge fillStyle0="25" fillStyle1="23" strokeStyle="0" edges="! 5047 4054| 5047 4053"/>
+                                                  <Edge fillStyle0="18" fillStyle1="23" strokeStyle="0" edges="! 5047 4053| 5050 4053"/>
+                                                  <Edge fillStyle0="10" fillStyle1="39" strokeStyle="0" edges="! 205 4078| 205 3395"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! -120 4054| -110 4054| -110 30| -120 30"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="! -120 30| -120 1"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="! -120 4078| -120 4054"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

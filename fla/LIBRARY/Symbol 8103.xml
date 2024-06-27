@@ -1,0 +1,74 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 8103" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.fishpropel_1135" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 8103">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#a3a3d4">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>if(!Options.idleFoes)
+{
+   stop();
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#2ee987" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8102" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-0.05" ty="-0.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8102" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="8.55" ty="-6.0" a="0.9380950927734375" d="0.9380950927734375" b="0.3422698974609375" c="-0.3422698974609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8102" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="18.65" ty="-8.65" a="0.7628631591796875" d="0.7628631591796875" b="0.6429443359375" c="-0.6429443359375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8102" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="29.05" ty="-7.7" a="0.4952545166015625" d="0.495269775390625" b="0.8675079345703125" c="-0.86749267578125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

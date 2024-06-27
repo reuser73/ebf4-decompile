@@ -1,0 +1,417 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 10024" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.jSymbol33_1616" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 10024">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#dbd58e">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>gotoAndStop(Math.floor(Math.random() * 12) + 2);
+if(parent.zombieMode)
+{
+   this.visible = false;
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#91e03f">
+                         <frames>
+                              <DOMFrame index="0" duration="8" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10020" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="2.4" ty="1.65" a="1.2520599365234375" d="1.2520599365234375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" duration="6" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#52e9e0" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                                  <StrokeStyle index="2">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 784 171[ 818 203 819 249[ 820 295 788 328[ 757 362 712 364[ 666 365 632 333[ 598 302 597 256[ 596 210 627 176[ 659 143 705 142[ 750 140 784 171"/>
+                                                  <Edge fillStyle0="1" fillStyle1="1" strokeStyle="2" edges="! 723 247[ 730 254 730 264[ 730 274 723 280[ 717 287 707 287[ 697 287 690 280[ 684 274 684 264[ 684 254 690 247[ 697 241 707 241[ 717 241 723 247"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="2" edges="! 336 169[ 338 238 291 288[ 245 338 176 340[ 107 342 56 295[ 7 248 5 180[ 2 111 49 60[ 96 11 165 9[ 234 6 284 53[ 334 100 336 169"/>
+                                                  <Edge fillStyle0="1" fillStyle1="1" strokeStyle="2" edges="! 167 219[ 150 219 138 207[ 126 195 126 178[ 126 161 138 149[ 150 137 167 137[ 184 137 196 149[ 208 161 208 178[ 208 195 196 207[ 184 219 167 219"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#990000" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#c40000" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="4">
+                                                       <SolidColor color="#4d0000" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="5">
+                                                       <SolidColor color="#ffaaaa" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                                  <StrokeStyle index="2">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="5" fillStyle1="1" strokeStyle="0" edges="! 791 325| 747 339[ 719 348 681 324[ 643 299 641 277[ 638 254 653 216[ 667 177 725 175[ 783 172 796 192| 811 211| 812 212| 807 202"/>
+                                                  <Edge fillStyle0="5" fillStyle1="0" strokeStyle="1" edges="! 807 202| 784 171[ 750 140 705 142[ 659 143 627 176[ 599 206 597 247"/>
+                                                  <Edge fillStyle0="5" fillStyle1="3" strokeStyle="1" edges="! 597 247| 597 256[ 598 302 632 333[ 666 365 712 364[ 757 362 788 328| 789 328"/>
+                                                  <Edge fillStyle0="5" fillStyle1="5" strokeStyle="1" edges="! 789 328| 791 325"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="1" edges="! 791 325| 794 322"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="1" edges="! 794 322[ 820 291 819 249[ 818 228.5 811 211[ 809.5 206.5 807 202"/>
+                                                  <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="! 707 241[ 717 241 723 247[ 730 254 730 264[ 730 274 723 280[ 717 287 707 287[ 697 287 690 280[ 684 274 684 264[ 684 254 690 247[ 697 241 707 241"/>
+                                                  <Edge fillStyle0="0" fillStyle1="3" strokeStyle="0" edges="! 794 322| 778 362[ 746 420 679 420[ 633 420 609 366[ 592 330 592 296[ 592 267 597 247"/>
+                                                  <Edge fillStyle0="3" fillStyle1="5" strokeStyle="0" edges="! 791 325| 792 325| 789 328"/>
+                                                  <Edge fillStyle0="0" fillStyle1="5" strokeStyle="1" edges="! 8 210[ 5 195 5 180[ 2 111 49 60[ 96 11 165 9[ 234 6 284 53[ 334 100 336 169[ 338 238 291 288| 282 297"/>
+                                                  <Edge fillStyle0="0" fillStyle1="3" strokeStyle="0" edges="! 282 297| 265 322[ 218 385 132 385[ 121 385 76 353| 27 312[ 6 281 6 239| 8 210"/>
+                                                  <Edge fillStyle0="5" fillStyle1="3" strokeStyle="1" edges="! 8 210[ 18 259 56 295[ 107 342 176 340[ 238 338 282 297"/>
+                                                  <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="! 138 207[ 126 195 126 178[ 126 161 138 149[ 150 137 167 137[ 184 137 196 149[ 208 161 208 178[ 208 195 196 207[ 184 219 167 219[ 150 219 138 207"/>
+                                                  <Edge fillStyle0="1" fillStyle1="5" strokeStyle="0" edges="! 72 212[ 72 235 97 259[ 132 294 200 294[ 290 294 312 250[ 323 228 316 203[ 316 72 175 72[ 87 72 72 212"/>
+                                                  <Edge fillStyle0="2" fillStyle1="4" strokeStyle="0" edges="! 397 596| 363 562| 286 486| 237 470"/>
+                                                  <Edge fillStyle0="2" fillStyle1="0" strokeStyle="2" edges="! 237 470[ 201 474 183 486[ 148 509 148 520[ 148 530 177 549[ 205 568 265 585| 370 601| 397 596"/>
+                                                  <Edge fillStyle0="4" fillStyle1="0" strokeStyle="2" edges="! 397 596[ 415 586 415 560[ 413 518 416 497[ 418 476 318 470| 314 470[ 269 467 237 470"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#ffaaaa" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#c40000" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 823 172| 829 186| 808 159[ 791 133 713 136[ 635 139 616 191[ 597 243 601 273[ 604 303 654 336[ 704 368 742 357| 802 337"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="1" edges="! 802 337| 806 333"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="1" edges="! 806 333[ 840 292 839 236[ 838 201 823 172"/>
+                                                  <Edge fillStyle0="2" fillStyle1="0" strokeStyle="1" edges="! 823 172| 792 131[ 747 90 686 92[ 624 94 581 138[ 544 179 542 233"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="1" edges="! 542 233| 542 245[ 543 307 588 349[ 633 391 695 390[ 756 387 798 342| 799 341"/>
+                                                  <Edge fillStyle0="2" fillStyle1="2" strokeStyle="1" edges="! 799 341| 802 337"/>
+                                                  <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="! 710 233[ 719 242 720 256[ 719 269 710 278[ 702 287 689 287[ 675 287 666 278[ 658 269 658 256[ 658 242 666 233[ 675 225 689 225[ 702 225 710 233"/>
+                                                  <Edge fillStyle0="0" fillStyle1="3" strokeStyle="0" edges="! 806 333| 784 388[ 741 465 651 465[ 590 465 558 393[ 535 344 535 299[ 535 260 542 233"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 8 210[ 5 195 5 180[ 2 111 49 60[ 96 11 165 9[ 234 6 284 53[ 334 100 336 169[ 338 238 291 288| 282 297"/>
+                                                  <Edge fillStyle0="0" fillStyle1="3" strokeStyle="0" edges="! 282 297| 265 322[ 218 385 132 385[ 121 385 76 353| 27 312[ 6 281 6 239| 8 210"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="1" edges="! 8 210[ 18 259 56 295[ 107 342 176 340[ 238 338 282 297"/>
+                                                  <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="! 167 219[ 150 219 138 207[ 126 195 126 178[ 126 161 138 149[ 150 137 167 137[ 184 137 196 149[ 208 161 208 178[ 208 195 196 207[ 184 219 167 219"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 72 212[ 72 235 97 259[ 132 294 200 294[ 290 294 312 250[ 323 228 316 203[ 316 72 175 72[ 87 72 72 212"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills/>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 636 260| 685 312| 758 260"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 731 362| 685 312| 638 345"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 93 92| 175 188| 291 100"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 233 255| 175 188| 56 277"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills/>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 763 287| 588 271| 688 335"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 588 271| 586 271| 688 225"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 96 117| 265 215| 263 216| 113 255"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! 61 187| 263 216"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 635 323[ 635 308 646 297[ 657 286 672 286[ 687 286 698 297[ 709 308 709 323[ 709 338 698 349[ 687 360 672 360[ 657 360 646 349[ 635 338 635 323"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 161 216[ 161 231 150 241[ 140 252 125 252[ 110 252 99 241[ 89 231 89 216[ 89 201 99 190[ 110 180 125 180[ 140 180 150 190[ 161 201 161 216"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                                  <StrokeStyle index="2">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 576 286[ 579 275 605 274| 666 282[ 701 291 723 305[ 745 319 742 330[ 739 340 713 342| 652 334[ 617 324 595 310[ 573 296 576 286"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="2" edges="! 242 220[ 242 230 215 237| 150 245| 85 237[ 58 230 58 220[ 58 210 85 202| 150 195| 215 202[ 242 210 242 220"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#000000"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 691 172[ 719 184 742 224[ 762 259 762 283[ 762 308 741 355[ 708 441 614 398[ 503 348 536 269[ 579 177 664 216[ 736 248 715 329[ 687 389 635 366[ 570 337 594 286[ 615 239 650 255[ 682 270 665 308[ 658 321 650 318[ 631 309 647 283| 641 277[ 626 270 615 292[ 600 324 646 345[ 677 359 695 321[ 698 256 671 244[ 614 218 580 245[ 562 259 557 278[ 549 344 595 365[ 665 396 700 375[ 716 363 721 346[ 737 310 737 272[ 736 250 705 214| 677 178[ 681 167 691 172"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 208 115[ 130 115 107 149[ 96 167 100 185[ 99 225 116 260[ 125 280 170 300[ 210 318 211 322[ 210 334 200 334[ 168 334 131 307[ 97 282 88 260[ 77 237 77 185[ 71 92 176 92[ 299 92 302 179[ 301 281 207 282[ 125 281 112 198[ 112 131 171 131[ 242 131 242 188[ 242 239 204 239[ 167 239 167 197[ 167 181 177 181[ 198 181 195 213| 202 215[ 218 215 221 191[ 220 154 169 155[ 134 154 134 198[ 158 258 188 258[ 252 258 272 220[ 282 200 280 180[ 259 115 208 115"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#000000"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 389 -24[ 411 -24 411 -9[ 411 1 370 56| 318 121| 318 123[ 370 117 396 89| 439 39[ 465 19 515 0[ 573 -21 606 -16| 609 -33[ 609 -117 496 -117[ 441 -117 390 -70| 345 -18| 389 -24"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 620 -77[ 635 -34 630 -12[ 675 -15 675 21| 673 96| 663 165| 687 171| 756 103| 832 39[ 852 39 852 51[ 752 141 714 178[ 915 248 915 375[ 915 430 880 472[ 832 529 735 529| 528 493[ 436 525 384 525[ 183 525 138 319[ 138 234 280 27[ 215 51 131 117| 52 177[ 40 177 40 164[ 40 124 265 6[ 327 -11 364 -76| 409 -116[ 446 -141 501 -141| 567 -129[ 601 -129 620 -77"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 891 380[ 891 269 711 205[ 752 225 781 284[ 804 331 804 357| 792 420[ 792 455 699 501| 733 505[ 816 505 860 456[ 891 421 891 380"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 627 15| 607 84| 579 147| 604 153[ 643 67 643 48[ 645 16 627 15"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 645 121[ 630 153 630 159| 633 159[ 646 159 646 121| 645 121"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 651 199[ 477 378 382 378[ 310 378 303 286[ 303 189 346 142| 346 141[ 291 157 241 207| 187 252[ 182 252 174 244[ 163 253 163 319[ 205 501 389 501| 513 474[ 486 461 486 423[ 486 400 502 357[ 506 347 532 334| 568 310| 658 201| 660 201| 651 198| 651 199"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 615 186| 585 238| 586 240[ 609 226 627 192| 615 186"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 559 10[ 516 10 454 61| 399 115| 437 120[ 454 120 564 12[ 567 10 559 10"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 600 22| 600 21| 597 21[ 565 21 477 123| 555 138[ 567 138 585 70| 600 22"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 497 197| 540 162| 502 150| 457 145| 406 216| 444 220[ 460 220 497 197"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 585 184[ 546 184 529 259| 534 261[ 541 261 588 186[ 593 184 585 184"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 444 246[ 378 246 378 226[ 378 207 396 180| 421 142| 390 139[ 360 139 341 209[ 327 259 327 285[ 327 352 381 352[ 420 352 464 325| 508 289| 498 276[ 498 251 522 215[ 458 246 444 246"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 600 337[ 577 337 560 365[ 546 387 546 399| 537 440| 538 453| 538 456[ 551 448 581 404[ 609 361 609 351| 607 340[ 607 337 600 337"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 567 468| 638 486[ 778 486 778 362[ 778 333 757 291[ 728 234 679 214| 597 312[ 631 301 633 354| 604 411| 567 468"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 514 426| 534 357| 513 420| 513 426| 514 426"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 372 1[ 294 1 228 156| 228 157[ 283 132 320 84| 378 1| 372 1"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ff0000"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#000000"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#ffffff"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="4">
+                                                       <SolidColor color="#b3b3b3"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="5">
+                                                       <SolidColor color="#b10101"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="2" fillStyle1="0" strokeStyle="0" edges="! 824 142[ 820 98 807 83[ 805 80 802 80| 802 79| 798 75| 788 71| 785 71| 722 59| 720 59[ 682 58 648 104[ 620 141 621 162[ 620 185 639 211| 639 210[ 665 248 715 249| 753 242[ 779 232 798 207[ 824 173 824 142"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 784 86| 792 89| 794 90| 795 92[ 806 105 809 142| 809 143[ 808 169 786 198[ 769 220 748 228| 733 232"/>
+                                                  <Edge fillStyle0="2" fillStyle1="4" strokeStyle="0" edges="! 733 232| 715 234[ 673 234 651 202[ 636 181 636 162[ 636 145 660 113[ 688 75 719 74| 781.5 86| 782 86| 783 86| 784 86"/>
+                                                  <Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 784 86[ 782.5 86 781.5 86[ 690 83 681 146[ 671 216 707 226| 733 232"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! 769 156[ 769 171 755 171| 744 159[ 744 147 762 147[ 769 147 769 156"/>
+                                                  <Edge fillStyle0="2" fillStyle1="5" strokeStyle="0" edges="! 468 659| 466 659| 464 659[ 372 658 295 624[ 217 588 215 537[ 256 443 260 436| 292 384[ 309 373 378 374| 386 374| 402 374| 403 374| 465 370| 476 369"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 476 369| 666 353[ 687 353 689 378| 689 379[ 688 402 672 457| 672 459[ 671 478 689 538[ 687 572 615 615[ 547 653 484 658| 479 660| 475 659| 468 659"/>
+                                                  <Edge fillStyle0="5" fillStyle1="1" strokeStyle="0" edges="! 468 659| 437 646[ 363 613 336 590"/>
+                                                  <Edge fillStyle0="5" fillStyle1="2" strokeStyle="0" edges="! 336 590| 325 586| 322 585[ 268 561 270 529[ 268 514 309 464| 318 452| 326 431[ 329 419 365 422| 404 419| 414 418"/>
+                                                  <Edge fillStyle0="5" fillStyle1="1" strokeStyle="0" edges="! 414 418| 456 381| 476 369"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 414 418| 449 413| 450 413| 533 405| 610 402| 625 405| 628 408| 629 412| 627 417| 624 422| 622 428| 616 430"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! 616 430| 615 439"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 615 439| 618 440| 621 443| 622 447| 620 466[ 620 490 637 532| 638 535[ 639 559 564 585[ 495 608 450 608[ 386 608 336 590"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! 616 430| 611 428| 609 422| 609 417| 536 420| 451 428| 406 434| 364 437| 340 437| 331 460| 330 462| 417 465| 576 440| 577 440| 614 439| 615 439"/>
+                                                  <Edge fillStyle0="2" fillStyle1="0" strokeStyle="0" edges="! 666 338| 464 355| 402 359| 386 359| 378 359[ 299 359 282 372| 281 373[ 279 373 247 428| 247 429[ 242 435 200 532| 200 535[ 199 596 289 638[ 368 674 464 674| 466 674| 475 674| 481 672| 485 673[ 551 667 622 628[ 705 580 704 538| 703 536[ 687 478 687 460[ 704 402 704 378[ 701 337 666 338"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 345 97| 352 104[ 366 120 371 141| 383 202[ 382 246 342 287| 309 313| 300 318"/>
+                                                  <Edge fillStyle0="2" fillStyle1="4" strokeStyle="0" edges="! 300 318[ 264 336 220 336[ 104 335 93 169[ 93 146 136 106[ 185 59 231 59| 296 71| 296 70[ 326 80 345 97"/>
+                                                  <Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 345 97| 279 85[ 223 74 191 112[ 159 150 159 181[ 159 234 180 270[ 203 309 241 309| 300 318"/>
+                                                  <Edge fillStyle0="2" fillStyle1="0" strokeStyle="0" edges="! 231 44[ 181 43 126 95[ 77 142 78 169| 78 170[ 90 351 220 351[ 274 350 317 326| 353 298| 353 297[ 398 251 398 200| 398 199| 386 138[ 380 112 363 94[ 342 70 301 56| 300 56[ 253 43 231 44"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! 278 191| 276 179[ 276 165 301 165[ 320 165 318 181[ 318 202 303 202[ 284 202 278 191"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="12" duration="3" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#000000" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#b7b7b7" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="0.75" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="3" fillStyle1="1" strokeStyle="0" edges="! 465 319| 333 303[ 271 303 204 226[ 147 162 147 137[ 147 47 270 -6| 312 -24"/>
+                                                  <Edge fillStyle0="3" fillStyle1="0" strokeStyle="1" edges="! 312 -24| 298 -29[ 226 -53 158 -19[ 90 16 66 89[ 42 162 77 230[ 112 298 184 322| 391 330| 465 319"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="1" edges="! 465 319| 564 301"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="1" edges="! 564 301| 674 276| 676 276"/>
+                                                  <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="! 676 276[ 761 254 721 204"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="1" edges="! 721 204[ 699 177 641 142"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="1" edges="! 641 142| 598 117[ 391 6 312 -24"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 1071 327[ 1071 351 1044 351[ 1006 351 1006 321[ 1006 299 1053 299[ 1069 299 1071 327"/>
+                                                  <Edge fillStyle0="0" fillStyle1="3" strokeStyle="1" edges="! 839 399| 816 401| 652 392[ 599 375 574 326| 564 301"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 790 159| 988 249[ 1188 343 1058 368| 839 399"/>
+                                                  <Edge fillStyle0="3" fillStyle1="1" strokeStyle="0" edges="! 839 399[ 754 371 713 343[ 678 318 676 276"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 658 239[ 620 239 620 209[ 620 186 653 186[ 677 186 681 212[ 681 239 658 239"/>
+                                                  <Edge fillStyle0="0" fillStyle1="3" strokeStyle="1" edges="! 641 142[ 686 121 735 137| 740 139| 790 159"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! 790 159| 755 181| 721 204"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

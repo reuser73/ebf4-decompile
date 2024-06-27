@@ -1,0 +1,2283 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 6128" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.statsmenu_2136" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 6128">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#f66a49">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.l = Options.language;
+this.HPi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,HPi.x + 365,HPi.y - 310,{"name":Stats.getString(Stats.HP)},6);
+};
+this.MPi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,MPi.x + 365,MPi.y - 310,{"name":Stats.getString(Stats.MP)},6);
+};
+this.attacki.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,attacki.x + 365,attacki.y - 310,{"name":Stats.getString(Stats.ATTACK)},6);
+};
+this.magicAttacki.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,magicAttacki.x + 365,magicAttacki.y - 310,{"name":Stats.getString(Stats.MAGIC_ATTACK)},6);
+};
+this.defencei.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,defencei.x + 365,defencei.y - 310,{"name":Stats.getString(Stats.DEFENCE)},6);
+};
+this.magicDefencei.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,magicDefencei.x + 365,magicDefencei.y - 310,{"name":Stats.getString(Stats.MAGIC_DEFENCE)},6);
+};
+this.accuracyi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,accuracyi.x + 365,accuracyi.y - 310,{"name":Stats.getString(Stats.ACCURACY)},6);
+};
+this.evadei.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,evadei.x + 365,evadei.y - 310,{"name":Stats.getString(Stats.EVADE)},6);
+};
+this.firei.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,firei.x + 380,firei.y - 300,{"name":Element.getString(Element.FIRE)},6);
+};
+this.thunderi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,thunderi.x + 380,thunderi.y - 300,{"name":Element.getString(Element.THUNDER)},6);
+};
+this.icei.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,icei.x + 380,icei.y - 300,{"name":Element.getString(Element.ICE)},6);
+};
+this.earthi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,earthi.x + 380,earthi.y - 300,{"name":Element.getString(Element.EARTH)},6);
+};
+this.poisoni.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,poisoni.x + 380,poisoni.y - 300,{"name":Element.getString(Element.POISON)},6);
+};
+this.bombi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,bombi.x + 380,bombi.y - 300,{"name":Element.getString(Element.BOMB)},6);
+};
+this.windi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,windi.x + 380,windi.y - 300,{"name":Element.getString(Element.WIND)},6);
+};
+this.wateri.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,wateri.x + 380,wateri.y - 300,{"name":Element.getString(Element.WATER)},6);
+};
+this.holyi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,holyi.x + 380,holyi.y - 300,{"name":Element.getString(Element.HOLY)},6);
+};
+this.darki.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,darki.x + 380,darki.y - 300,{"name":Element.getString(Element.DARK)},6);
+};
+this.burni.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,burni.x + 380,burni.y - 300,{
+      "name":Status.descriptions[13][0][l],
+      "description":Status.descriptions[13][1][l]
+   },7);
+};
+this.stuni.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,stuni.x + 380,stuni.y - 300,{
+      "name":Status.descriptions[20][0][l],
+      "description":Status.descriptions[20][1][l]
+   },7);
+};
+this.freezei.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,freezei.x + 380,freezei.y - 300,{
+      "name":Status.descriptions[15][0][l],
+      "description":Status.descriptions[15][1][l]
+   },7);
+};
+this.tiredi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,tiredi.x + 380,tiredi.y - 300,{
+      "name":Status.descriptions[19][0][l],
+      "description":Status.descriptions[19][1][l]
+   },7);
+};
+this.venomi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,venomi.x + 380,venomi.y - 300,{
+      "name":Status.descriptions[12][0][l],
+      "description":Status.descriptions[12][1][l]
+   },7);
+};
+this.dispeli.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,dispeli.x + 380,dispeli.y - 300,{
+      "name":Status.descriptions[22][0][l],
+      "description":Status.descriptions[22][1][l]
+   },7);
+};
+this.staggeri.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,staggeri.x + 380,staggeri.y - 300,{
+      "name":Status.descriptions[11][0][l],
+      "description":Status.descriptions[11][1][l]
+   },7);
+};
+this.syphoni.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,syphoni.x + 380,syphoni.y - 300,{
+      "name":Status.descriptions[21][0][l],
+      "description":Status.descriptions[21][1][l]
+   },7);
+};
+this.weti.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,weti.x + 380,weti.y - 300,{
+      "name":Status.descriptions[16][0][l],
+      "description":Status.descriptions[16][1][l]
+   },7);
+};
+this.weaki.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,weaki.x + 380,weaki.y - 300,{
+      "name":Status.descriptions[18][0][l],
+      "description":Status.descriptions[18][1][l]
+   },7);
+};
+this.cursei.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,cursei.x + 380,cursei.y - 300,{
+      "name":Status.descriptions[17][0][l],
+      "description":Status.descriptions[17][1][l]
+   },7);
+};
+this.deathi.onRollOverHandler = function(param1:MouseEvent):*
+{
+   GUI.showTooltip(parent,deathi.x + 380,deathi.y - 300,{
+      "name":Status.descriptions[9][0][l],
+      "description":Status.descriptions[9][1][l]
+   },7);
+};
+for each(e in Element.ELEMENTS)
+{
+   m = this[e + "i"];
+   m.buttonMode = true;
+   m.useHandCursor = true;
+   m.onRollOutHandler = function(param1:MouseEvent):*
+   {
+      GUI.removeTooltip();
+   };
+   m.addEventListener(MouseEvent.ROLL_OVER,m.onRollOverHandler);
+   m.addEventListener(MouseEvent.ROLL_OUT,m.onRollOutHandler);
+   m.mouseEnabled = true;
+}
+for each(e in Status.RESISTANCE)
+{
+   m = this[e + "i"];
+   m.buttonMode = true;
+   m.useHandCursor = true;
+   m.onRollOutHandler = function(param1:MouseEvent):*
+   {
+      GUI.removeTooltip();
+   };
+   m.addEventListener(MouseEvent.ROLL_OVER,m.onRollOverHandler);
+   m.addEventListener(MouseEvent.ROLL_OUT,m.onRollOutHandler);
+   m.mouseEnabled = true;
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.init();
+stop();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#97ab61">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6127" centerPoint3DX="133.5" centerPoint3DY="222.3">
+                                             <matrix>
+                                                  <Matrix tx="-56.1" ty="129.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#c1fea0">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="expBar" centerPoint3DX="95.75" centerPoint3DY="0.95">
+                                             <matrix>
+                                                  <Matrix tx="10.5" ty="-1.55" a="1.014373779296875" d="2.4710540771484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#16acf9">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="ap" antiAliasSharpness="0" antiAliasThickness="0" width="167.45" height="18.25" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="13.5" ty="-23.25"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="15" bitmapSize="300" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#dad990">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2161" name="accuracyi" centerPoint3DX="-236.9" centerPoint3DY="192.5">
+                                             <matrix>
+                                                  <Matrix tx="-255.1" ty="176.2" a="0.58551025390625" d="0.5395050048828125" b="-0.58551025390625" c="0.5395050048828125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="2" quality="3" strength="1.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 6" color="#90ff37">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="accuracyf" antiAliasSharpness="0" antiAliasThickness="0" width="107.4" height="12.05" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-265.0" ty="190.85" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="2"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 7" color="#099efa">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="accuracy" antiAliasSharpness="0" antiAliasThickness="0" width="80.5" height="20.65" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-239.4" ty="171.0" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="17" bitmapSize="340" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 8" color="#06c9d8">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2159" name="evadei" centerPoint3DX="-125.05" centerPoint3DY="195.85">
+                                             <matrix>
+                                                  <Matrix tx="-145.15" ty="175.75" a="0.67333984375" d="0.620452880859375" b="-0.180419921875" c="0.1662750244140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="2" quality="3" strength="1.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 9" color="#928097">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="evadef" antiAliasSharpness="0" antiAliasThickness="0" width="107.4" height="12.05" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-156.5" ty="190.85" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="2"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 10" color="#a3d4ac">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="evade" antiAliasSharpness="0" antiAliasThickness="0" width="80.5" height="20.65" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-130.9" ty="171.0" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="17" bitmapSize="340" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 11" color="#e760ca">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2155" name="defencei" centerPoint3DX="-235.65" centerPoint3DY="157.65">
+                                             <matrix>
+                                                  <Matrix tx="-255.75" ty="136.15" a="0.416412353515625" d="0.3837127685546875" b="0.416412353515625" c="-0.3837127685546875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="2" quality="3" strength="1.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 12" color="#a9c983">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="defencef" antiAliasSharpness="0" antiAliasThickness="0" width="107.4" height="12.05" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-265.0" ty="148.85" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="2"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 13" color="#a6aaea">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="defence" antiAliasSharpness="0" antiAliasThickness="0" width="80.5" height="20.65" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-239.4" ty="129.0" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="17" bitmapSize="340" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 14" color="#fdb86c">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2157" name="magicDefencei" centerPoint3DX="-125.8" centerPoint3DY="154.8">
+                                             <matrix>
+                                                  <Matrix tx="-146.55" ty="134.05" a="0.5615692138671875" d="0.5615692138671875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="2" quality="3" strength="1.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 15" color="#e8cf32">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="magicDefencef" antiAliasSharpness="0" antiAliasThickness="0" width="107.4" height="12.05" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-156.5" ty="148.85" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="2"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 16" color="#98bf6e">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="magicDefence" antiAliasSharpness="0" antiAliasThickness="0" width="80.5" height="20.65" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-130.9" ty="129.0" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="17" bitmapSize="340" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 17" color="#814cc3">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2149" name="attacki" centerPoint3DX="-233.85" centerPoint3DY="114.5">
+                                             <matrix>
+                                                  <Matrix tx="-251.65" ty="90.0" a="0.441864013671875" d="0.4071502685546875" b="0.441864013671875" c="-0.4071502685546875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="2" quality="3" strength="1.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 18" color="#9ed0e9">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="attackf" antiAliasSharpness="0" antiAliasThickness="0" width="107.4" height="12.05" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-265.0" ty="106.85" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="2"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 19" color="#c8aa9f">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="attack" antiAliasSharpness="0" antiAliasThickness="0" width="80.5" height="20.65" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-239.4" ty="87.0" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="17" bitmapSize="340" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 20" color="#f16ef6">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2151" name="magicAttacki" centerPoint3DX="-124.8" centerPoint3DY="114.2">
+                                             <matrix>
+                                                  <Matrix tx="-147.1" ty="92.1" a="0.62823486328125" d="0.62823486328125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="2" quality="3" strength="1.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 21" color="#c619c6">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="magicAttackf" antiAliasSharpness="0" antiAliasThickness="0" width="107.4" height="12.05" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-156.5" ty="106.85" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="2"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 22" color="#c1cadf">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="magicAttack" antiAliasSharpness="0" antiAliasThickness="0" width="80.5" height="20.65" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-130.9" ty="87.0" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="17" bitmapSize="340" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 23" color="#788da5">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="HPf" antiAliasSharpness="0" antiAliasThickness="0" width="107.4" height="12.05" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-265.0" ty="64.85" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="2"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 24" color="#5952eb">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="HP" antiAliasSharpness="0" antiAliasThickness="0" width="80.5" height="20.65" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-239.4" ty="45.0" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="17" bitmapSize="340" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 25" color="#e1ea37">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2163" name="HPi" centerPoint3DX="-234.4" centerPoint3DY="67.75">
+                                             <matrix>
+                                                  <Matrix tx="-254.5" ty="47.65" a="0.441864013671875" d="0.4071502685546875" b="-0.441864013671875" c="0.4071502685546875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="2" quality="3" strength="1.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 26" color="#ba98b0">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2165" name="MPi" centerPoint3DX="-125.2" centerPoint3DY="68.45">
+                                             <matrix>
+                                                  <Matrix tx="-145.3" ty="48.35" a="0.416412353515625" d="0.3837127685546875" b="-0.416412353515625" c="0.3837127685546875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="2" quality="3" strength="1.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 27" color="#8af1c7">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="MPf" antiAliasSharpness="0" antiAliasThickness="0" width="107.4" height="12.05" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-156.5" ty="64.85" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="2"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 28" color="#d170aa">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="MP" antiAliasSharpness="0" antiAliasThickness="0" width="80.5" height="20.65" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-130.9" ty="45.0" a="0.9517822265625" d="0.9517822265625"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="17" bitmapSize="340" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 29" color="#77b2f0">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMStaticText left="0" antiAliasSharpness="0" antiAliasThickness="0" width="448" height="611" autoExpand="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-30.0" ty="-21.8" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>AP:</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="13.0" bitmapSize="260" letterSpacing="0" indent="0" leftMargin="7" lineSpacing="2" rightMargin="0" fillColor="#ffffff" face="Verdana Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters>&#13;EXP:</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" rotation="true" size="13.0" bitmapSize="260" letterSpacing="0" indent="0" leftMargin="2" lineSpacing="2" rightMargin="0" fillColor="#ffffff" face="Verdana Bold"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 30" color="#a3ce31">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="death" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="147.8" ty="200.15" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 31" color="#e76adc">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="dispel" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="147.8" ty="167.4" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 32" color="#d9b8fa">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="curse" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="107.8" ty="200.15" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 33" color="#87db40">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="venom" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="107.8" ty="167.4" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 34" color="#1bc2b4">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="weak" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="69.8" ty="200.15" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 35" color="#97f266">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="tired" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="69.8" ty="167.4" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 36" color="#e706bf">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="wet" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="34.8" ty="200.15" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 37" color="#ed1deb">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="freeze" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="34.8" ty="167.4" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 38" color="#66d3a9">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="syphon" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-1.7" ty="200.15" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 39" color="#ddf754">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="stun" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-1.7" ty="167.4" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 40" color="#8afef4">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="stagger" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-33.7" ty="200.15" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 41" color="#7b34fd">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="burn" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-33.7" ty="167.4" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="10" bitmapSize="200" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 42" color="#279bf0">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="dark" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="146.0" ty="103.0" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="11" bitmapSize="220" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 43" color="#f328d0">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="poison" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="146.0" ty="70.75" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="11" bitmapSize="220" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 44" color="#a63de0">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="holy" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="100.5" ty="103.0" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="11" bitmapSize="220" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 45" color="#b9f391">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="earth" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="100.5" ty="70.75" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="11" bitmapSize="220" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 46" color="#1fb7bd">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="water" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="55.5" ty="103.0" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="11" bitmapSize="220" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 47" color="#849cc8">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="ice" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="55.5" ty="70.75" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="11" bitmapSize="220" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 48" color="#2b64f5">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="wind" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="11.0" ty="103.0" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="11" bitmapSize="220" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 49" color="#5ff9eb">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="thunder" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="11.0" ty="70.75" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="11" bitmapSize="220" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 50" color="#ba408b">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="bomb" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-34.0" ty="103.0" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="11" bitmapSize="220" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 51" color="#dfc806">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="fire" antiAliasSharpness="0" antiAliasThickness="0" width="41.25" height="13.3" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-34.0" ty="70.75" a="1.0" d="0.9831085205078125"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="11" bitmapSize="220" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1" blurY="1" color="#000000" distance="1" quality="1" strength="3"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 52" color="#de16c9">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6071" name="venomi" centerPoint3DX="131.95" centerPoint3DY="166.7">
+                                             <matrix>
+                                                  <Matrix tx="113.3" ty="150.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 53" color="#f9f4bf">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6070" name="weti" centerPoint3DX="56.75" centerPoint3DY="200.4">
+                                             <matrix>
+                                                  <Matrix tx="42.9" ty="185.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 54" color="#da83e9">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6068" name="burni" centerPoint3DX="-14.9" centerPoint3DY="164.8">
+                                             <matrix>
+                                                  <Matrix tx="-30.35" ty="151.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 55" color="#d87555">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6067" name="staggeri" centerPoint3DX="-12.8" centerPoint3DY="200.5">
+                                             <matrix>
+                                                  <Matrix tx="-26.4" ty="185.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 56" color="#98a684">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2145" name="dispeli" centerPoint3DX="165.05" centerPoint3DY="163.55">
+                                             <matrix>
+                                                  <Matrix tx="152.55" ty="149.95" a="1.1199951171875" d="1.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="3" blurY="3" color="#ffffff" inner="true" quality="3" strength="3.1"/>
+                                                  <GlowFilter blurX="5" blurY="5" color="#ffcc00" quality="1" strength="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 57" color="#7c878c">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6065" name="freezei" centerPoint3DX="54.9" centerPoint3DY="166.45">
+                                             <matrix>
+                                                  <Matrix tx="41.5" ty="151.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 58" color="#ec4194">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2125" name="syphoni" centerPoint3DX="27.65" centerPoint3DY="207.05">
+                                             <matrix>
+                                                  <Matrix tx="6.8" ty="186.65" a="0.7159881591796875" d="0.7159881591796875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#000000" quality="1" strength="10"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 59" color="#ec218f">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2127" name="stuni" centerPoint3DX="17.25" centerPoint3DY="173.85">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="152.85" a="0.78656005859375" d="0.78656005859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 60" color="#dfee13">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2135" name="weaki" centerPoint3DX="90.85" centerPoint3DY="201.9">
+                                             <matrix>
+                                                  <Matrix tx="77.35" ty="182.85" a="0.9807891845703125" d="0.839385986328125" b="0.0304107666015625" c="-0.0260467529296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#ff0000" quality="1" strength="1.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 61" color="#b6e885">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2137" name="cursei" centerPoint3DX="127.05" centerPoint3DY="200.85">
+                                             <matrix>
+                                                  <Matrix tx="112.65" ty="186.9" a="1.00970458984375" d="1.00970458984375" b="0.02667236328125" c="-0.02667236328125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.7109375"/>
+                                             </color>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#000000" quality="1" strength="2.5"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 62" color="#93cf5e">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2139" name="tiredi" centerPoint3DX="94.2" centerPoint3DY="167.25">
+                                             <matrix>
+                                                  <Matrix tx="78.25" ty="151.05" a="0.9668426513671875" d="0.9668426513671875" b="-0.01177978515625" c="0.01177978515625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="2" blurY="2" color="#666600" quality="1" strength="2.2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 63" color="#89cbda">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2141" name="deathi" centerPoint3DX="173.6" centerPoint3DY="203.05">
+                                             <matrix>
+                                                  <Matrix tx="155.1" ty="183.95" a="0.821929931640625" d="0.821929931640625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <GlowFilter blurX="3" blurY="3" color="#ff0000" quality="1" strength="2"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 64" color="#bbaf75">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2122" name="thunderi" centerPoint3DX="24.35" centerPoint3DY="61.05">
+                                             <matrix>
+                                                  <Matrix tx="16.2" ty="52.45" a="1.7729339599609375" d="1.7729339599609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 65" color="#62e795">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2120" name="firei" centerPoint3DX="-19.65" centerPoint3DY="61.2">
+                                             <matrix>
+                                                  <Matrix tx="-28.35" ty="52.8" a="1.7729339599609375" d="1.7729339599609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 66" color="#ae45a4">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2118" name="icei" centerPoint3DX="70.15" centerPoint3DY="61.2">
+                                             <matrix>
+                                                  <Matrix tx="61.85" ty="52.7" a="1.7729339599609375" d="1.7729339599609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 67" color="#a8f491">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2116" name="wateri" centerPoint3DX="69.45" centerPoint3DY="93.55">
+                                             <matrix>
+                                                  <Matrix tx="60.5" ty="85.15" a="1.7729339599609375" d="1.7729339599609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 68" color="#d99cfc">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2114" name="poisoni" centerPoint3DX="159.85" centerPoint3DY="61.05">
+                                             <matrix>
+                                                  <Matrix tx="151.6" ty="52.9" a="1.7729339599609375" d="1.7729339599609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 69" color="#7acac0">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2112" name="earthi" centerPoint3DX="113.05" centerPoint3DY="59.8">
+                                             <matrix>
+                                                  <Matrix tx="104.9" ty="51.45" a="1.950225830078125" d="1.950225830078125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 70" color="#07eeba">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2110" name="bombi" centerPoint3DX="-20.8" centerPoint3DY="93.25">
+                                             <matrix>
+                                                  <Matrix tx="-29.35" ty="84.65" a="1.7729339599609375" d="1.7729339599609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 71" color="#fac3b6">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2108" name="windi" centerPoint3DX="25.7" centerPoint3DY="93.65">
+                                             <matrix>
+                                                  <Matrix tx="17.15" ty="85.25" a="1.7729339599609375" d="1.7729339599609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 72" color="#97dea8">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2106" name="darki" centerPoint3DX="161.2" centerPoint3DY="95.7">
+                                             <matrix>
+                                                  <Matrix tx="152.6" ty="87.25" a="1.6473846435546875" d="1.6473846435546875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 73" color="#c168d0">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2104" name="holyi" centerPoint3DX="115.1" centerPoint3DY="94.25">
+                                             <matrix>
+                                                  <Matrix tx="105.95" ty="85.85" a="1.7729339599609375" d="1.7729339599609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 74" color="#60abed">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2093" name="icon" centerPoint3DX="-242.65" centerPoint3DY="-2.2" cacheAsBitmap="true">
+                                             <matrix>
+                                                  <Matrix tx="-272.05" ty="-31.2" a="0.9524688720703125" d="0.9524688720703125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 75" color="#dff202">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="player" antiAliasSharpness="0" antiAliasThickness="0" width="167.45" height="25.5" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-218.9" ty="-26.7"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="21" bitmapSize="420" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 76" color="#d5ad08">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="level" antiAliasSharpness="0" antiAliasThickness="0" width="167.45" height="15.350000000000001" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="-218.4" ty="0.2"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters/>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="left" rotation="true" indent="0.0" leftMargin="0.0" autoKern="false" lineSpacing="2.0" rightMargin="0.0" size="12" bitmapSize="240" face="Verdana-Bold" fillColor=""/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="1.5" blurY="1.5" color="#000000" distance="1" quality="1" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 77" color="#5ef657">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#014bba"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#ffffff"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes/>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 3880 -806| 3880 -826| 3930 -826| 3930 -806"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 3930 -806| 3975 -806| 3975 4586| 3930 4586"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 3930 4586| 3930 4606| 3880 4606| 3880 4586"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 3880 4586| 3830 4586| 3830 -806| 3880 -806"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 3880 -806| 3880 4586"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 3930 -806| 3930 4586"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! -826 -806| -826 4586| -776 4586| -776 -806| -826 -806"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 78" color="#aa78f2">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 5799" name="pointer" centerPoint3DX="-71.05" centerPoint3DY="250.15">
+                                             <matrix>
+                                                  <Matrix tx="-76.55" ty="243.1" a="0.0" d="0.0" b="-1.0" c="-1.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 79" color="#9d6ae1">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#000000" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#014bba" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="4">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="2024.45" ty="-36.1" a="-15.259490966796875" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="5">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="938.05" ty="-36.1" a="-7.013336181640625" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="6">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="388.55" ty="-36.1" a="-0.1903076171875" d="0.1902618408203125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="7">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="388.55" ty="-34.45" a="-0.1903076171875" d="0.1309661865234375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="8">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="671.15" ty="-67.9" a="-4.64544677734375" d="0.3360595703125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="9">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="671.15" ty="36.4" a="-4.64544677734375" d="0.24591064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="10">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="2434.1" ty="-67.9" a="-16.479873657226562" d="0.3360595703125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="11">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="907.4" ty="-36.1" a="-7.6651458740234375" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="12">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="452.35" ty="-36.1" a="-4.64544677734375" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="13">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="2228.5" ty="-36.1" a="-16.677703857421875" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="14">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-203.6" ty="-36.1" a="-0.3529052734375" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="15">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-246.95" ty="-36.1" a="-0.1255645751953125" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="16">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-231.45" ty="-36.1" a="-0.1903076171875" d="0.1902618408203125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="17">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-198.7" ty="-36.6" a="-0.3416290283203125" d="0.2459564208984375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="18">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-198.7" ty="-34.45" a="-0.3416290283203125" d="0.1309661865234375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="19">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-198.7" ty="-40.45" a="-0.3416290283203125" d="0.1789703369140625"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="20">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-198.7" ty="-67.9" a="-0.3416290283203125" d="0.33612060546875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="21">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="1337.95" ty="-67.9" a="-9.18035888671875" d="0.3360595703125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="22">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="2434.1" ty="-72.35" a="-16.479873657226562" d="0.39996337890625"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="23">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="1337.95" ty="-72.35" a="-9.18035888671875" d="0.39996337890625"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="24">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-198.7" ty="-88.6" a="-0.3416290283203125" d="0.4000396728515625"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="25">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-198.7" ty="-171.7" a="-0.3416290283203125" d="0.579376220703125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="26">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-198.7" ty="-72.35" a="-0.3416290283203125" d="0.4000396728515625"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="27">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-198.7" ty="36.4" a="-0.3416290283203125" d="0.2459564208984375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="28">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-246.65" ty="79.15" a="-0.1255645751953125" d="0.190216064453125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="29">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-326.0" ty="-81.0" a="0.6514892578125" d="0.6514892578125"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#81c0fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#4199f1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="4" fillStyle1="5" strokeStyle="0" edges="! 694 -740| 694 -770"/>
+                                                  <Edge fillStyle0="4" fillStyle1="3" strokeStyle="0" edges="! 694 -770| -3445 -770"/>
+                                                  <Edge fillStyle0="4" fillStyle1="13" strokeStyle="0" edges="! -3445 -770| -3445 -740"/>
+                                                  <Edge fillStyle0="4" fillStyle1="29" strokeStyle="0" edges="! -3445 -740| 694 -740"/>
+                                                  <Edge fillStyle0="5" fillStyle1="29" strokeStyle="0" edges="! 694 -740| 1496 -770"/>
+                                                  <Edge fillStyle0="5" fillStyle1="3" strokeStyle="0" edges="! 1496 -770| 694 -770"/>
+                                                  <Edge fillStyle0="3" fillStyle1="29" strokeStyle="0" edges="! 1496 -770| 3934 -770"/>
+                                                  <Edge fillStyle0="3" fillStyle1="0" strokeStyle="0" edges="! 3934 -770| 8154 -770| 8170 -764| 8171 -763| 8171 -762"/>
+                                                  <Edge fillStyle0="3" fillStyle1="6" strokeStyle="0" edges="! 8171 -762| 8178 -753| 8180 -742| 8180 -740"/>
+                                                  <Edge fillStyle0="3" fillStyle1="0" strokeStyle="0" edges="! 8180 -740| 8180 -555"/>
+                                                  <Edge fillStyle0="3" fillStyle1="7" strokeStyle="0" edges="! 8180 -555| 8180 -440"/>
+                                                  <Edge fillStyle0="3" fillStyle1="0" strokeStyle="0" edges="! 8180 -440| 8180 4544| 8174 4558| 8171 4561| 8170 4562| 8154 4568| 3925 4568"/>
+                                                  <Edge fillStyle0="3" fillStyle1="9" strokeStyle="0" edges="! 3925 4568| -777 4568"/>
+                                                  <Edge fillStyle0="3" fillStyle1="10" strokeStyle="0" edges="! -777 4568| -5506 4568| -5519 4564| -5519 4554| -5522 4544"/>
+                                                  <Edge fillStyle0="3" fillStyle1="28" strokeStyle="0" edges="! -5522 4544| -5527 4544"/>
+                                                  <Edge fillStyle0="3" fillStyle1="27" strokeStyle="0" edges="! -5527 4544| -5530 4544| -5530 4543"/>
+                                                  <Edge fillStyle0="3" fillStyle1="10" strokeStyle="0" edges="! -5530 4543| -5530 3689"/>
+                                                  <Edge fillStyle0="3" fillStyle1="26" strokeStyle="0" edges="! -5530 3689| -5530 3201"/>
+                                                  <Edge fillStyle0="3" fillStyle1="25" strokeStyle="0" edges="! -5530 3201| -5530 1835"/>
+                                                  <Edge fillStyle0="3" fillStyle1="24" strokeStyle="0" edges="! -5530 1835| -5530 728"/>
+                                                  <Edge fillStyle0="3" fillStyle1="20" strokeStyle="0" edges="! -5530 728| -5530 -185"/>
+                                                  <Edge fillStyle0="3" fillStyle1="19" strokeStyle="0" edges="! -5530 -185| -5530 -440"/>
+                                                  <Edge fillStyle0="3" fillStyle1="18" strokeStyle="0" edges="! -5530 -440| -5530 -555"/>
+                                                  <Edge fillStyle0="3" fillStyle1="17" strokeStyle="0" edges="! -5530 -555| -5530 -740"/>
+                                                  <Edge fillStyle0="3" fillStyle1="16" strokeStyle="0" edges="! -5530 -740| -5533 -740| -5533 -741| -5530 -753| -5527 -758| -5523 -762| -5519 -765"/>
+                                                  <Edge fillStyle0="3" fillStyle1="15" strokeStyle="0" edges="! -5519 -765| -5519 -769| -5512 -770| -5418 -770"/>
+                                                  <Edge fillStyle0="3" fillStyle1="14" strokeStyle="0" edges="! -5418 -770| -5371 -770"/>
+                                                  <Edge fillStyle0="3" fillStyle1="12" strokeStyle="0" edges="! -5371 -770| -5230 -770"/>
+                                                  <Edge fillStyle0="3" fillStyle1="11" strokeStyle="0" edges="! -5230 -770| -5135 -770"/>
+                                                  <Edge fillStyle0="3" fillStyle1="13" strokeStyle="0" edges="! -5135 -770| -3445 -770"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 8300 4568| 8307 4566| 8310 4558| 8310 -753| 8307 -765| 8300 -769"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="! 8300 -769| 8300 -740"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 8300 -740| 8290 -740| 8290 4544| 8300 4544"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="! 8300 4544| 8300 4568"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 8300 4568| 8300 4586[ 8302 4678 8201 4678| 8170 4678"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! 8170 4678| 8170 4677"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! 8170 4677| -5519 4677"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! -5519 4677| -5519 4678"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! -5519 4678| -5567 4678| -5575 4678"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! -5575 4678| -5575 4676"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! -5575 4676[ -5644 4662 -5643 4586| -5649 4568"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! -5649 4568| -5650 4568| -5657 4566| -5660 4558| -5660 -753| -5657 -765| -5653 -768"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! -5653 -768| -5653 -788[ -5654 -864 -5585 -877"/>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! -5585 -877| -5575 -880| -5527 -879"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! -5527 -879| -5519 -880"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="1" edges="! -5519 -880| 8201 -880[ 8302 -880 8300 -788| 8300 -769"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! 8201 -820| -5556 -820[ -5576 -820 -5585 -809| -5593 -788| -5593 -740| -5600 -740| -5600 4544| -5594 4542| -5583 4586| -5575 4608[ -5566 4618 -5546 4618| -5519 4618| -5519 4617| 8171 4617| 8171 4618| 8201 4618[ 8239 4618 8240 4586| 8240 -788[ 8239 -820 8201 -820"/>
+                                                  <Edge fillStyle0="7" fillStyle1="0" strokeStyle="0" edges="! 8180 -555| 8171 -555| 8171 -440| 8180 -440"/>
+                                                  <Edge fillStyle0="6" fillStyle1="0" strokeStyle="0" edges="! 8171 -762| 8171 -740| 8180 -740"/>
+                                                  <Edge fillStyle0="0" fillStyle1="29" strokeStyle="0" edges="! 3934 -770| 3934 535| 3925 535"/>
+                                                  <Edge fillStyle0="0" fillStyle1="8" strokeStyle="0" edges="! 3925 535| 3925 728"/>
+                                                  <Edge fillStyle0="0" fillStyle1="10" strokeStyle="0" edges="! 3925 728| 3925 4365"/>
+                                                  <Edge fillStyle0="0" fillStyle1="9" strokeStyle="0" edges="! 3925 4365| 3925 4568"/>
+                                                  <Edge fillStyle0="29" fillStyle1="11" strokeStyle="0" edges="! -5135 -740| -5230 -740"/>
+                                                  <Edge fillStyle0="29" fillStyle1="12" strokeStyle="0" edges="! -5230 -740| -5371 -740"/>
+                                                  <Edge fillStyle0="29" fillStyle1="14" strokeStyle="0" edges="! -5371 -740| -5418 -740"/>
+                                                  <Edge fillStyle0="29" fillStyle1="15" strokeStyle="0" edges="! -5418 -740| -5519 -740"/>
+                                                  <Edge fillStyle0="29" fillStyle1="17" strokeStyle="0" edges="! -5519 -740| -5519 -555"/>
+                                                  <Edge fillStyle0="29" fillStyle1="18" strokeStyle="0" edges="! -5519 -555| -5519 -440"/>
+                                                  <Edge fillStyle0="29" fillStyle1="19" strokeStyle="0" edges="! -5519 -440| -5519 -185"/>
+                                                  <Edge fillStyle0="29" fillStyle1="20" strokeStyle="0" edges="! -5519 -185| -5519 535"/>
+                                                  <Edge fillStyle0="29" fillStyle1="10" strokeStyle="0" edges="! -5519 535| -427 535"/>
+                                                  <Edge fillStyle0="29" fillStyle1="21" strokeStyle="0" edges="! -427 535| -239 535"/>
+                                                  <Edge fillStyle0="29" fillStyle1="8" strokeStyle="0" edges="! -239 535| 3925 535"/>
+                                                  <Edge fillStyle0="12" fillStyle1="11" strokeStyle="0" edges="! -5230 -740| -5230 -770"/>
+                                                  <Edge fillStyle0="13" fillStyle1="11" strokeStyle="0" edges="! -5135 -770| -5135 -740"/>
+                                                  <Edge fillStyle0="13" fillStyle1="29" strokeStyle="0" edges="! -5135 -740| -3445 -740"/>
+                                                  <Edge fillStyle0="0" fillStyle1="2" strokeStyle="0" edges="! -5585 -877| -5527 -879"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! -5653 -740| -5640 -740| -5640 4544| -5650 4554"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="1" edges="! -5650 4554| -5650 4562| -5649 4568"/>
+                                                  <Edge fillStyle0="18" fillStyle1="17" strokeStyle="0" edges="! -5519 -555| -5530 -555"/>
+                                                  <Edge fillStyle0="16" fillStyle1="17" strokeStyle="0" edges="! -5530 -740| -5519 -740"/>
+                                                  <Edge fillStyle0="16" fillStyle1="15" strokeStyle="0" edges="! -5519 -740| -5519 -765"/>
+                                                  <Edge fillStyle0="14" fillStyle1="15" strokeStyle="0" edges="! -5418 -770| -5418 -740"/>
+                                                  <Edge fillStyle0="12" fillStyle1="14" strokeStyle="0" edges="! -5371 -770| -5371 -740"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="1" edges="! -5653 -740| -5653 -768"/>
+                                                  <Edge fillStyle0="18" fillStyle1="19" strokeStyle="0" edges="! -5530 -440| -5519 -440"/>
+                                                  <Edge fillStyle0="20" fillStyle1="19" strokeStyle="0" edges="! -5519 -185| -5530 -185"/>
+                                                  <Edge fillStyle0="8" fillStyle1="21" strokeStyle="0" edges="! -239 535| -239 728"/>
+                                                  <Edge fillStyle0="8" fillStyle1="10" strokeStyle="0" edges="! -239 728| 3925 728"/>
+                                                  <Edge fillStyle0="10" fillStyle1="21" strokeStyle="0" edges="! -239 728| -427 728| -427 535"/>
+                                                  <Edge fillStyle0="22" fillStyle1="10" strokeStyle="0" edges="! -427 3201| -777 3201| -777 3689| -427 3689"/>
+                                                  <Edge fillStyle0="22" fillStyle1="23" strokeStyle="0" edges="! -427 3689| -427 3201"/>
+                                                  <Edge fillStyle0="10" fillStyle1="23" strokeStyle="0" edges="! -427 3201| -239 3201| -239 3689| -427 3689"/>
+                                                  <Edge fillStyle0="24" fillStyle1="20" strokeStyle="0" edges="! -5519 728| -5530 728"/>
+                                                  <Edge fillStyle0="10" fillStyle1="20" strokeStyle="0" edges="! -5519 535| -5519 728"/>
+                                                  <Edge fillStyle0="10" fillStyle1="24" strokeStyle="0" edges="! -5519 728| -5519 1835"/>
+                                                  <Edge fillStyle0="10" fillStyle1="25" strokeStyle="0" edges="! -5519 1835| -5519 3201"/>
+                                                  <Edge fillStyle0="10" fillStyle1="26" strokeStyle="0" edges="! -5519 3201| -5519 3689| -5530 3689"/>
+                                                  <Edge fillStyle0="25" fillStyle1="24" strokeStyle="0" edges="! -5519 1835| -5530 1835"/>
+                                                  <Edge fillStyle0="26" fillStyle1="25" strokeStyle="0" edges="! -5519 3201| -5530 3201"/>
+                                                  <Edge fillStyle0="28" fillStyle1="27" strokeStyle="0" edges="! -5527 4543| -5527 4544"/>
+                                                  <Edge fillStyle0="10" fillStyle1="28" strokeStyle="0" edges="! -5527 4543| -5519 4543| -5519 4544| -5522 4544"/>
+                                                  <Edge fillStyle0="10" fillStyle1="27" strokeStyle="0" edges="! -5530 4543| -5527 4543"/>
+                                                  <Edge fillStyle0="2" fillStyle1="2" strokeStyle="1" edges="! -5567 4678| -5575 4676"/>
+                                                  <Edge fillStyle0="10" fillStyle1="9" strokeStyle="0" edges="! -777 4568| -777 4365| 3925 4365"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 80" color="#27e4d8">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 5800" name="fader" centerPoint3DX="-113.3" centerPoint3DY="370.75">
+                                             <matrix>
+                                                  <Matrix tx="-113.3" ty="370.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 81" color="#4e93bc">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 6059" centerPoint3DX="138.95" centerPoint3DY="161.85">
+                                             <matrix>
+                                                  <Matrix tx="-55.15" ty="-41.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 82" color="#a89055" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="2" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills/>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="0" fillStyle1="0" strokeStyle="1" edges="! -1099 -813| 3302 -813| 3302 4639| -1099 4639| -1099 -813"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

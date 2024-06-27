@@ -1,0 +1,199 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 5186" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.pushblock_459" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 5186">
+               <layers>
+                    <DOMLayer name="Labels Layer" color="#dc9ce0">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728" name="normal" labelType="name">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728" name="push" labelType="name">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Script Layer" color="#1680f1">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.state = 0;
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <Actionscript>
+                                        <script>stop();
+if(Maps.blockData[parent.currentFrame])
+{
+   this.x = Maps.blockData[parent.currentFrame][name.substring(4)][0] * 50;
+   this.y = Maps.blockData[parent.currentFrame][name.substring(4)][1] * 40 - 12;
+}
+this.X = (x + 25) / 50;
+this.Y = (y + 20) / 40;
+if(Boolean(Maps.blockDataLoad) &amp;&amp; Boolean(Maps.blockDataLoad[name.substring(4)]))
+{
+   this.X = Maps.blockDataLoad[name.substring(4)][0];
+   this.Y = Maps.blockDataLoad[name.substring(4)][1];
+   x = this.X * 50;
+   y = this.Y * 40 - 12;
+   Maps.blockDataLoad[name.substring(4)] = null;
+}
+(parent as Maps).addTile(8,x + 25,y + 20);
+try
+{
+   parent.setChildIndex(this,parent.getChildIndex(parent["layer" + (this.Y + 1)]));
+}
+catch(errObject:Error)
+{
+}
+if(this.state)
+{
+   parent.checkBlocks();
+}
+if(this.state == 0)
+{
+   parent.addObject({
+      "mc":this.name,
+      "type":Maps.PUSH_BLOCK
+   });
+   this.state = 1;
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <Actionscript>
+                                        <script>(parent as Maps).addTile(4,x + 25,y + 20);
+parent.busy = true;
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <Actionscript>
+                                        <script>Medals.unlock(Medals.strength);
+this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.push();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="15" keyMode="9728">
+                                   <Actionscript>
+                                        <script>gotoAndStop("normal");
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#e9dd54" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="27" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 5184" centerPoint3DX="25.65" centerPoint3DY="26.45">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Sound Layer 0" color="#42a8bf">
+                         <frames>
+                              <DOMFrame index="0" duration="5" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="5" duration="22" keyMode="9728" soundName="sound5185.wav" outPoint44="48208" soundEffect="custom">
+                                   <SoundEnvelope>
+                                        <SoundEnvelopePoint mark44="0" level0="0" level1="0"/>
+                                        <SoundEnvelopePoint mark44="4000" level0="17510" level1="17009"/>
+                                        <SoundEnvelopePoint mark44="8200" level0="17510" level1="16759"/>
+                                        <SoundEnvelopePoint mark44="16508" level0="4252" level1="5003"/>
+                                        <SoundEnvelopePoint mark44="27908" level0="0" level1="0"/>
+                                   </SoundEnvelope>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

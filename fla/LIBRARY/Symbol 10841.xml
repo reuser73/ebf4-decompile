@@ -1,0 +1,733 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 10841" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.battleAwardsvictory_1452" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 10841">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#abafef">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>this.done.addEventListener(MouseEvent.CLICK,function(param1:MouseEvent):*
+{
+   Battle.exit();
+   done.visible = false;
+});
+visible = false;
+this.k = 0;
+this.a = [];
+this.expDivide = 4;
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#d8fd52">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 146" name="done" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="5.5" ty="444.5" a="2.53497314453125" d="2.32891845703125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#f000cd">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10840" name="lvl3" centerPoint3DX="254.8" centerPoint3DY="199.75">
+                                             <matrix>
+                                                  <Matrix tx="185.45" ty="189.7"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#7dae55">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10840" name="lvl2" centerPoint3DX="254.8" centerPoint3DY="170.25">
+                                             <matrix>
+                                                  <Matrix tx="185.45" ty="160.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#a7759e">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10840" name="lvl1" centerPoint3DX="94.8" centerPoint3DY="199.75">
+                                             <matrix>
+                                                  <Matrix tx="25.45" ty="189.7"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 6" color="#d13eef">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10840" name="lvl0" centerPoint3DX="94.8" centerPoint3DY="170.25">
+                                             <matrix>
+                                                  <Matrix tx="25.45" ty="160.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 7" color="#abd6c9">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10641" name="icon3" centerPoint3DX="197.55" centerPoint3DY="211.9" cacheAsBitmap="true">
+                                             <matrix>
+                                                  <Matrix tx="168.15" ty="182.9" a="0.69451904296875" d="0.69451904296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 8" color="#f396cb">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10641" name="icon2" centerPoint3DX="197.55" centerPoint3DY="182.9" cacheAsBitmap="true">
+                                             <matrix>
+                                                  <Matrix tx="168.15" ty="153.9" a="0.69451904296875" d="0.69451904296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 9" color="#a858c4">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10641" name="icon1" centerPoint3DX="37.55" centerPoint3DY="212.2" cacheAsBitmap="true">
+                                             <matrix>
+                                                  <Matrix tx="8.15" ty="183.2" a="0.69451904296875" d="0.69451904296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 10" color="#ba3dc0">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10641" name="icon0" centerPoint3DX="37.55" centerPoint3DY="183.7" cacheAsBitmap="true">
+                                             <matrix>
+                                                  <Matrix tx="8.15" ty="154.7" a="0.69451904296875" d="0.69451904296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 11" color="#e172a3">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="expBar3" centerPoint3DX="285.7" centerPoint3DY="196.95">
+                                             <matrix>
+                                                  <Matrix tx="200.45" ty="194.45" a="0.7020721435546875" d="4.078857421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 12" color="#fd4ad8">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="expBar2" centerPoint3DX="285.7" centerPoint3DY="168.15">
+                                             <matrix>
+                                                  <Matrix tx="200.45" ty="165.65" a="0.7020721435546875" d="4.078857421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 13" color="#bded28">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="expBar1" centerPoint3DX="125.7" centerPoint3DY="197.85">
+                                             <matrix>
+                                                  <Matrix tx="40.45" ty="195.35" a="0.7020721435546875" d="4.078857421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 14" color="#78c747">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="expBar0" centerPoint3DX="125.7" centerPoint3DY="168.9">
+                                             <matrix>
+                                                  <Matrix tx="40.45" ty="166.4" a="0.7020721435546875" d="4.078857421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 15" color="#33eb88">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="goldBox" antiAliasSharpness="0" antiAliasThickness="0" width="150.6" height="32.8" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="14.45" ty="77.0" a="0.8304290771484375" d="0.8304290771484375"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>9001 $</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="true" lineSpacing="2.0" rightMargin="0.0" size="22" bitmapSize="440" face="Verdana Bold" fillColor="#ffff99"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="3" blurY="3" color="#996600" quality="1" strength="4.6"/>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="1" quality="1" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 16" color="#e6e39b">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="apBox" antiAliasSharpness="0" antiAliasThickness="0" width="154.1" height="32.8" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="188.75" ty="77.5" a="0.8304290771484375" d="0.8304290771484375"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>9001 AP</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="true" lineSpacing="2.0" rightMargin="0.0" size="22" bitmapSize="440" face="Verdana Bold" fillColor="#c9fe94"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="3" blurY="3" color="#666600" quality="1" strength="3.1"/>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="1" quality="1" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 17" color="#72e759">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#b3fe92" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#154301" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <SolidColor color="#277e01" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="4">
+                                                       <SolidColor color="#33cc00" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="5">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="6">
+                                                       <SolidColor color="#2d8f01" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="7">
+                                                       <SolidColor color="#876b01" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="8">
+                                                       <SolidColor color="#ffcc00" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="9">
+                                                       <SolidColor color="#caa202" alpha="1.0"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="2.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 5119 1574| 5129 1585[ 5172 1632 5194 1688[ 5207 1722 5213 1762| 5217 1817[ 5217 1932 5154 2020"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="1" edges="! 5154 2020[ 5238 1917 5238 1779[ 5238 1619 5126 1506[ 5013 1393 4853 1393[ 4693 1393 4580 1506[ 4467 1619 4467 1779[ 4467 1939 4580 2051[ 4633 2104 4698 2133"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! 4698 2133| 4639 2092"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 4639 2092| 4612 2069[ 4584 2041 4564 2010| 4558 2000| 4540 1969"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! 4540 1969[ 4508 1900 4508 1817| 4510 1782[ 4523 1797 4543 1797| 4545 1797| 4552 1797[ 4589 1791 4605 1743"/>
+                                                  <Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! 4605 1743| 4608 1731| 4609 1732| 4612 1735"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! 4612 1735[ 4643 1759 4673 1759| 4692 1757| 4705 1754| 4714 1751[ 4745 1740 4768 1710"/>
+                                                  <Edge fillStyle0="1" fillStyle1="2" strokeStyle="0" edges="! 4768 1710| 4812 1628"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! 4812 1628| 4814 1624| 4821 1603| 4824 1591| 4828 1575[ 4828 1537 4796 1502| 4794 1500[ 4778 1484 4761 1478[ 4809 1463 4864 1463[ 5009 1463 5113 1568| 5119 1574"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 5119 1574| 5122 1580[ 5166 1668 5166 1740[ 5166 1826 5128 1917"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 5128 1917| 5131 1916[ 5145 1911 5151 1929| 5153 1950[ 5153 1976 5129 1976| 5123 1976[ 5110 1973 5109 1958"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 5109 1958| 5087 1994| 5094 1998"/>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 5094 1998| 5098 2002| 5103 2023[ 5059 2099 5022 2099| 5012 2098| 5012 2096| 5004 2092[ 5000 2088 4999 2080| 4999 2074"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 4999 2074[ 4953 2096 4897 2096[ 4781 2096 4702 2052| 4701 2052| 4693 2048| 4692 2048| 4689 2047| 4607 2000| 4587 1979| 4586 1977| 4532 1947| 4540 1969"/>
+                                                  <Edge fillStyle0="4" fillStyle1="3" strokeStyle="0" edges="! 5122 1650| 5126 1693| 5131 1735[ 5131 1810 5096 1878[ 5148 1809 5148 1725| 5144 1663| 5143 1647| 5121 1627| 5122 1650"/>
+                                                  <Edge fillStyle0="4" fillStyle1="3" strokeStyle="0" edges="! 5009 1522[ 4977 1503 4909 1503| 4839 1510[ 4862 1568 4862 1603| 4862 1612| 4890 1610[ 5041 1632 5060 1781[ 5072 1747 5072 1728[ 5072 1627 5018 1535| 5009 1522"/>
+                                                  <Edge fillStyle0="4" fillStyle1="1" strokeStyle="0" edges="! 4864 1568[ 4864 1538 4893 1535[ 4921 1531 4921 1560[ 4921 1585 4903 1590| 4902 1590| 4897 1591| 4890 1591| 4875 1588[ 4864 1582 4864 1568"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! 4909 1656[ 4933 1651 4933 1669[ 4933 1697 4908 1697[ 4894 1697 4888 1687| 4886 1676[ 4886 1660 4909 1656"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 4768 1710| 4759 1722| 4768 1722[ 4802 1722 4839 1697[ 4875 1672 4875 1649| 4874 1635[ 4868 1624 4841 1624| 4812 1628"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! 4980 1886[ 4980 1864 4996 1845[ 5016 1819 5053 1819[ 5088 1819 5088 1857[ 5088 1875 5072 1898[ 5049 1930 5010 1930[ 4990 1930 4982 1908| 4980 1886"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 4977 1870[ 5000 1825 5000 1800[ 5000 1760 4978 1743[ 4943 1716 4841 1709[ 4808 1719 4787 1745[ 4771 1766 4771 1787[ 4771 1835 4790 1870[ 4822 1929 4905 1929[ 4946 1929 4977 1870"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! 5128 1917[ 5107 1926 5107 1951| 5109 1958"/>
+                                                  <Edge fillStyle0="1" fillStyle1="5" strokeStyle="0" edges="! 4659 1522| 4651 1531| 4659 1524[ 4664 1521 4659 1522"/>
+                                                  <Edge fillStyle0="1" fillStyle1="5" strokeStyle="0" edges="! 4676 1684[ 4624 1684 4599 1644[ 4582 1616 4582 1588[ 4582 1475 4681 1469[ 4780 1463 4780 1574[ 4780 1593 4747 1635[ 4711 1684 4676 1684"/>
+                                                  <Edge fillStyle0="1" fillStyle1="5" strokeStyle="0" edges="! 4580 1697[ 4580 1712 4571 1723[ 4560 1740 4535 1740[ 4505 1740 4505 1713[ 4505 1672 4543 1669[ 4580 1666 4580 1697"/>
+                                                  <Edge fillStyle0="4" fillStyle1="3" strokeStyle="0" edges="! 4605 1743| 4612 1735"/>
+                                                  <Edge fillStyle0="3" fillStyle1="1" strokeStyle="0" edges="! 4599 1889[ 4582 1885 4573 1866[ 4567 1853 4567 1838| 4568 1823| 4570 1823| 4574 1809| 4576 1809| 4577 1804[ 4593 1779 4627 1779[ 4664 1779 4664 1819[ 4664 1834 4648 1859| 4648 1860| 4640 1869| 4629 1882| 4620 1886"/>
+                                                  <Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 4620 1886| 4639 1888[ 4665 1888 4683 1870"/>
+                                                  <Edge fillStyle0="3" fillStyle1="1" strokeStyle="0" edges="! 4683 1870[ 4674 1864 4674 1850[ 4674 1828 4699 1825| 4705 1825"/>
+                                                  <Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 4705 1825| 4705 1816| 4702 1800| 4706 1798| 4706 1806| 4708 1825[ 4714 1825 4718 1831"/>
+                                                  <Edge fillStyle0="3" fillStyle1="1" strokeStyle="0" edges="! 4718 1831| 4720 1834| 4723 1850| 4723 1853| 4717 1867"/>
+                                                  <Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 4717 1867[ 4725 1898 4746 1928[ 4796 2000 4886 2000| 4935 1988[ 4908 2013 4836 2048| 4806 2058| 4739 2030[ 4676 1989 4665 1985[ 4624 1966 4611 1935| 4599 1889"/>
+                                                  <Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! 4599 1889| 4605 1889| 4620 1886"/>
+                                                  <Edge fillStyle0="3" fillStyle1="6" strokeStyle="0" edges="! 4772 1760| 4774 1760| 4772 1763| 4772 1760"/>
+                                                  <Edge fillStyle0="1" fillStyle1="4" strokeStyle="0" edges="! 4718 1831[ 4712 1825 4705 1825"/>
+                                                  <Edge fillStyle0="4" fillStyle1="1" strokeStyle="0" edges="! 4717 1867| 4698 1873| 4683 1870"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! 4725 2143| 4689 2114[ 4667 2098 4639 2092"/>
+                                                  <Edge fillStyle0="3" fillStyle1="0" strokeStyle="1" edges="! 4698 2133| 4725 2143"/>
+                                                  <Edge fillStyle0="2" fillStyle1="0" strokeStyle="1" edges="! 4725 2143[ 4786 2164 4853 2164[ 5013 2164 5126 2051| 5154 2020"/>
+                                                  <Edge fillStyle0="3" fillStyle1="2" strokeStyle="0" edges="! 4991 2017[ 4974 2017 4971 2007| 4971 1995[ 4971 1977 4993 1972[ 5013 1966 5013 1989| 5009 2005[ 5003 2017 4991 2017"/>
+                                                  <Edge fillStyle0="1" fillStyle1="3" strokeStyle="0" edges="! 5094 1998| 5050 2000[ 4996 2019 4996 2061| 4999 2074"/>
+                                                  <Edge fillStyle0="0" fillStyle1="7" strokeStyle="1" edges="! 1691 1460[ 1712 1475 1730 1495| 1780 1553[ 1843 1645 1843 1764| 1836 1837[ 1826 1896 1797 1947[ 1770 1991 1730 2032[ 1621 2143 1464 2143[ 1388 2143 1327 2119"/>
+                                                  <Edge fillStyle0="0" fillStyle1="9" strokeStyle="1" edges="! 1327 2119[ 1253 2090 1195 2032[ 1193 2029 1191 2029| 1171 2007| 1162 1997"/>
+                                                  <Edge fillStyle0="0" fillStyle1="8" strokeStyle="0" edges="! 1162 1997| 1155 1986"/>
+                                                  <Edge fillStyle0="0" fillStyle1="5" strokeStyle="1" edges="! 1155 1986[ 1084 1888 1084 1764[ 1084 1605 1195 1495[ 1259 1429 1340 1402[ 1397 1384 1464 1384| 1492 1385| 1544 1392| 1613 1412"/>
+                                                  <Edge fillStyle0="0" fillStyle1="9" strokeStyle="1" edges="! 1613 1412[ 1654 1430 1691 1460"/>
+                                                  <Edge fillStyle0="7" fillStyle1="9" strokeStyle="0" edges="! 1691 1460[ 1739 1531 1752 1561| 1775 1647| 1788 1715| 1783 1774"/>
+                                                  <Edge fillStyle0="7" fillStyle1="5" strokeStyle="0" edges="! 1783 1774| 1786 1808| 1786 1809| 1768 1890| 1763 1901"/>
+                                                  <Edge fillStyle0="7" fillStyle1="9" strokeStyle="0" edges="! 1763 1901| 1768 1922[ 1768 1946 1717 1999[ 1668 2054 1636 2065[ 1552 2105 1511 2111| 1327 2119"/>
+                                                  <Edge fillStyle0="7" fillStyle1="8" strokeStyle="0" edges="! 1691 1565| 1683 1556| 1676 1551[ 1590 1463 1466 1463| 1407 1468[ 1370 1475 1336 1491"/>
+                                                  <Edge fillStyle0="7" fillStyle1="5" strokeStyle="0" edges="! 1336 1491[ 1292 1513 1253 1551[ 1190 1620 1171 1711"/>
+                                                  <Edge fillStyle0="7" fillStyle1="8" strokeStyle="0" edges="! 1171 1711| 1167 1762[ 1165 1886 1253 1974| 1256 1976| 1259 1980[ 1315 2035 1388 2052"/>
+                                                  <Edge fillStyle0="7" fillStyle1="9" strokeStyle="0" edges="! 1388 2052| 1333 2007[ 1254 1931 1226 1868[ 1203 1818 1203 1741[ 1201 1653 1240 1617[ 1329 1529 1344 1522[ 1376 1501 1472 1501[ 1562 1501 1597 1515| 1644 1539[ 1654 1541 1691 1565"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 1691 1565| 1694 1568"/>
+                                                  <Edge fillStyle0="8" fillStyle1="5" strokeStyle="0" edges="! 1694 1568[ 1717 1569 1739 1614[ 1752 1636 1702 1577"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 1702 1577[ 1735 1620 1752 1671"/>
+                                                  <Edge fillStyle0="8" fillStyle1="5" strokeStyle="0" edges="! 1752 1671| 1770 1710"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 1770 1710| 1772 1678| 1760 1661| 1757 1629[ 1737 1602 1726 1568[ 1709 1523 1613 1447| 1565 1412"/>
+                                                  <Edge fillStyle0="8" fillStyle1="5" strokeStyle="0" edges="! 1565 1412[ 1410 1414 1370 1442| 1352 1461[ 1344 1465 1335 1468| 1336 1491"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 1587 1658[ 1606 1640 1639 1620[ 1649 1611 1661 1604| 1653 1589"/>
+                                                  <Edge fillStyle0="5" fillStyle1="9" strokeStyle="0" edges="! 1653 1589| 1648 1584| 1598 1549| 1597 1549| 1593 1547"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 1593 1547| 1544 1602| 1500 1546"/>
+                                                  <Edge fillStyle0="5" fillStyle1="9" strokeStyle="0" edges="! 1500 1546| 1494 1547| 1532 1614[ 1561 1657 1585 1658| 1587 1658"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 1587 1658| 1702 1662| 1653 1589"/>
+                                                  <Edge fillStyle0="5" fillStyle1="9" strokeStyle="0" edges="! 1694 1568| 1702 1577"/>
+                                                  <Edge fillStyle0="9" fillStyle1="7" strokeStyle="0" edges="! 1429 1870| 1471 1842[ 1562 1780 1605 1734| 1623 1682| 1623 1678| 1676 1678| 1664 1697| 1674 1713| 1630 1782| 1613 1814| 1615 1837| 1626 1893| 1613 1898| 1597 1829"/>
+                                                  <Edge fillStyle0="9" fillStyle1="5" strokeStyle="0" edges="! 1597 1829| 1555 1854"/>
+                                                  <Edge fillStyle0="9" fillStyle1="8" strokeStyle="0" edges="! 1555 1854[ 1561 1886 1573 1913| 1561 1913| 1489 1894"/>
+                                                  <Edge fillStyle0="9" fillStyle1="5" strokeStyle="0" edges="! 1489 1894| 1487 1894| 1484 1898| 1483 1898| 1474 1896| 1297 1966| 1352 1805| 1250 1690| 1250 1688| 1244 1682| 1396 1682| 1471 1531| 1535 1678| 1560 1678"/>
+                                                  <Edge fillStyle0="9" fillStyle1="8" strokeStyle="0" edges="! 1560 1678| 1597 1678| 1596 1682| 1570 1733[ 1554 1768 1527 1784[ 1490 1804 1454 1832| 1347 1898"/>
+                                                  <Edge fillStyle0="9" fillStyle1="5" strokeStyle="0" edges="! 1347 1898| 1344 1908| 1429 1870"/>
+                                                  <Edge fillStyle0="7" fillStyle1="5" strokeStyle="0" edges="! 1429 1870| 1527 1809| 1639 1739| 1634 1746| 1633 1747| 1593 1809| 1597 1829"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 1732 1741| 1726 1722| 1700 1759[ 1656 1808 1653 1872[ 1647 1911 1648 1969[ 1719 1901 1733 1848[ 1747 1796 1732 1741"/>
+                                                  <Edge fillStyle0="5" fillStyle1="9" strokeStyle="0" edges="! 1511 2068| 1560 2066[ 1631 2062 1709 1979[ 1744 1940 1763 1901"/>
+                                                  <Edge fillStyle0="5" fillStyle1="9" strokeStyle="0" edges="! 1752 1671[ 1765 1714 1765 1762[ 1765 1886 1676 1974[ 1646 2007 1610 2026[ 1544 2061 1466 2062| 1451 2062| 1434 2061"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 1434 2061| 1511 2068"/>
+                                                  <Edge fillStyle0="9" fillStyle1="8" strokeStyle="0" edges="! 1511 2068| 1385 2080[ 1254 2078 1162 1997"/>
+                                                  <Edge fillStyle0="5" fillStyle1="9" strokeStyle="0" edges="! 1783 1774[ 1780 1737 1770 1710"/>
+                                                  <Edge fillStyle0="9" fillStyle1="5" strokeStyle="0" edges="! 1613 1412| 1576 1412| 1565 1412"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 1155 1986[ 1117 1873 1117 1774[ 1115 1704 1171 1624| 1168 1716| 1168 1721| 1171 1711"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 1593 1547| 1532 1543| 1500 1546"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 1398 1549| 1408 1547[ 1367 1551 1299 1600| 1289 1607| 1294 1596| 1284 1614| 1261 1663| 1352 1657| 1375 1635| 1401 1572| 1398 1549"/>
+                                                  <Edge fillStyle0="5" fillStyle1="9" strokeStyle="0" edges="! 1262 1734| 1241 1711| 1239 1786[ 1239 1866 1275 1911[ 1314 1835 1314 1818| 1304 1789"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 1304 1789[ 1300 1792 1299 1796| 1261 1840| 1262 1734"/>
+                                                  <Edge fillStyle0="9" fillStyle1="8" strokeStyle="0" edges="! 1262 1734[ 1292 1766 1304 1789"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 1347 1898| 1353 1866[ 1358 1842 1375 1827| 1487 1743| 1560 1678"/>
+                                                  <Edge fillStyle0="5" fillStyle1="9" strokeStyle="0" edges="! 1514 1933[ 1487 1918 1482 1918[ 1474 1918 1434 1946| 1386 1987"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 1386 1987| 1386 1990"/>
+                                                  <Edge fillStyle0="5" fillStyle1="9" strokeStyle="0" edges="! 1386 1990| 1397 1992| 1426 2005| 1431 2007| 1493 2017| 1509 2019"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 1509 2019| 1459 1999| 1514 1933"/>
+                                                  <Edge fillStyle0="9" fillStyle1="8" strokeStyle="0" edges="! 1514 1933| 1603 1989[ 1578 2022 1509 2019"/>
+                                                  <Edge fillStyle0="5" fillStyle1="8" strokeStyle="0" edges="! 1489 1894| 1555 1854"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 1386 1987| 1385 1989| 1386 1990"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 1434 2061| 1388 2052"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 18" color="#7cae8b">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10834" centerPoint3DX="230.4" centerPoint3DY="247.95">
+                                             <matrix>
+                                                  <Matrix tx="109.3" ty="127.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 19" color="#d3abfc">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10819" name="cont" centerPoint3DX="312.45" centerPoint3DY="481.6">
+                                             <matrix>
+                                                  <Matrix tx="166.85" ty="468.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 20" color="#a7c1d5">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="expBar32" centerPoint3DX="285.7" centerPoint3DY="196.95">
+                                             <matrix>
+                                                  <Matrix tx="200.45" ty="194.45" a="0.7020721435546875" d="4.078857421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" greenOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 21" color="#81d3c4">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="expBar22" centerPoint3DX="285.7" centerPoint3DY="168.15">
+                                             <matrix>
+                                                  <Matrix tx="200.45" ty="165.65" a="0.7020721435546875" d="4.078857421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" greenOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 22" color="#d97c8d">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="expBar12" centerPoint3DX="125.7" centerPoint3DY="197.85">
+                                             <matrix>
+                                                  <Matrix tx="40.45" ty="195.35" a="0.7020721435546875" d="4.078857421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" greenOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 23" color="#e7c5cc">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 2913" name="expBar02" centerPoint3DX="125.7" centerPoint3DY="168.9">
+                                             <matrix>
+                                                  <Matrix tx="40.45" ty="166.4" a="0.7020721435546875" d="4.078857421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" greenOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 24" color="#d722f9">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10813" name="fader" centerPoint3DX="35.1" centerPoint3DY="-39.55">
+                                             <matrix>
+                                                  <Matrix tx="23.85" ty="-50.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 25" color="#71f7fc">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10811" name="stars" centerPoint3DX="243.25" centerPoint3DY="-44.75">
+                                             <matrix>
+                                                  <Matrix tx="169.15" ty="-66.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 26" color="#f347c0">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMDynamicText name="expBox" antiAliasSharpness="0" antiAliasThickness="0" width="299.0" height="32.8" renderAsHTML="true" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="9.5" ty="117.55" a="1.04095458984375" d="1.04095458984375"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>+9001 EXP</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" rotation="true" indent="0.0" leftMargin="0.0" autoKern="true" lineSpacing="2.0" rightMargin="0.0" size="24" bitmapSize="480" face="Verdana Bold" fillColor="#ffffff"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <GlowFilter blurX="5" blurY="5" color="#999999" quality="1" strength="4.4"/>
+                                                  <DropShadowFilter angle="44.999253346524966" blurX="2" blurY="2" color="#000000" distance="1" quality="1" strength="10"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 27" color="#cc6c70" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape isFloating="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#ffffff" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="2">
+                                                       <SolidColor color="#014bba" alpha="1.0"/>
+                                                  </FillStyle>
+                                                  <FillStyle index="3">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-367.75" ty="0.0"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#9acdfe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#4fa2f4" alpha="1.0" ratio="0.7921569"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="4">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-84.15" ty="314.05" a="2.120880126953125" d="4.4532928466796875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="5">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-198.1" ty="314.05" a="2.5333709716796875" d="4.4532928466796875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="6">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-283.3" ty="314.05" a="3.196563720703125" d="4.4532928466796875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="7">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-183.15" ty="314.05" a="2.120880126953125" d="4.4532928466796875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#0d5fd1" alpha="1.0" ratio="0.72156864"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="8">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="-58.5" ty="234.0" a="0.469482421875" d="0.469482421875"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#9acdfe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#4fa2f4" alpha="1.0" ratio="0.7921569"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                                  <FillStyle index="9">
+                                                       <RadialGradient focalPointRatio="0">
+                                                            <matrix>
+                                                                 <Matrix tx="26.0" ty="284.0" a="0.4456787109375" d="0.4456787109375"/>
+                                                            </matrix>
+                                                            <GradientEntry color="#4ea6fe" alpha="1.0" ratio="0.03529412"/>
+                                                            <GradientEntry color="#368ef5" alpha="1.0" ratio="0.5411765"/>
+                                                            <GradientEntry color="#227bed" alpha="1.0" ratio="0.8235294"/>
+                                                            <GradientEntry color="#045ee1" alpha="1.0" ratio="1.0"/>
+                                                       </RadialGradient>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke weight="1.0" scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#000000"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle0="2" fillStyle1="1" strokeStyle="0" edges="! 6566 71[ 6557 60 6537 60| 99 60[ 61 60 60 93| 60 9872[ 61 9904 99 9904| 6537 9904[ 6557 9904 6566 9894[ 6573 9886 6574 9872| 6574 93[ 6573 79 6566 71"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="0" edges="! 6566 3| 6566 0"/>
+                                                  <Edge fillStyle0="1" fillStyle1="0" strokeStyle="1" edges="! 6566 0| 6556 0"/>
+                                                  <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="! 6556 0| 6566 3"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 6566 3[ 6635 16 6634 93| 6634 9872[ 6635 9948 6566 9962"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="0" edges="! 6566 9962| 6566 9964"/>
+                                                  <Edge fillStyle0="0" fillStyle1="1" strokeStyle="1" edges="! 6566 9964| 6558 9964| 99 9964[ -2 9964 0 9872| 0 93[ -1 0 99 0| 6556 0"/>
+                                                  <Edge fillStyle0="2" fillStyle1="3" strokeStyle="0" edges="! 120 1271| 120 157[ 120 127 156 127| 6478 127| 6497 131| 6504 135[ 6513 142 6514 157| 6514 1271"/>
+                                                  <Edge fillStyle0="2" fillStyle1="4" strokeStyle="0" edges="! 6514 1271| 6514 3801"/>
+                                                  <Edge fillStyle0="2" fillStyle1="5" strokeStyle="0" edges="! 6514 3801| 6514 4571"/>
+                                                  <Edge fillStyle0="2" fillStyle1="8" strokeStyle="0" edges="! 6514 4571| 6514 5020"/>
+                                                  <Edge fillStyle0="2" fillStyle1="9" strokeStyle="0" edges="! 6514 5020| 6514 9825[ 6513 9839 6504 9847[ 6495 9854 6478 9855| 156 9855[ 121 9854 120 9825| 120 5020"/>
+                                                  <Edge fillStyle0="2" fillStyle1="8" strokeStyle="0" edges="! 120 5020| 120 4571"/>
+                                                  <Edge fillStyle0="2" fillStyle1="5" strokeStyle="0" edges="! 120 4571| 120 3801"/>
+                                                  <Edge fillStyle0="2" fillStyle1="7" strokeStyle="0" edges="! 120 3801| 120 1271"/>
+                                                  <Edge fillStyle0="3" fillStyle1="7" strokeStyle="0" edges="! 120 1271| 227 1271"/>
+                                                  <Edge fillStyle0="3" fillStyle1="6" strokeStyle="0" edges="! 227 1271| 2543 1271"/>
+                                                  <Edge fillStyle0="3" fillStyle1="5" strokeStyle="0" edges="! 2543 1271| 4120 1271"/>
+                                                  <Edge fillStyle0="3" fillStyle1="6" strokeStyle="0" edges="! 4120 1271| 6408 1271"/>
+                                                  <Edge fillStyle0="3" fillStyle1="4" strokeStyle="0" edges="! 6408 1271| 6514 1271"/>
+                                                  <Edge fillStyle0="6" fillStyle1="5" strokeStyle="0" edges="! 4120 1271| 4120 3801| 6408 3801"/>
+                                                  <Edge fillStyle0="6" fillStyle1="4" strokeStyle="0" edges="! 6408 3801| 6408 1271"/>
+                                                  <Edge fillStyle0="7" fillStyle1="5" strokeStyle="0" edges="! 120 3801| 227 3801"/>
+                                                  <Edge fillStyle0="7" fillStyle1="6" strokeStyle="0" edges="! 227 3801| 227 1271"/>
+                                                  <Edge fillStyle0="6" fillStyle1="5" strokeStyle="0" edges="! 227 3801| 2543 3801| 2543 1271"/>
+                                                  <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="! 6558 9964| 6566 9962"/>
+                                                  <Edge fillStyle0="8" fillStyle1="9" strokeStyle="0" edges="! 120 5020| 6514 5020"/>
+                                                  <Edge fillStyle0="4" fillStyle1="5" strokeStyle="0" edges="! 6408 3801| 6514 3801"/>
+                                                  <Edge fillStyle0="8" fillStyle1="5" strokeStyle="0" edges="! 6514 4571| 120 4571"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,1802 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Symbol 10873" lastModified="1648300950" linkageClassName="EpicBattleFantasy4_fla.unfreezeeffect_916" linkageExportForAS="true">
+     <timeline>
+          <DOMTimeline name="Symbol 10873">
+               <layers>
+                    <DOMLayer name="Script Layer" color="#3ea1af">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script>try
+{
+   if(!parent.freeze)
+   {
+      stop();
+      visible = false;
+   }
+   else
+   {
+      parent.freeze = false;
+   }
+}
+catch(e:Error)
+{
+}
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <Actionscript>
+                                        <script>SFX.sound("freeze");
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" duration="18" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="20" keyMode="9728">
+                                   <Actionscript>
+                                        <script>stop();
+</script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 2" color="#b642ce">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="156.2" centerPoint3DY="155.45">
+                                             <matrix>
+                                                  <Matrix tx="136.95" ty="133.45" a="-0.7066802978515625" d="-1.1300048828125" b="-0.4080047607421875" c="0.65240478515625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="149.9" centerPoint3DY="154.8">
+                                             <matrix>
+                                                  <Matrix tx="130.65" ty="132.8" a="-0.6020965576171875" d="-0.9627532958984375" b="-0.54876708984375" c="0.87750244140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.8984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="144.4" centerPoint3DY="152.9">
+                                             <matrix>
+                                                  <Matrix tx="125.15" ty="130.9" a="-0.4798126220703125" d="-0.767242431640625" b="-0.6584320068359375" c="1.0528717041015625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.80078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="139.55" centerPoint3DY="150.05">
+                                             <matrix>
+                                                  <Matrix tx="120.3" ty="128.05" a="-0.345184326171875" d="-0.55194091796875" b="-0.738250732421875" c="1.1804962158203125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.7109375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="135.7" centerPoint3DY="146.5">
+                                             <matrix>
+                                                  <Matrix tx="116.45" ty="124.5" a="-0.2078857421875" d="-0.33245849609375" b="-0.7883758544921875" c="1.2606353759765625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="132.7" centerPoint3DY="142.55">
+                                             <matrix>
+                                                  <Matrix tx="113.45" ty="120.55" a="-0.0716552734375" d="-0.1145782470703125" b="-0.8126068115234375" c="1.2993927001953125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.54296875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="130.65" centerPoint3DY="138.4">
+                                             <matrix>
+                                                  <Matrix tx="111.4" ty="116.4" a="0.0536346435546875" d="0.08575439453125" b="-0.8140716552734375" c="1.3017120361328125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.46875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="129.5" centerPoint3DY="134.3">
+                                             <matrix>
+                                                  <Matrix tx="110.25" ty="112.3" a="0.1701202392578125" d="0.27203369140625" b="-0.7975311279296875" c="1.275238037109375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="128.85" centerPoint3DY="130.3">
+                                             <matrix>
+                                                  <Matrix tx="109.6" ty="108.3" a="0.2758331298828125" d="0.441070556640625" b="-0.7670745849609375" c="1.2265625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3359375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="128.8" centerPoint3DY="126.55">
+                                             <matrix>
+                                                  <Matrix tx="109.55" ty="104.55" a="0.3673248291015625" d="0.5873565673828125" b="-0.727447509765625" c="1.1632080078125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.27734375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="129.2" centerPoint3DY="123.2">
+                                             <matrix>
+                                                  <Matrix tx="109.95" ty="101.2" a="0.444671630859375" d="0.711029052734375" b="-0.6827392578125" c="1.09173583984375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.22265625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="129.8" centerPoint3DY="120.25">
+                                             <matrix>
+                                                  <Matrix tx="110.55" ty="98.25" a="0.50860595703125" d="0.81329345703125" b="-0.6364288330078125" c="1.0177001953125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.17578125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="130.6" centerPoint3DY="117.7">
+                                             <matrix>
+                                                  <Matrix tx="111.35" ty="95.7" a="0.562255859375" d="0.8990478515625" b="-0.5895538330078125" c="0.9427337646484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.13671875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="131.55" centerPoint3DY="115.4">
+                                             <matrix>
+                                                  <Matrix tx="112.3" ty="93.4" a="0.6064910888671875" d="0.9697723388671875" b="-0.5439300537109375" c="0.869781494140625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="132.45" centerPoint3DY="113.6">
+                                             <matrix>
+                                                  <Matrix tx="113.2" ty="91.6" a="0.6390380859375" d="1.0218353271484375" b="-0.5053558349609375" c="0.808074951171875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0703125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="15" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="133.25" centerPoint3DY="112.2">
+                                             <matrix>
+                                                  <Matrix tx="114.0" ty="90.2" a="0.664703369140625" d="1.0628662109375" b="-0.471160888671875" c="0.753387451171875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.04296875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="133.95" centerPoint3DY="111.1">
+                                             <matrix>
+                                                  <Matrix tx="114.7" ty="89.1" a="0.68438720703125" d="1.0943145751953125" b="-0.442169189453125" c="0.70703125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0234375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="17" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="134.45" centerPoint3DY="110.25">
+                                             <matrix>
+                                                  <Matrix tx="115.2" ty="88.25" a="0.696075439453125" d="1.113037109375" b="-0.4235687255859375" c="0.67730712890625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.01171875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="18" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="134.8" centerPoint3DY="109.8">
+                                             <matrix>
+                                                  <Matrix tx="115.55" ty="87.8" a="0.7034149169921875" d="1.124755859375" b="-0.4113311767578125" c="0.657745361328125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.00390625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="134.8" centerPoint3DY="109.6">
+                                             <matrix>
+                                                  <Matrix tx="115.55" ty="87.6" a="0.706695556640625" d="1.1300048828125" b="-0.407989501953125" c="0.6524200439453125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="32" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#ec06fd">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="86.8" centerPoint3DY="65.65">
+                                             <matrix>
+                                                  <Matrix tx="67.55" ty="43.65" a="1.143951416015625" d="1.143951416015625" b="0.66046142578125" c="-0.66046142578125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="93.75" centerPoint3DY="60.15">
+                                             <matrix>
+                                                  <Matrix tx="74.5" ty="38.15" a="1.02294921875" d="1.02294921875" b="0.832275390625" c="-0.832275390625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.8984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="100.3" centerPoint3DY="55.75">
+                                             <matrix>
+                                                  <Matrix tx="81.05" ty="33.75" a="0.8840179443359375" d="0.8840179443359375" b="0.978515625" c="-0.978515625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.80078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="106.4" centerPoint3DY="52.35">
+                                             <matrix>
+                                                  <Matrix tx="87.15" ty="30.35" a="0.7341461181640625" d="0.7341461181640625" b="1.09564208984375" c="-1.09564208984375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.7109375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="111.9" centerPoint3DY="49.9">
+                                             <matrix>
+                                                  <Matrix tx="92.65" ty="27.9" a="0.579498291015625" d="0.579498291015625" b="1.1850433349609375" c="-1.1850433349609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="116.9" centerPoint3DY="48.2">
+                                             <matrix>
+                                                  <Matrix tx="97.65" ty="26.2" a="0.425201416015625" d="0.425201416015625" b="1.2491607666015625" c="-1.2491607666015625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.54296875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="121.2" centerPoint3DY="47.1">
+                                             <matrix>
+                                                  <Matrix tx="101.95" ty="25.1" a="0.275360107421875" d="0.275360107421875" b="1.2909393310546875" c="-1.2909393310546875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.46875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="124.95" centerPoint3DY="46.4">
+                                             <matrix>
+                                                  <Matrix tx="105.7" ty="24.4" a="0.1331787109375" d="0.1331787109375" b="1.3137054443359375" c="-1.3137054443359375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="128.1" centerPoint3DY="46.0">
+                                             <matrix>
+                                                  <Matrix tx="108.85" ty="24.0" a="9.46044921875E-4" d="9.46044921875E-4" b="1.32086181640625" c="-1.32086181640625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3359375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="130.7" centerPoint3DY="45.9">
+                                             <matrix>
+                                                  <Matrix tx="111.45" ty="23.9" a="-0.11553955078125" d="-0.11553955078125" b="1.3154296875" c="-1.3154296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.27734375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="132.85" centerPoint3DY="45.95">
+                                             <matrix>
+                                                  <Matrix tx="113.6" ty="23.95" a="-0.2240447998046875" d="-0.2240447998046875" b="1.3009796142578125" c="-1.3009796142578125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.22265625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="134.6" centerPoint3DY="46.1">
+                                             <matrix>
+                                                  <Matrix tx="115.35" ty="24.1" a="-0.3198089599609375" d="-0.3198089599609375" b="1.2805023193359375" c="-1.2805023193359375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.17578125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="136.1" centerPoint3DY="46.35">
+                                             <matrix>
+                                                  <Matrix tx="116.85" ty="24.35" a="-0.4028778076171875" d="-0.4028778076171875" b="1.256591796875" c="-1.256591796875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.13671875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="137.15" centerPoint3DY="46.65">
+                                             <matrix>
+                                                  <Matrix tx="117.9" ty="24.65" a="-0.473480224609375" d="-0.473480224609375" b="1.2315216064453125" c="-1.2315216064453125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="137.95" centerPoint3DY="46.8">
+                                             <matrix>
+                                                  <Matrix tx="118.7" ty="24.8" a="-0.532073974609375" d="-0.532073974609375" b="1.2072296142578125" c="-1.2072296142578125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0703125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="15" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="138.55" centerPoint3DY="47.15">
+                                             <matrix>
+                                                  <Matrix tx="119.3" ty="25.15" a="-0.5791168212890625" d="-0.5791168212890625" b="1.1852569580078125" c="-1.1852569580078125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.04296875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="139.05" centerPoint3DY="47.3">
+                                             <matrix>
+                                                  <Matrix tx="119.8" ty="25.3" a="-0.6150665283203125" d="-0.6150665283203125" b="1.166900634765625" c="-1.166900634765625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0234375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="17" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="139.3" centerPoint3DY="47.5">
+                                             <matrix>
+                                                  <Matrix tx="120.05" ty="25.5" a="-0.6403961181640625" d="-0.6403961181640625" b="1.15313720703125" c="-1.15313720703125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.01171875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="18" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="139.45" centerPoint3DY="47.4">
+                                             <matrix>
+                                                  <Matrix tx="120.2" ty="25.4" a="-0.6517181396484375" d="-0.6517181396484375" b="1.1467742919921875" c="-1.1467742919921875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.00390625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="139.6" centerPoint3DY="47.45">
+                                             <matrix>
+                                                  <Matrix tx="120.35" ty="25.45" a="-0.66046142578125" d="-0.66046142578125" b="1.143951416015625" c="-1.143951416015625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="32" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#658aee">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="43.2" centerPoint3DY="107.15">
+                                             <matrix>
+                                                  <Matrix tx="23.95" ty="85.15" a="0.7071075439453125" d="0.7071075439453125" b="0.7071075439453125" c="-0.7071075439453125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="29.75" centerPoint3DY="106.85">
+                                             <matrix>
+                                                  <Matrix tx="10.5" ty="84.85" a="0.88116455078125" d="0.88116455078125" b="0.46978759765625" c="-0.46978759765625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.8984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="17.5" centerPoint3DY="108.8">
+                                             <matrix>
+                                                  <Matrix tx="-1.75" ty="86.8" a="0.97735595703125" d="0.97735595703125" b="0.208282470703125" c="-0.208282470703125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.80078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="7.1" centerPoint3DY="112.2">
+                                             <matrix>
+                                                  <Matrix tx="-12.15" ty="90.2" a="0.9985809326171875" d="0.9985809326171875" b="-0.0490570068359375" c="0.0490570068359375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.7109375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-1.65" centerPoint3DY="116.9">
+                                             <matrix>
+                                                  <Matrix tx="-20.9" ty="94.9" a="0.9550933837890625" d="0.9550933837890625" b="-0.2930145263671875" c="0.2930145263671875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-8.45" centerPoint3DY="122.05">
+                                             <matrix>
+                                                  <Matrix tx="-27.7" ty="100.05" a="0.861785888671875" d="0.861785888671875" b="-0.504364013671875" c="0.504364013671875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.54296875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-13.45" centerPoint3DY="127.45">
+                                             <matrix>
+                                                  <Matrix tx="-32.7" ty="105.45" a="0.7320556640625" d="0.7320556640625" b="-0.678802490234375" c="0.678802490234375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.46875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-16.9" centerPoint3DY="132.5">
+                                             <matrix>
+                                                  <Matrix tx="-36.15" ty="110.5" a="0.58447265625" d="0.58447265625" b="-0.8094482421875" c="0.8094482421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-19.15" centerPoint3DY="137.0">
+                                             <matrix>
+                                                  <Matrix tx="-38.4" ty="115.0" a="0.4267730712890625" d="0.4267730712890625" b="-0.9029388427734375" c="0.9029388427734375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3359375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-20.25" centerPoint3DY="140.95">
+                                             <matrix>
+                                                  <Matrix tx="-39.5" ty="118.95" a="0.268096923828125" d="0.268096923828125" b="-0.962493896484375" c="0.962493896484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.27734375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-20.85" centerPoint3DY="144.15">
+                                             <matrix>
+                                                  <Matrix tx="-40.1" ty="122.15" a="0.1219635009765625" d="0.1219635009765625" b="-0.9921112060546875" c="0.9921112060546875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.22265625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-20.85" centerPoint3DY="146.7">
+                                             <matrix>
+                                                  <Matrix tx="-40.1" ty="124.7" a="-0.0098114013671875" d="-0.0098114013671875" b="-0.9998931884765625" c="0.9998931884765625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.17578125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-20.4" centerPoint3DY="148.75">
+                                             <matrix>
+                                                  <Matrix tx="-39.65" ty="126.75" a="-0.1309661865234375" d="-0.1309661865234375" b="-0.9909515380859375" c="0.9909515380859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.13671875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-19.85" centerPoint3DY="150.2">
+                                             <matrix>
+                                                  <Matrix tx="-39.1" ty="128.2" a="-0.2336273193359375" d="-0.2336273193359375" b="-0.9715423583984375" c="0.9715423583984375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-19.3" centerPoint3DY="151.3">
+                                             <matrix>
+                                                  <Matrix tx="-38.55" ty="129.3" a="-0.3176116943359375" d="-0.3176116943359375" b="-0.9471588134765625" c="0.9471588134765625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0703125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="15" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-18.75" centerPoint3DY="152.0">
+                                             <matrix>
+                                                  <Matrix tx="-38.0" ty="130.0" a="-0.383453369140625" d="-0.383453369140625" b="-0.922271728515625" c="0.922271728515625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.04296875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-18.25" centerPoint3DY="152.5">
+                                             <matrix>
+                                                  <Matrix tx="-37.5" ty="130.5" a="-0.434967041015625" d="-0.434967041015625" b="-0.89898681640625" c="0.89898681640625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0234375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="17" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-17.9" centerPoint3DY="152.75">
+                                             <matrix>
+                                                  <Matrix tx="-37.15" ty="130.75" a="-0.470123291015625" d="-0.470123291015625" b="-0.88104248046875" c="0.88104248046875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.01171875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="18" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-17.6" centerPoint3DY="152.95">
+                                             <matrix>
+                                                  <Matrix tx="-36.85" ty="130.95" a="-0.4925689697265625" d="-0.4925689697265625" b="-0.8686370849609375" c="0.8686370849609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.00390625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="-17.55" centerPoint3DY="152.95">
+                                             <matrix>
+                                                  <Matrix tx="-36.8" ty="130.95" a="-0.5" d="-0.5" b="-0.86602783203125" c="0.86602783203125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="32" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 5" color="#d6ba70">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="143.0" centerPoint3DY="34.45">
+                                             <matrix>
+                                                  <Matrix tx="123.75" ty="12.45" a="0.0" d="0.0" b="1.0" c="-1.0"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="138.7" centerPoint3DY="17.15">
+                                             <matrix>
+                                                  <Matrix tx="119.45" ty="-4.85" a="0.2003631591796875" d="0.2003631591796875" b="0.9789276123046875" c="-0.9789276123046875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.8984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="133.8" centerPoint3DY="1.5">
+                                             <matrix>
+                                                  <Matrix tx="114.55" ty="-20.5" a="0.3870391845703125" d="0.3870391845703125" b="0.9205169677734375" c="-0.9205169677734375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.80078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="128.95" centerPoint3DY="-12.3">
+                                             <matrix>
+                                                  <Matrix tx="109.7" ty="-34.3" a="0.548370361328125" d="0.548370361328125" b="0.8339996337890625" c="-0.8339996337890625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.7109375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="124.05" centerPoint3DY="-24.45">
+                                             <matrix>
+                                                  <Matrix tx="104.8" ty="-46.45" a="0.6822052001953125" d="0.6822052001953125" b="0.728271484375" c="-0.728271484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="119.4" centerPoint3DY="-35.05">
+                                             <matrix>
+                                                  <Matrix tx="100.15" ty="-57.05" a="0.790557861328125" d="0.790557861328125" b="0.6088714599609375" c="-0.6088714599609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.54296875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="115.1" centerPoint3DY="-44.25">
+                                             <matrix>
+                                                  <Matrix tx="95.85" ty="-66.25" a="0.872314453125" d="0.872314453125" b="0.4847259521484375" c="-0.4847259521484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.46875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="111.25" centerPoint3DY="-52.3">
+                                             <matrix>
+                                                  <Matrix tx="92.0" ty="-74.3" a="0.9315032958984375" d="0.9315032958984375" b="0.358612060546875" c="-0.358612060546875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="107.9" centerPoint3DY="-59.15">
+                                             <matrix>
+                                                  <Matrix tx="88.65" ty="-81.15" a="0.9696807861328125" d="0.9696807861328125" b="0.2378082275390625" c="-0.2378082275390625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3359375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="105.0" centerPoint3DY="-65.05">
+                                             <matrix>
+                                                  <Matrix tx="85.75" ty="-87.05" a="0.99114990234375" d="0.99114990234375" b="0.122467041015625" c="-0.122467041015625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.27734375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="102.6" centerPoint3DY="-70.15">
+                                             <matrix>
+                                                  <Matrix tx="83.35" ty="-92.15" a="0.998809814453125" d="0.998809814453125" b="0.01800537109375" c="-0.01800537109375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.22265625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="100.65" centerPoint3DY="-74.5">
+                                             <matrix>
+                                                  <Matrix tx="81.4" ty="-96.5" a="0.9959716796875" d="0.9959716796875" b="-0.0740966796875" c="0.0740966796875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.17578125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="99.0" centerPoint3DY="-78.2">
+                                             <matrix>
+                                                  <Matrix tx="79.75" ty="-100.2" a="0.9860992431640625" d="0.9860992431640625" b="-0.1563720703125" c="0.1563720703125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.13671875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="97.75" centerPoint3DY="-81.3">
+                                             <matrix>
+                                                  <Matrix tx="78.5" ty="-103.3" a="0.9723968505859375" d="0.9723968505859375" b="-0.225341796875" c="0.225341796875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="96.65" centerPoint3DY="-83.9">
+                                             <matrix>
+                                                  <Matrix tx="77.4" ty="-105.9" a="0.95660400390625" d="0.95660400390625" b="-0.2842864990234375" c="0.2842864990234375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0703125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="15" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="96.0" centerPoint3DY="-85.9">
+                                             <matrix>
+                                                  <Matrix tx="76.75" ty="-107.9" a="0.9415283203125" d="0.9415283203125" b="-0.330322265625" c="0.330322265625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.04296875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="95.45" centerPoint3DY="-87.45">
+                                             <matrix>
+                                                  <Matrix tx="76.2" ty="-109.45" a="0.9277496337890625" d="0.9277496337890625" b="-0.366943359375" c="0.366943359375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0234375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="17" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="95.05" centerPoint3DY="-88.55">
+                                             <matrix>
+                                                  <Matrix tx="75.8" ty="-110.55" a="0.9162750244140625" d="0.9162750244140625" b="-0.3944854736328125" c="0.3944854736328125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.01171875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="18" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="94.85" centerPoint3DY="-89.2">
+                                             <matrix>
+                                                  <Matrix tx="75.6" ty="-111.2" a="0.909271240234375" d="0.909271240234375" b="-0.410247802734375" c="0.410247802734375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.00390625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="94.65" centerPoint3DY="-89.45">
+                                             <matrix>
+                                                  <Matrix tx="75.4" ty="-111.45" a="0.9082794189453125" d="0.9082794189453125" b="-0.4153900146484375" c="0.4153900146484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="32" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 6" color="#b9d03c">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="32.95" centerPoint3DY="31.25">
+                                             <matrix>
+                                                  <Matrix tx="13.7" ty="9.25" a="0.86602783203125" d="1.1802215576171875" b="0.5" c="-0.681396484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="33.7" centerPoint3DY="25.4">
+                                             <matrix>
+                                                  <Matrix tx="14.45" ty="3.4" a="0.755401611328125" d="1.029449462890625" b="0.652801513671875" c="-0.889617919921875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.8984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="34.1" centerPoint3DY="21.1">
+                                             <matrix>
+                                                  <Matrix tx="14.85" ty="-0.9" a="0.6295166015625" d="0.857879638671875" b="0.7749176025390625" c="-1.0560455322265625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.80078125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="34.3" centerPoint3DY="17.9">
+                                             <matrix>
+                                                  <Matrix tx="15.05" ty="-4.1" a="0.489410400390625" d="0.666961669921875" b="0.8704376220703125" c="-1.1862030029296875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.7109375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="34.05" centerPoint3DY="15.75">
+                                             <matrix>
+                                                  <Matrix tx="14.8" ty="-6.25" a="0.3469085693359375" d="0.4727630615234375" b="0.936737060546875" c="-1.276580810546875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="33.25" centerPoint3DY="14.25">
+                                             <matrix>
+                                                  <Matrix tx="14.0" ty="-7.75" a="0.20794677734375" d="0.28338623046875" b="0.9774322509765625" c="-1.3320465087890625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.54296875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="32.15" centerPoint3DY="13.5">
+                                             <matrix>
+                                                  <Matrix tx="12.9" ty="-8.5" a="0.0704345703125" d="0.09600830078125" b="0.99725341796875" c="-1.35906982421875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.46875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="30.55" centerPoint3DY="12.9">
+                                             <matrix>
+                                                  <Matrix tx="11.3" ty="-9.1" a="-0.052825927734375" d="-0.071990966796875" b="0.9984130859375" c="-1.360626220703125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3984375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="28.8" centerPoint3DY="12.85">
+                                             <matrix>
+                                                  <Matrix tx="9.55" ty="-9.15" a="-0.169586181640625" d="-0.231109619140625" b="0.98492431640625" c="-1.3422698974609375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.3359375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="26.6" centerPoint3DY="12.7">
+                                             <matrix>
+                                                  <Matrix tx="7.35" ty="-9.3" a="-0.2721099853515625" d="-0.3708343505859375" b="0.9613494873046875" c="-1.31011962890625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.27734375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="24.4" centerPoint3DY="12.9">
+                                             <matrix>
+                                                  <Matrix tx="5.15" ty="-9.1" a="-0.3632049560546875" d="-0.4949951171875" b="0.93048095703125" c="-1.2680816650390625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.22265625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="22.25" centerPoint3DY="13.1">
+                                             <matrix>
+                                                  <Matrix tx="3.0" ty="-8.9" a="-0.44281005859375" d="-0.6034698486328125" b="0.8951416015625" c="-1.21990966796875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.17578125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="20.0" centerPoint3DY="13.2">
+                                             <matrix>
+                                                  <Matrix tx="0.75" ty="-8.8" a="-0.508453369140625" d="-0.69293212890625" b="0.859375" c="-1.1711883544921875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.13671875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="17.95" centerPoint3DY="13.45">
+                                             <matrix>
+                                                  <Matrix tx="-1.3" ty="-8.55" a="-0.566497802734375" d="-0.7720184326171875" b="0.8221893310546875" c="-1.1204681396484375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.1015625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="16.1" centerPoint3DY="13.45">
+                                             <matrix>
+                                                  <Matrix tx="-3.15" ty="-8.55" a="-0.6095428466796875" d="-0.8306732177734375" b="0.7907257080078125" c="-1.077606201171875"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0703125"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="15" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="14.5" centerPoint3DY="13.65">
+                                             <matrix>
+                                                  <Matrix tx="-4.75" ty="-8.35" a="-0.64642333984375" d="-0.880950927734375" b="0.7608184814453125" c="-1.0368804931640625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.04296875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="16" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="13.2" centerPoint3DY="13.65">
+                                             <matrix>
+                                                  <Matrix tx="-6.05" ty="-8.35" a="-0.6727752685546875" d="-0.9168548583984375" b="0.7375946044921875" c="-1.005218505859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0234375"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="17" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="12.25" centerPoint3DY="13.8">
+                                             <matrix>
+                                                  <Matrix tx="-7.0" ty="-8.2" a="-0.6917724609375" d="-0.9427337646484375" b="0.719818115234375" c="-0.9809722900390625"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.01171875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="18" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="11.65" centerPoint3DY="13.75">
+                                             <matrix>
+                                                  <Matrix tx="-7.6" ty="-8.25" a="-0.7015380859375" d="-0.9560546875" b="0.7102813720703125" c="-0.9680023193359375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.00390625"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 10872" centerPoint3DX="11.5" centerPoint3DY="13.75">
+                                             <matrix>
+                                                  <Matrix tx="-7.75" ty="-8.25" a="-0.7071075439453125" d="-0.9636383056640625" b="0.7071075439453125" c="-0.963653564453125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="32" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 7" color="#9fd92d" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="0.0" ty="0.0" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-0.3" ty="3.9" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.9296875" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-0.65" ty="7.8" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.85546875" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-0.9" ty="11.7" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.78515625" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-1.2" ty="15.6" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.71484375" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-1.45" ty="19.55" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.64453125" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-1.8" ty="23.4" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.5703125" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-2.1" ty="27.3" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.5" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-2.4" ty="31.25" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.4296875" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-2.75" ty="35.1" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.35546875" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-3.0" ty="39.0" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.28515625" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-3.3" ty="42.95" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.21484375" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="12" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-3.55" ty="46.85" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.14453125" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="13" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-3.9" ty="50.7" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.0703125" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="14" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 8545" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-4.2" ty="54.65" a="1.4011077880859375" d="1.4011077880859375"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0.0" greenMultiplier="0.0" blueMultiplier="0.0" alphaMultiplier="0.0" redOffset="255" greenOffset="255" blueOffset="255"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="15" duration="37" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timeline>
+</DOMSymbolItem>
